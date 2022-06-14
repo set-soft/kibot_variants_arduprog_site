@@ -1,0 +1,122 @@
+# PCB
+
+Board size: 63.0x35.6 mm (2.48x1.4 inches)
+
+- This is the size of the rectangle that contains the board
+- Thickness: 1.6 mm (63 mils)
+- Material: FR4
+- Finish: HAL
+- Layers: 4
+- Copper thickness: 35 µm
+
+Solder mask: TOP / BOTTOM
+
+- Color: Green
+
+Silk screen: TOP / BOTTOM
+
+- Color: White
+
+
+# Important sizes
+
+Clearance: 0.15 mm (6 mils)
+
+Track width: 0.38 mm (15 mils)
+
+- By design rules: 0.15 mm (6 mils)
+
+Drill: 0.5 mm (20 mils)
+
+- Vias: 0.5 mm (20 mils) [Design: 0.4 mm (16 mils)]
+- Pads: 1.05 mm (41 mils)
+- The above values are real drill sizes, they add 0.1 mm (4 mils) to plated holes (PTH)
+
+Via: 0.8/0.4 mm (31/16 mils)
+
+- By design rules: 0.4/0.3 mm (16/12 mils)
+- Micro via: no [0.2/0.1 mm (8/4 mils)]
+- Burried/blind via: no
+
+Outer Annular Ring: 0.3 mm (12 mils)
+
+- By design rules: 0.55 mm (22 mils)
+
+Eurocircuits class: 6B
+
+
+# General stats
+
+Components count: (SMD/THT)
+
+- Top: 25/5 (SMD + THT)
+- Bottom: 0/0 (NONE)
+
+Defined tracks:
+
+- 0.15 mm (6 mils)
+- 0.2 mm (8 mils)
+- 0.25 mm (10 mils)
+- 0.38 mm (15 mils)
+- 0.51 mm (20 mils)
+- 0.76 mm (30 mils)
+
+Used tracks:
+
+- 0.38 mm (15 mils) (78) defined: yes
+- 0.51 mm (20 mils) (212) defined: yes
+
+Defined vias:
+
+
+Used vias:
+
+- 0.8/0.4 mm (31/16 mils) (Count: 40, Aspect: 2.0 A) defined: no
+
+Holes (excluding vias):
+
+- 0.95 mm (37 mils) (4)
+- 1.0 mm (39 mils) (21)
+- 2.0 mm (79 mils) (1)
+- 2.3 mm (91 mils) (2)
+- 2.7 mm (106 mils) (4)
+
+Oval holes:
+
+- 1.5x2.0 mm (59x79 mils) (1)
+
+Drill tools (including vias and computing adjusts and rounding):
+
+- 0.5 mm (20 mils) (40)
+- 1.05 mm (41 mils) (4)
+- 1.1 mm (43 mils) (21)
+- 1.5 mm (59 mils) (1)
+- 2.0 mm (79 mils) (1)
+- 2.4 mm (94 mils) (2)
+- 2.7 mm (106 mils) (4)
+
+
+# Schematic
+
+![Schematic in SVG format](Schematic/t1-schematic.svg){ width=16.5cm height=11.7cm }
+
+
+
+# PCB Layers
+
+![PCB Front copper](PCB/SVG/t1-assembly_page_01.svg){ width=16.5cm height=11.7cm }
+
+![PCB Assembly](PCB/SVG/t1-assembly_page_02.svg){ width=16.5cm height=11.7cm }
+
+![PCB Assembly](PCB/SVG/t1-assembly_page_03.svg){ width=16.5cm height=11.7cm }
+
+![PCB Bottom copper](PCB/SVG/t1-assembly_page_04.svg){ width=16.5cm height=11.7cm }
+
+![PCB Bottom courtyard area](PCB/SVG/t1-assembly_page_05.svg){ width=16.5cm height=11.7cm }
+
+![PCB Front courtyard area](PCB/SVG/t1-assembly_page_06.svg){ width=16.5cm height=11.7cm }
+
+![PCB Bottom documentation](PCB/SVG/t1-assembly_page_07.svg){ width=16.5cm height=11.7cm }
+
+![PCB Front documentation](PCB/SVG/t1-assembly_page_08.svg){ width=16.5cm height=11.7cm }
+
