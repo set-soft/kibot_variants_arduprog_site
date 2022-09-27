@@ -1,7 +1,7 @@
 KiBot installation checker
 
 Core:
-Linux: 5.15.0.1020 (Linux 35d2f9abe3ac 5.15.0-1020-azure #25~20.04.1-Ubuntu SMP Thu Sep 1 19:20:56 UTC 2022 x86_64 GNU/Linux)
+Linux: 5.15.0.1020 (Linux 439c979a3f25 5.15.0-1020-azure #25~20.04.1-Ubuntu SMP Thu Sep 1 19:20:56 UTC 2022 x86_64 GNU/Linux)
   /bin/uname
 Python: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
   /usr/lib/python3.9/os.py
@@ -44,8 +44,8 @@ KiCad PCB/SCH Diff (kidiff): 2.4.1 (kicad-diff.py 2.4.1 - Copyright 2020-2022, I
   /usr/bin/kicad-diff.py
 KiCost: 1.1.12 (KiCost v1.1.12)
   /usr/bin/kicost
-Pandoc: Not available
-  /usr/bin/kicost
+Pandoc: 2.9.2.1 (pandoc 2.9.2.1)
+  /usr/bin/pandoc
 PcbDraw: 0.9.0.3 (PcbDraw 0.9.0-3)
   /usr/bin/pcbdraw
 RAR: 5.50.0 (RAR 5.50   Copyright (c) 1993-2017 Alexander Roshal   11 Aug 2017)
@@ -53,16 +53,7 @@ RAR: 5.50.0 (RAR 5.50   Copyright (c) 1993-2017 Alexander Roshal   11 Aug 2017)
 RSVG tools: 2.50.3 (rsvg-convert version 2.50.3)
   /usr/bin/rsvg-convert
 
-* Pandoc not installed or too old
-  Install the `pandoc` package, i.e.: `sudo apt-get install pandoc`
-  You should also install the following packages: texlive-latex-base, texlive-latex-recommended
-  In CI/CD environments: the `kicad_auto_test` docker image contains it.
-  - Optional to create PDF/ODF/DOCX files for `report`
-
 Environment:
-ACTIONS_CACHE_URL
-ACTIONS_RUNTIME_TOKEN
-ACTIONS_RUNTIME_URL
 CI
 GITHUB_ACTION
 GITHUB_ACTIONS
@@ -96,16 +87,6 @@ GITHUB_WORKFLOW
 GITHUB_WORKSPACE
 HOME
 HOSTNAME
-INPUT_BOARD
-INPUT_CONFIG
-INPUT_DIR
-INPUT_INSTALL3D
-INPUT_QUICKSTART
-INPUT_SCHEMA
-INPUT_SKIP
-INPUT_TARGETS
-INPUT_VARIANT
-INPUT_VERBOSE
 INTERACTIVE_HTML_BOM_NO_DISPLAY
 KICAD6_3RD_PARTY
 KICAD6_FOOTPRINT_DIR
@@ -123,9 +104,7 @@ RUNNER_OS
 RUNNER_TEMP
 RUNNER_TOOL_CACHE
 RUNNER_WORKSPACE
-SHLVL
 TZ
-_
 
 KiAuto:
 This is KiAuto v2.0.5
