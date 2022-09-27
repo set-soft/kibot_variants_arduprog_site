@@ -13,7 +13,7 @@ Minimum drill size: >= 0.5 mm (finished metalized hole: 0.4 mm)
 
 Minimum slot width: >= 1.5 mm
 
-Ring collar: >= 0.3 mm
+Ring collar: >= 0.15 mm
 
 
 Materials:

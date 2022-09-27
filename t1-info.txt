@@ -1,0 +1,141 @@
+KiBot installation checker
+
+Core:
+Linux: 5.15.0.1020 (Linux a3090279e64b 5.15.0-1020-azure #25~20.04.1-Ubuntu SMP Thu Sep 1 19:20:56 UTC 2022 x86_64 GNU/Linux)
+  /bin/uname
+Python: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
+  /usr/lib/python3.9/os.py
+  /usr/bin/python3
+KiCad: 6.0.7+dfsg-1~bpo11+1
+  /usr/lib/python3/dist-packages/pcbnew.py
+  /usr/bin/kicad
+Kibot: 1.3.0
+  /usr/local/lib/python3.9/dist-packages/kibot/__main__.py
+  /usr/local/bin/kibot
+
+Modules:
+Colorama: 0.4.4
+  /usr/lib/python3/dist-packages/colorama/__init__.py
+LXML: 4.6.3
+  /usr/lib/python3/dist-packages/lxml/__init__.py
+PyYAML: 5.3.1
+  /usr/lib/python3/dist-packages/yaml/__init__.py
+QRCodeGen: Ok
+  /usr/lib/python3/dist-packages/qrcodegen.py
+Requests: 2.25.1
+  /usr/lib/python3/dist-packages/requests/__init__.py
+XLSXWriter: 1.1.2
+  /usr/lib/python3/dist-packages/xlsxwriter/__init__.py
+
+Tools:
+Ghostscript: 9.53.3
+  /usr/bin/gs
+Git: 2.34.1 (git version 2.34.1)
+  /usr/bin/git
+ImageMagick: 6.9.11.60 (Version: ImageMagick 6.9.11-60 Q16 x86_64 2021-01-25 https://imagemagick.org)
+  /usr/bin/convert
+Interactive HTML BoM: 2.5.0 (v2.5.0)
+  /usr/bin/python3
+KiBoM: 1.8.0 (KiBOM Version: 1.8.0)
+  /usr/bin/KiBOM_CLI.py
+KiCad Automation tools (kiauto): 2.0.5 (pcbnew_do 2.0.5 - Copyright 2018-2022, INTI/Productize SPRL - License: Apache)
+  /usr/bin/pcbnew_do
+KiCad PCB/SCH Diff (kidiff): 2.4.1 (kicad-diff.py 2.4.1 - Copyright 2020-2022, INTI/Salvador E. Tropea - License:)
+  /usr/bin/kicad-diff.py
+KiCost: 1.1.13 (KiCost v1.1.13)
+  /usr/local/bin/kicost
+Pandoc: Not available
+  /usr/local/bin/kicost
+PcbDraw: 0.9.0.3 (PcbDraw 0.9.0-3)
+  /usr/bin/pcbdraw
+RAR: 5.50.0 (RAR 5.50   Copyright (c) 1993-2017 Alexander Roshal   11 Aug 2017)
+  /usr/bin/rar
+RSVG tools: 2.50.3 (rsvg-convert version 2.50.3)
+  /usr/bin/rsvg-convert
+
+* Pandoc not installed or too old
+  Install the `pandoc` package, i.e.: `sudo apt-get install pandoc`
+  You should also install the following packages: texlive-latex-base, texlive-latex-recommended
+  In CI/CD environments: the `kicad_auto_test` docker image contains it.
+  - Optional to create PDF/ODF/DOCX files for `report`
+
+Environment:
+ACTIONS_CACHE_URL
+ACTIONS_RUNTIME_TOKEN
+ACTIONS_RUNTIME_URL
+CI
+GITHUB_ACTION
+GITHUB_ACTIONS
+GITHUB_ACTION_REF
+GITHUB_ACTION_REPOSITORY
+GITHUB_ACTOR
+GITHUB_API_URL
+GITHUB_BASE_REF
+GITHUB_ENV
+GITHUB_EVENT_NAME
+GITHUB_EVENT_PATH
+GITHUB_GRAPHQL_URL
+GITHUB_HEAD_REF
+GITHUB_JOB
+GITHUB_PATH
+GITHUB_REF
+GITHUB_REF_NAME
+GITHUB_REF_PROTECTED
+GITHUB_REF_TYPE
+GITHUB_REPOSITORY
+GITHUB_REPOSITORY_OWNER
+GITHUB_RETENTION_DAYS
+GITHUB_RUN_ATTEMPT
+GITHUB_RUN_ID
+GITHUB_RUN_NUMBER
+GITHUB_SERVER_URL
+GITHUB_SHA
+GITHUB_STEP_SUMMARY
+GITHUB_TRIGGERING_ACTOR
+GITHUB_WORKFLOW
+GITHUB_WORKSPACE
+HOME
+HOSTNAME
+INPUT_BOARD
+INPUT_CONFIG
+INPUT_DIR
+INPUT_INSTALL3D
+INPUT_QUICKSTART
+INPUT_SCHEMA
+INPUT_SKIP
+INPUT_TARGETS
+INPUT_VARIANT
+INPUT_VERBOSE
+INTERACTIVE_HTML_BOM_NO_DISPLAY
+KICAD6_3RD_PARTY
+KICAD6_FOOTPRINT_DIR
+KICAD6_SYMBOL_DIR
+KICAD6_TEMPLATE_DIR
+KICAD_USER_TEMPLATE_DIR
+KIPRJMOD
+KISYSMOD
+LC_CTYPE
+PATH
+PWD
+RUNNER_ARCH
+RUNNER_NAME
+RUNNER_OS
+RUNNER_TEMP
+RUNNER_TOOL_CACHE
+RUNNER_WORKSPACE
+SHLVL
+TZ
+_
+
+KiAuto:
+This is KiAuto v2.0.5
+Installed at: /usr/bin/pcbnew_do
+Using kiauto module from: /usr/lib/python3/dist-packages/kiauto
+Interpreted by Python: /usr/bin/python3 (v3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110])
+Tools:
+- kicad: /usr/bin/kicad (v6.0.7+dfsg-1~bpo11+1)
+- xdotool: /usr/bin/xdotool
+- recordmydesktop: /usr/bin/recordmydesktop
+- xsltproc: /usr/bin/xsltproc
+- xclip: /usr/bin/xclip
+- convert: /usr/bin/convert

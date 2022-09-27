@@ -1,6 +1,6 @@
 $HEADER
 GENCAD 1.4
-USER "pcbnew 6.0.5+dfsg-1~bpo11+1"
+USER "pcbnew 6.0.7+dfsg-1~bpo11+1"
 DRAWING "/github/workspace/t1.kicad_pcb"
 REVISION "${git_hash} "
 UNITS INCH
@@ -987,10 +987,6 @@ $ENDCOMPONENTS
 
 $DEVICES
 
-DEVICE "DEV_Capacitor_SMD:CP_Elec_8x10"
-PART "47uF"
-PACKAGE "Capacitor_SMD:CP_Elec_8x10"
-
 DEVICE "DEV_Resistor_SMD:R_0805_2012Metric_0"
 PART "100nF"
 PACKAGE "Capacitor_SMD:C_0805_2012Metric"
@@ -998,6 +994,10 @@ PACKAGE "Capacitor_SMD:C_0805_2012Metric"
 DEVICE "DEV_Resistor_SMD:R_0805_2012Metric_2"
 PART "22pF"
 PACKAGE "Capacitor_SMD:C_0805_2012Metric"
+
+DEVICE "DEV_Capacitor_SMD:CP_Elec_8x10"
+PART "47uF"
+PACKAGE "Capacitor_SMD:CP_Elec_8x10"
 
 DEVICE "DEV_Resistor_SMD:R_0805_2012Metric_1"
 PART "100nF"
