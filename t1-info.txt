@@ -1,7 +1,7 @@
 KiBot installation checker
 
 Core:
-Linux: 5.15.0.1022 (Linux 525f00a431f9 5.15.0-1022-azure #27~20.04.1-Ubuntu SMP Mon Oct 17 02:03:50 UTC 2022 x86_64 GNU/Linux)
+Linux: 5.15.0.1022 (Linux 81fb0ed79dbc 5.15.0-1022-azure #27~20.04.1-Ubuntu SMP Mon Oct 17 02:03:50 UTC 2022 x86_64 GNU/Linux)
   /bin/uname
 Python: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
   /usr/lib/python3.9/os.py
@@ -9,9 +9,9 @@ Python: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
 KiCad: 6.0.8+dfsg-1~bpo11+1
   /usr/lib/python3/dist-packages/pcbnew.py
   /usr/bin/kicad
-Kibot: 1.4.1
-  /usr/local/lib/python3.9/dist-packages/kibot/__main__.py
-  /usr/local/bin/kibot
+Kibot: 1.4.0
+  /usr/lib/python3/dist-packages/kibot/__main__.py
+  /usr/bin/kibot
 
 Modules:
 Colorama: 0.4.4
@@ -26,8 +26,6 @@ Requests: 2.25.1
   /usr/lib/python3/dist-packages/requests/__init__.py
 XLSXWriter: 1.1.2
   /usr/lib/python3/dist-packages/xlsxwriter/__init__.py
-numpy: 1.19.5
-  /usr/lib/python3/dist-packages/numpy/__init__.py
 
 Tools:
 Ghostscript: 9.53.3
@@ -44,20 +42,16 @@ KiCad Automation tools (kiauto): 2.0.6 (pcbnew_do 2.0.6 - Copyright 2018-2022, I
   /usr/bin/pcbnew_do
 KiCad PCB/SCH Diff (kidiff): 2.4.3 (kicad-diff.py 2.4.3 - Copyright 2020-2022, INTI/Salvador E. Tropea - License:)
   /usr/bin/kicad-diff.py
-KiCost: 1.1.13 (KiCost v1.1.13)
-  /usr/local/bin/kicost
-Pandoc: Not available
-  /usr/local/bin/kicost
+KiCost: 1.1.12 (KiCost v1.1.12)
+  /usr/bin/kicost
+Pandoc: 2.9.2.1 (pandoc 2.9.2.1)
+  /usr/bin/pandoc
+PcbDraw: 0.9.0.5 (PcbDraw 0.9.0-5)
+  /usr/bin/pcbdraw
 RAR: 5.50.0 (RAR 5.50   Copyright (c) 1993-2017 Alexander Roshal   11 Aug 2017)
   /usr/bin/rar
 RSVG tools: 2.50.3 (rsvg-convert version 2.50.3)
   /usr/bin/rsvg-convert
-
-* Pandoc not installed or too old
-  Install the `pandoc` package, i.e.: `sudo apt-get install pandoc`
-  You should also install the following packages: texlive-latex-base, texlive-latex-recommended
-  In CI/CD environments: the `kicad_auto_test` docker image contains it.
-  - Optional to create PDF/ODF/DOCX files for `report`
 
 Environment:
 CI
