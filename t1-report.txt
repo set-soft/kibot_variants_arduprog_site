@@ -43,6 +43,7 @@ Outer Annular Ring: 0.15 mm (6 mils)
 - By design rules: 0.28 mm (11 mils)
 
 Eurocircuits class: 6B
+- Using min drill 0.5 mm for an OAR of 0.15 mm
 
 
 # General stats
