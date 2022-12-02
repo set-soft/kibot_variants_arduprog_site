@@ -1,17 +1,17 @@
 KiBot installation checker
 
 Core:
-Linux: 5.15.0.1022 (Linux 81fb0ed79dbc 5.15.0-1022-azure #27~20.04.1-Ubuntu SMP Mon Oct 17 02:03:50 UTC 2022 x86_64 GNU/Linux)
+Linux: 5.15.0.1023 (Linux a02cb87dbf06 5.15.0-1023-azure #29~20.04.1-Ubuntu SMP Wed Oct 26 19:18:25 UTC 2022 x86_64 GNU/Linux)
   /bin/uname
 Python: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
   /usr/lib/python3.9/os.py
   /usr/bin/python3
-KiCad: 6.0.8+dfsg-1~bpo11+1
+KiCad: 6.0.9+dfsg-1~bpo11+1
   /usr/lib/python3/dist-packages/pcbnew.py
   /usr/bin/kicad
-Kibot: 1.4.0
-  /usr/lib/python3/dist-packages/kibot/__main__.py
-  /usr/bin/kibot
+Kibot: 1.4.1
+  /usr/local/lib/python3.9/dist-packages/kibot/__main__.py
+  /usr/local/bin/kibot
 
 Modules:
 Colorama: 0.4.4
@@ -26,6 +26,10 @@ Requests: 2.25.1
   /usr/lib/python3/dist-packages/requests/__init__.py
 XLSXWriter: 1.1.2
   /usr/lib/python3/dist-packages/xlsxwriter/__init__.py
+mistune: 0.8.4
+  /usr/lib/python3/dist-packages/mistune.py
+numpy: 1.19.5
+  /usr/lib/python3/dist-packages/numpy/__init__.py
 
 Tools:
 Ghostscript: 9.53.3
@@ -34,7 +38,7 @@ Git: 2.34.1 (git version 2.34.1)
   /usr/bin/git
 ImageMagick: 6.9.11.60 (Version: ImageMagick 6.9.11-60 Q16 x86_64 2021-01-25 https://imagemagick.org)
   /usr/bin/convert
-Interactive HTML BoM: 2.5.0 (v2.5.0)
+Interactive HTML BoM: 2.5.0.2 (v2.5.0-2)
   /usr/bin/python3
 KiBoM: 1.8.0 (KiBOM Version: 1.8.0)
   /usr/bin/KiBOM_CLI.py
@@ -42,16 +46,24 @@ KiCad Automation tools (kiauto): 2.0.6 (pcbnew_do 2.0.6 - Copyright 2018-2022, I
   /usr/bin/pcbnew_do
 KiCad PCB/SCH Diff (kidiff): 2.4.3 (kicad-diff.py 2.4.3 - Copyright 2020-2022, INTI/Salvador E. Tropea - License:)
   /usr/bin/kicad-diff.py
-KiCost: 1.1.12 (KiCost v1.1.12)
-  /usr/bin/kicost
-Pandoc: 2.9.2.1 (pandoc 2.9.2.1)
-  /usr/bin/pandoc
-PcbDraw: 0.9.0.5 (PcbDraw 0.9.0-5)
-  /usr/bin/pcbdraw
+KiCost: 1.1.13 (KiCost v1.1.13)
+  /usr/local/bin/kicost
+KiKit: 1.1.2.1 (kikit, version 1.1.2-1)
+  /usr/bin/kikit
+OpenSCAD: 2021.1.0 (OpenSCAD version 2021.01)
+  /usr/bin/openscad
+Pandoc: Not available
+  /usr/bin/openscad
 RAR: 5.50.0 (RAR 5.50   Copyright (c) 1993-2017 Alexander Roshal   11 Aug 2017)
   /usr/bin/rar
 RSVG tools: 2.50.3 (rsvg-convert version 2.50.3)
   /usr/bin/rsvg-convert
+
+* Pandoc not installed or too old
+  Install the `pandoc` package, i.e.: `sudo apt-get install pandoc`
+  You should also install the following packages: texlive, texlive-latex-base, texlive-latex-recommended
+  In CI/CD environments: the `kicad_auto_test` docker image contains it.
+  - Optional to create PDF/ODF/DOCX files for `report`
 
 Environment:
 CI
@@ -114,7 +126,7 @@ Installed at: /usr/bin/pcbnew_do
 Using kiauto module from: /usr/lib/python3/dist-packages/kiauto
 Interpreted by Python: /usr/bin/python3 (v3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110])
 Tools:
-- kicad: /usr/bin/kicad (v6.0.8+dfsg-1~bpo11+1)
+- kicad: /usr/bin/kicad (v6.0.9+dfsg-1~bpo11+1)
 - xdotool: /usr/bin/xdotool
 - recordmydesktop: /usr/bin/recordmydesktop
 - xsltproc: /usr/bin/xsltproc
