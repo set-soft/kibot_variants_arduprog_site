@@ -1,7 +1,7 @@
 KiBot installation checker
 
 Core:
-Linux: 5.15.0.1023 (Linux a02cb87dbf06 5.15.0-1023-azure #29~20.04.1-Ubuntu SMP Wed Oct 26 19:18:25 UTC 2022 x86_64 GNU/Linux)
+Linux: 5.15.0.1023 (Linux a0e39f0529ee 5.15.0-1023-azure #29~20.04.1-Ubuntu SMP Wed Oct 26 19:18:25 UTC 2022 x86_64 GNU/Linux)
   /bin/uname
 Python: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
   /usr/lib/python3.9/os.py
@@ -26,6 +26,8 @@ Requests: 2.25.1
   /usr/lib/python3/dist-packages/requests/__init__.py
 XLSXWriter: 1.1.2
   /usr/lib/python3/dist-packages/xlsxwriter/__init__.py
+Xvfbwrapper: Ok
+  /usr/lib/python3/dist-packages/xvfbwrapper.py
 mistune: 0.8.4
   /usr/lib/python3/dist-packages/mistune.py
 numpy: 1.19.5
@@ -57,6 +59,8 @@ Pandoc: Not available
 RAR: 5.50.0 (RAR 5.50   Copyright (c) 1993-2017 Alexander Roshal   11 Aug 2017)
   /usr/bin/rar
 RSVG tools: 2.50.3 (rsvg-convert version 2.50.3)
+  /usr/bin/rsvg-convert
+Xvfb: Ok (xvfb-run)
   /usr/bin/rsvg-convert
 
 * Pandoc not installed or too old
