@@ -1,7 +1,7 @@
 KiBot installation checker
 
 Core:
-Linux: 5.15.0.1024 (Linux 144c95d28cd9 5.15.0-1024-azure #30-Ubuntu SMP Wed Nov 16 23:37:59 UTC 2022 x86_64 GNU/Linux)
+Linux: 5.15.0.1024 (Linux 424533ed88ec 5.15.0-1024-azure #30-Ubuntu SMP Wed Nov 16 23:37:59 UTC 2022 x86_64 GNU/Linux)
   /bin/uname
 Python: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
   /usr/lib/python3.9/os.py
@@ -9,9 +9,9 @@ Python: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
 KiCad: 6.0.9+dfsg-1~bpo11+1
   /usr/lib/python3/dist-packages/pcbnew.py
   /usr/bin/kicad
-Kibot: 1.4.1
-  /usr/local/lib/python3.9/dist-packages/kibot/__main__.py
-  /usr/local/bin/kibot
+Kibot: 1.5.1
+  /usr/lib/python3/dist-packages/kibot/__main__.py
+  /usr/bin/kibot
 
 Modules:
 Colorama: 0.4.4
@@ -51,25 +51,19 @@ KiCad Automation tools (kiauto): 2.0.6 (pcbnew_do 2.0.6 - Copyright 2018-2022, I
 KiCad PCB/SCH Diff (kidiff): 2.4.3 (kicad-diff.py 2.4.3 - Copyright 2020-2022, INTI/Salvador E. Tropea - License:)
   /usr/bin/kicad-diff.py
 KiCost: 1.1.15 (KiCost v1.1.15)
-  /usr/local/bin/kicost
+  /usr/bin/kicost
 KiKit: 1.1.2.1 (kikit, version 1.1.2-1)
   /usr/bin/kikit
 OpenSCAD: 2021.1.0 (OpenSCAD version 2021.01)
   /usr/bin/openscad
-Pandoc: Not available
-  /usr/bin/openscad
+Pandoc: 2.9.2.1 (pandoc 2.9.2.1)
+  /usr/bin/pandoc
 RAR: 5.50.0 (RAR 5.50   Copyright (c) 1993-2017 Alexander Roshal   11 Aug 2017)
   /usr/bin/rar
 RSVG tools: 2.50.3 (rsvg-convert version 2.50.3)
   /usr/bin/rsvg-convert
 Xvfb: Ok (xvfb-run)
   /usr/bin/rsvg-convert
-
-* Pandoc not installed or too old
-  Install the `pandoc` package, i.e.: `sudo apt-get install pandoc`
-  You should also install the following packages: texlive, texlive-latex-base, texlive-latex-recommended
-  In CI/CD environments: the `kicad_auto_test` docker image contains it.
-  - Optional to create PDF/ODF/DOCX files for `report`
 
 Environment:
 CI
