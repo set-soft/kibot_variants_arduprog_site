@@ -1,7 +1,7 @@
 KiBot installation checker
 
 Core:
-Linux: 5.15.0.1031 (Linux 86867f95175c 5.15.0-1031-azure #38-Ubuntu SMP Mon Jan 9 12:49:59 UTC 2023 x86_64 GNU/Linux)
+Linux: 5.15.0.1031 (Linux 3b96dbb23809 5.15.0-1031-azure #38-Ubuntu SMP Mon Jan 9 12:49:59 UTC 2023 x86_64 GNU/Linux)
   /bin/uname
 Python: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
   /usr/lib/python3.9/os.py
@@ -9,9 +9,9 @@ Python: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
 KiCad: 6.0.10+dfsg-1~bpo11+1
   /usr/lib/python3/dist-packages/pcbnew.py
   /usr/bin/kicad
-Kibot: 1.5.1
-  /usr/lib/python3/dist-packages/kibot/__main__.py
-  /usr/bin/kibot
+Kibot: 1.5.2
+  /usr/local/lib/python3.9/dist-packages/kibot/__main__.py
+  /usr/local/bin/kibot
 
 Modules:
 Colorama: 0.4.4
@@ -36,6 +36,10 @@ numpy: 1.19.5
   /usr/lib/python3/dist-packages/numpy/__init__.py
 
 Tools:
+Bash: 5.1.4 (GNU bash, version 5.1.4(1)-release (x86_64-pc-linux-gnu))
+  /bin/bash
+Blender: 3.4.1 (Blender 3.4.1)
+  /usr/bin/blender
 Ghostscript: 9.53.3
   /usr/bin/gs
 Git: 2.34.1 (git version 2.34.1)
@@ -51,7 +55,7 @@ KiCad Automation tools (kiauto): 2.1.1 (pcbnew_do 2.1.1 - Copyright 2018-2023, I
 KiCad PCB/SCH Diff (kidiff): 2.4.3 (kicad-diff.py 2.4.3 - Copyright 2020-2022, INTI/Salvador E. Tropea - License:)
   /usr/bin/kicad-diff.py
 KiCost: 1.1.15 (KiCost v1.1.15)
-  /usr/bin/kicost
+  /usr/local/bin/kicost
 KiKit: 1.2.0.1 (kikit, version 1.2.0-1)
   /usr/bin/kikit
 OpenSCAD: 2021.1.0 (OpenSCAD version 2021.01)
