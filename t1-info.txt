@@ -1,12 +1,12 @@
 KiBot installation checker
 
 Core:
-Linux: 5.15.0.1024 (Linux 424533ed88ec 5.15.0-1024-azure #30-Ubuntu SMP Wed Nov 16 23:37:59 UTC 2022 x86_64 GNU/Linux)
+Linux: 5.15.0.1031 (Linux 86867f95175c 5.15.0-1031-azure #38-Ubuntu SMP Mon Jan 9 12:49:59 UTC 2023 x86_64 GNU/Linux)
   /bin/uname
 Python: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
   /usr/lib/python3.9/os.py
   /usr/bin/python3
-KiCad: 6.0.9+dfsg-1~bpo11+1
+KiCad: 6.0.10+dfsg-1~bpo11+1
   /usr/lib/python3/dist-packages/pcbnew.py
   /usr/bin/kicad
 Kibot: 1.5.1
@@ -46,13 +46,13 @@ Interactive HTML BoM: 2.5.0.2 (v2.5.0-2)
   /usr/bin/python3
 KiBoM: 1.8.0 (KiBOM Version: 1.8.0)
   /usr/bin/KiBOM_CLI.py
-KiCad Automation tools (kiauto): 2.0.6 (pcbnew_do 2.0.6 - Copyright 2018-2022, INTI/Productize SPRL - License: Apache)
+KiCad Automation tools (kiauto): 2.1.1 (pcbnew_do 2.1.1 - Copyright 2018-2023, INTI/Productize SPRL - License: Apache)
   /usr/bin/pcbnew_do
 KiCad PCB/SCH Diff (kidiff): 2.4.3 (kicad-diff.py 2.4.3 - Copyright 2020-2022, INTI/Salvador E. Tropea - License:)
   /usr/bin/kicad-diff.py
 KiCost: 1.1.15 (KiCost v1.1.15)
   /usr/bin/kicost
-KiKit: 1.1.2.1 (kikit, version 1.1.2-1)
+KiKit: 1.2.0.1 (kikit, version 1.2.0-1)
   /usr/bin/kikit
 OpenSCAD: 2021.1.0 (OpenSCAD version 2021.01)
   /usr/bin/openscad
@@ -72,6 +72,7 @@ GITHUB_ACTIONS
 GITHUB_ACTION_REF
 GITHUB_ACTION_REPOSITORY
 GITHUB_ACTOR
+GITHUB_ACTOR_ID
 GITHUB_API_URL
 GITHUB_BASE_REF
 GITHUB_ENV
@@ -87,7 +88,9 @@ GITHUB_REF_NAME
 GITHUB_REF_PROTECTED
 GITHUB_REF_TYPE
 GITHUB_REPOSITORY
+GITHUB_REPOSITORY_ID
 GITHUB_REPOSITORY_OWNER
+GITHUB_REPOSITORY_OWNER_ID
 GITHUB_RETENTION_DAYS
 GITHUB_RUN_ATTEMPT
 GITHUB_RUN_ID
@@ -98,6 +101,8 @@ GITHUB_STATE
 GITHUB_STEP_SUMMARY
 GITHUB_TRIGGERING_ACTOR
 GITHUB_WORKFLOW
+GITHUB_WORKFLOW_REF
+GITHUB_WORKFLOW_SHA
 GITHUB_WORKSPACE
 HOME
 HOSTNAME
@@ -121,12 +126,12 @@ RUNNER_WORKSPACE
 TZ
 
 KiAuto:
-This is KiAuto v2.0.6
+This is KiAuto v2.1.1
 Installed at: /usr/bin/pcbnew_do
 Using kiauto module from: /usr/lib/python3/dist-packages/kiauto
 Interpreted by Python: /usr/bin/python3 (v3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110])
 Tools:
-- kicad: /usr/bin/kicad (v6.0.9+dfsg-1~bpo11+1)
+- kicad: /usr/bin/kicad (v6.0.10+dfsg-1~bpo11+1)
 - xdotool: /usr/bin/xdotool
 - recordmydesktop: /usr/bin/recordmydesktop
 - xsltproc: /usr/bin/xsltproc
