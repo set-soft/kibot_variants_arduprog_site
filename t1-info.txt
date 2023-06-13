@@ -1,15 +1,15 @@
 KiBot installation checker
 
 Core:
-Linux: 5.15.0.1031 (Linux cf69b0ffd94a 5.15.0-1031-azure #38-Ubuntu SMP Mon Jan 9 12:49:59 UTC 2023 x86_64 GNU/Linux)
+Linux: 5.15.0.1038 (Linux 0b0ca360ef85 5.15.0-1038-azure #45-Ubuntu SMP Mon Apr 24 15:40:42 UTC 2023 x86_64 GNU/Linux)
   /bin/uname
 Python: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
   /usr/lib/python3.9/os.py
   /usr/bin/python3
-KiCad: 6.0.10+dfsg-1~bpo11+1
+KiCad: 6.0.11+dfsg-1~bpo11+1
   /usr/lib/python3/dist-packages/pcbnew.py
   /usr/bin/kicad
-Kibot: 1.6.1
+Kibot: 1.6.3
   /usr/local/lib/python3.9/dist-packages/kibot/__main__.py
   /usr/local/bin/kibot
 
@@ -18,20 +18,21 @@ Colorama: 0.4.4
   /usr/lib/python3/dist-packages/colorama/__init__.py
 LXML: 4.6.3
   /usr/lib/python3/dist-packages/lxml/__init__.py
+Lark: 1.1.5
+  /usr/local/lib/python3.9/dist-packages/lark/__init__.py
 PyYAML: 5.3.1
   /usr/lib/python3/dist-packages/yaml/__init__.py
 QRCodeGen: Ok
   /usr/lib/python3/dist-packages/qrcodegen.py
 Requests: 2.25.1
   /usr/lib/python3/dist-packages/requests/__init__.py
-XLSXWriter: 1.1.2
+XLSXWriter: 3.0.2
   /usr/lib/python3/dist-packages/xlsxwriter/__init__.py
 Xvfbwrapper: Ok
   /usr/lib/python3/dist-packages/xvfbwrapper.py
 markdown2: 2.3.10
   /usr/lib/python3/dist-packages/markdown2.py
-mistune: 0.8.4
-  /usr/lib/python3/dist-packages/mistune.py
+mistune: Not available
 numpy: 1.19.5
   /usr/lib/python3/dist-packages/numpy/__init__.py
 
@@ -42,21 +43,21 @@ Blender: 3.4.1 (Blender 3.4.1)
   /usr/bin/blender
 Ghostscript: 9.53.3
   /usr/bin/gs
-Git: 2.39.1 (git version 2.39.1)
+Git: 2.39.2 (git version 2.39.2)
   /usr/bin/git
 ImageMagick: 6.9.11.60 (Version: ImageMagick 6.9.11-60 Q16 x86_64 2021-01-25 https://imagemagick.org)
   /usr/bin/convert
-Interactive HTML BoM: 2.5.0.2 (v2.5.0-2)
+Interactive HTML BoM: 2.6.0 (v2.6.0)
   /usr/bin/python3
-KiBoM: 1.8.0 (KiBOM Version: 1.8.0)
+KiBoM: 1.9.0 (KiBOM Version: 1.9.0)
   /usr/bin/KiBOM_CLI.py
-KiCad Automation tools (kiauto): 2.1.1 (pcbnew_do 2.1.1 - Copyright 2018-2023, INTI/Productize SPRL - License: Apache)
+KiCad Automation tools (kiauto): 2.2.5 (pcbnew_do 2.2.5 - Copyright 2018-2023, INTI/Productize SPRL - License: Apache)
   /usr/bin/pcbnew_do
-KiCad PCB/SCH Diff (kidiff): 2.4.3 (kicad-diff.py 2.4.3 - Copyright 2020-2022, INTI/Salvador E. Tropea - License:)
+KiCad PCB/SCH Diff (kidiff): 2.4.7 (kicad-diff.py 2.4.7 - Copyright 2020-2023, INTI/Salvador E. Tropea - License:)
   /usr/bin/kicad-diff.py
-KiCost: 1.1.15 (KiCost v1.1.15)
+KiCost: 1.1.17 (KiCost v1.1.17)
   /usr/local/bin/kicost
-KiKit: 1.2.0.1 (kikit, version 1.2.0-1)
+KiKit: 1.3.0.7 (kikit, version 1.3.0-7)
   /usr/bin/kikit
 OpenSCAD: 2021.1.0 (OpenSCAD version 2021.01)
   /usr/bin/openscad
@@ -68,6 +69,10 @@ RSVG tools: 2.50.3 (rsvg-convert version 2.50.3)
   /usr/bin/rsvg-convert
 Xvfb: Ok (xvfb-run)
   /usr/bin/rsvg-convert
+
+* Python module `mistune` not installed, too old or incompatible
+  Install the `python3-mistune` package, i.e.: `sudo apt-get install python3-mistune`
+  - Mandatory for `populate`
 
 Environment:
 CI
@@ -130,12 +135,12 @@ RUNNER_WORKSPACE
 TZ
 
 KiAuto:
-This is KiAuto v2.1.1
+This is KiAuto v2.2.5
 Installed at: /usr/bin/pcbnew_do
 Using kiauto module from: /usr/lib/python3/dist-packages/kiauto
 Interpreted by Python: /usr/bin/python3 (v3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110])
 Tools:
-- kicad: /usr/bin/kicad (v6.0.10+dfsg-1~bpo11+1)
+- kicad: /usr/bin/kicad (v6.0.11+dfsg-1~bpo11+1)
 - xdotool: /usr/bin/xdotool
 - recordmydesktop: /usr/bin/recordmydesktop
 - xsltproc: /usr/bin/xsltproc
