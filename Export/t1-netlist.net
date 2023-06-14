@@ -1,7 +1,7 @@
 (export (version "E")
   (design
     (source "/__w/kibot_variants_arduprog_test/kibot_variants_arduprog_test/t1.kicad_sch")
-    (date "Tue Jun 13 14:13:23 2023")
+    (date "Wed Jun 14 16:50:05 2023")
     (tool "Eeschema 6.0.11+dfsg-1~bpo11+1")
     (sheet (number "1") (name "/") (tstamps "/")
       (title_block
