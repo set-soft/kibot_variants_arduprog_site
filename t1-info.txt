@@ -1,7 +1,7 @@
 KiBot installation checker
 
 Core:
-Linux: 5.15.0.1038 (Linux 33a9c75e8ea3 5.15.0-1038-azure #45-Ubuntu SMP Mon Apr 24 15:40:42 UTC 2023 x86_64 GNU/Linux)
+Linux: 5.15.0.1040 (Linux 5d7539413d29 5.15.0-1040-azure #47-Ubuntu SMP Thu Jun 1 19:38:24 UTC 2023 x86_64 GNU/Linux)
   /bin/uname
 Python: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
   /usr/lib/python3.9/os.py
@@ -55,7 +55,7 @@ KiCad Automation tools (kiauto): 2.2.5 (pcbnew_do 2.2.5 - Copyright 2018-2023, I
   /usr/bin/pcbnew_do
 KiCad PCB/SCH Diff (kidiff): 2.4.7 (kicad-diff.py 2.4.7 - Copyright 2020-2023, INTI/Salvador E. Tropea - License:)
   /usr/bin/kicad-diff.py
-KiCost: 1.1.17 (KiCost v1.1.17)
+KiCost: 1.1.18 (KiCost v1.1.18)
   /usr/local/bin/kicost
 KiKit: 1.3.0.7 (kikit, version 1.3.0-7)
   /usr/bin/kikit
@@ -127,6 +127,7 @@ LC_CTYPE
 PATH
 PWD
 RUNNER_ARCH
+RUNNER_ENVIRONMENT
 RUNNER_NAME
 RUNNER_OS
 RUNNER_TEMP
