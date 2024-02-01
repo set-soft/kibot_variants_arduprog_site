@@ -984,77 +984,61 @@ $ENDCOMPONENTS
 
 $DEVICES
 
-DEVICE "DEV_Fiducial:Fiducial_0.75mm_Mask1.5mm"
-PART "Fiducial"
-PACKAGE "Fiducial:Fiducial_0.75mm_Mask1.5mm"
-
-DEVICE "DEV_Resistor_SMD:R_1812_4532Metric"
-PART "MF-MSMF050-2"
-PACKAGE "Resistor_SMD:R_1812_4532Metric"
-
 DEVICE "DEV_MountingHole:MountingHole_2.7mm_M2.5"
 PART "MountingHole"
 PACKAGE "MountingHole:MountingHole_2.7mm_M2.5"
 
-DEVICE "DEV_Package_QFP:TQFP-32_7x7mm_P0.8mm"
-PART "ATmega8U2-AU"
-PACKAGE "Package_QFP:TQFP-32_7x7mm_P0.8mm"
-
 DEVICE "DEV_Resistor_SMD:R_0805_2012Metric_0"
 PART "100nF"
-PACKAGE "Capacitor_SMD:C_0805_2012Metric"
-
-DEVICE "DEV_Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
-PART "P1"
-PACKAGE "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
-
-DEVICE "DEV_Resistor_SMD:R_0805_2012Metric_2"
-PART "22pF"
 PACKAGE "Capacitor_SMD:C_0805_2012Metric"
 
 DEVICE "DEV_Connector_BarrelJack:BarrelJack_CLIFF_FC681465S_SMT_Horizontal"
 PART "Barrel_Jack_Switch"
 PACKAGE "Connector_BarrelJack:BarrelJack_CLIFF_FC681465S_SMT_Horizontal"
 
-DEVICE "DEV_LED_SMD:LED_0805_2012Metric"
-PART "LED"
-PACKAGE "LED_SMD:LED_0805_2012Metric"
-
-DEVICE "DEV_Resistor_SMD:R_0805_2012Metric_1"
-PART "100nF"
-PACKAGE "Capacitor_SMD:C_0805_2012Metric"
-
-DEVICE "DEV_Resistor_SMD:R_0603_1608Metric"
-PART "CG0603MLC-05E"
-PACKAGE "Resistor_SMD:R_0603_1608Metric"
-
 DEVICE "DEV_Crystal:Crystal_SMD_Abracon_ABM3-2Pin_5.0x3.2mm"
 PART "16MHz"
 PACKAGE "Crystal:Crystal_SMD_Abracon_ABM3-2Pin_5.0x3.2mm"
 
-DEVICE "DEV_Connector_USB:USB_B_Lumberg_2411_02_Horizontal"
-PART "USB_B"
-PACKAGE "Connector_USB:USB_B_Lumberg_2411_02_Horizontal"
+DEVICE "DEV_Package_QFP:TQFP-32_7x7mm_P0.8mm"
+PART "ATmega8U2-AU"
+PACKAGE "Package_QFP:TQFP-32_7x7mm_P0.8mm"
+
+DEVICE "DEV_Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+PART "P1"
+PACKAGE "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+
+DEVICE "DEV_Resistor_SMD:R_0805_2012Metric_2"
+PART "1K"
+PACKAGE "Resistor_SMD:R_0805_2012Metric"
 
 DEVICE "DEV_Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 PART "SolderJumper_2_Open"
 PACKAGE "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 
-DEVICE "DEV_Capacitor_SMD:CP_Elec_8x10"
-PART "47uF"
-PACKAGE "Capacitor_SMD:CP_Elec_8x10"
+DEVICE "DEV_Connector_USB:USB_B_Lumberg_2411_02_Horizontal"
+PART "USB_B"
+PACKAGE "Connector_USB:USB_B_Lumberg_2411_02_Horizontal"
 
-DEVICE "DEV_Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
-PART "P2"
-PACKAGE "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
-
-DEVICE "DEV_Resistor_SMD:R_0805_2012Metric"
-PART "BLM21PG221SN1D"
+DEVICE "DEV_Resistor_SMD:R_0805_2012Metric_1"
+PART "10K"
 PACKAGE "Resistor_SMD:R_0805_2012Metric"
 
-DEVICE "DEV_Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
-PART "ICSP1"
-PACKAGE "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
+DEVICE "DEV_LED_SMD:LED_0805_2012Metric"
+PART "LED"
+PACKAGE "LED_SMD:LED_0805_2012Metric"
+
+DEVICE "DEV_Resistor_SMD:R_0603_1608Metric"
+PART "CG0603MLC-05E"
+PACKAGE "Resistor_SMD:R_0603_1608Metric"
+
+DEVICE "DEV_Resistor_SMD:R_0805_2012Metric"
+PART "1M"
+PACKAGE "Resistor_SMD:R_0805_2012Metric"
+
+DEVICE "DEV_Fiducial:Fiducial_0.75mm_Mask1.5mm"
+PART "Fiducial"
+PACKAGE "Fiducial:Fiducial_0.75mm_Mask1.5mm"
 
 DEVICE "DEV_Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical"
 PART "2x2M"
@@ -1063,6 +1047,22 @@ PACKAGE "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical"
 DEVICE "DEV_Diode_SMD:D_1206_3216Metric"
 PART "CD1206-S01575"
 PACKAGE "Diode_SMD:D_1206_3216Metric"
+
+DEVICE "DEV_Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+PART "P2"
+PACKAGE "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+
+DEVICE "DEV_Resistor_SMD:R_1812_4532Metric"
+PART "MF-MSMF050-2"
+PACKAGE "Resistor_SMD:R_1812_4532Metric"
+
+DEVICE "DEV_Capacitor_SMD:CP_Elec_8x10"
+PART "47uF"
+PACKAGE "Capacitor_SMD:CP_Elec_8x10"
+
+DEVICE "DEV_Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
+PART "ICSP1"
+PACKAGE "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
 
 DEVICE "DEV_Resistor_SMD:R_0603_1608Metric_0"
 PART "CG0603MLC-05E"
