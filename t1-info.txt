@@ -1,7 +1,7 @@
 KiBot installation checker
 
 Core:
-Linux: 5.15.0.1042 (Linux e47ea1ce8c93 5.15.0-1042-azure #49-Ubuntu SMP Tue Jul 11 17:28:46 UTC 2023 x86_64 GNU/Linux)
+Linux: 6.2.0.1019 (Linux d0be98dd2fb8 6.2.0-1019-azure #19~22.04.1-Ubuntu SMP Wed Jan 10 22:57:03 UTC 2024 x86_64 GNU/Linux)
   /usr/bin/uname
 Python: 3.11.2 (main, Mar 13 2023, 12:18:29) [GCC 12.2.0]
   /usr/lib/python3.11/os.py
@@ -32,7 +32,8 @@ Xvfbwrapper: Ok
   /usr/lib/python3/dist-packages/xvfbwrapper.py
 markdown2: 2.4.1
   /usr/lib/python3/dist-packages/markdown2.py
-mistune: Not available
+mistune: 2.0.4
+  /usr/lib/python3/dist-packages/mistune/__init__.py
 numpy: 1.24.2
   /usr/lib/python3/dist-packages/numpy/__init__.py
 
@@ -47,17 +48,17 @@ Git: 2.39.2 (git version 2.39.2)
   /usr/bin/git
 ImageMagick: 6.9.11.60 (Version: ImageMagick 6.9.11-60 Q16 x86_64 2021-01-25 https://imagemagick.org)
   /usr/bin/convert
-Interactive HTML BoM: 2.7.0 (v2.7.0)
+Interactive HTML BoM: 2.8.1 (v2.8.1)
   /usr/bin/python3
-KiBoM: 1.9.0 (KiBOM Version: 1.9.0)
+KiBoM: 1.9.1 (KiBOM Version: 1.9.1)
   /usr/bin/KiBOM_CLI.py
-KiCad Automation tools (kiauto): 2.2.7 (pcbnew_do 2.2.7 - Copyright 2018-2023, INTI/Productize SPRL - License: Apache)
+KiCad Automation tools (kiauto): 2.2.8 (pcbnew_do 2.2.8 - Copyright 2018-2023, INTI/Productize SPRL - License: Apache)
   /usr/bin/pcbnew_do
-KiCad PCB/SCH Diff (kidiff): 2.4.7 (kicad-diff.py 2.4.7 - Copyright 2020-2023, INTI/Salvador E. Tropea - License:)
+KiCad PCB/SCH Diff (kidiff): 2.5.3 (kicad-diff.py 2.5.3 - Copyright 2020-2024, INTI/Salvador E. Tropea - License:)
   /usr/bin/kicad-diff.py
 KiCost: 1.1.18 (KiCost v1.1.18)
   /usr/local/bin/kicost
-KiKit: 1.3.0.8 (kikit, version 1.3.0-8)
+KiKit: 1.4.0.1 (kikit, version 1.4.0-1)
   /usr/bin/kikit
 OpenSCAD: 2021.1.0 (OpenSCAD version 2021.01)
   /usr/bin/openscad
@@ -69,10 +70,6 @@ RSVG tools: 2.54.5 (rsvg-convert version 2.54.5)
   /usr/bin/rsvg-convert
 Xvfb: Ok (xvfb-run)
   /usr/bin/rsvg-convert
-
-* Python module `mistune` not installed, too old or incompatible
-  Install the `python3-mistune` package, i.e.: `sudo apt-get install python3-mistune`
-  - Mandatory for `populate`
 
 Environment:
 CI
@@ -116,10 +113,13 @@ GITHUB_WORKSPACE
 HOME
 HOSTNAME
 INTERACTIVE_HTML_BOM_NO_DISPLAY
+KIBOT_ITERATION
+KIBOT_REPO_HASH
 KICAD6_3RD_PARTY
 KICAD6_FOOTPRINT_DIR
 KICAD6_SYMBOL_DIR
 KICAD6_TEMPLATE_DIR
+KICAD_AUTO_FULL
 KICAD_USER_TEMPLATE_DIR
 KIPRJMOD
 KISYSMOD
@@ -136,7 +136,7 @@ RUNNER_WORKSPACE
 TZ
 
 KiAuto:
-This is KiAuto v2.2.7
+This is KiAuto v2.2.8
 Installed at: /usr/bin/pcbnew_do
 Using kiauto module from: /usr/lib/python3/dist-packages/kiauto
 Interpreted by Python: /usr/bin/python3 (v3.11.2 (main, Mar 13 2023, 12:18:29) [GCC 12.2.0])
