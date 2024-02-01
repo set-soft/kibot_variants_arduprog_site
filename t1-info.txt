@@ -1,12 +1,12 @@
 KiBot installation checker
 
 Core:
-Linux: 6.2.0.1019 (Linux d0be98dd2fb8 6.2.0-1019-azure #19~22.04.1-Ubuntu SMP Wed Jan 10 22:57:03 UTC 2024 x86_64 GNU/Linux)
+Linux: 6.2.0.1019 (Linux 3f333bf0eae3 6.2.0-1019-azure #19~22.04.1-Ubuntu SMP Wed Jan 10 22:57:03 UTC 2024 x86_64 GNU/Linux)
   /usr/bin/uname
 Python: 3.11.2 (main, Mar 13 2023, 12:18:29) [GCC 12.2.0]
   /usr/lib/python3.11/os.py
   /usr/bin/python3
-KiCad: 6.0.11+dfsg-1
+KiCad: 7.0.9-7.0.9~ubuntu23.04.1
   /usr/lib/python3/dist-packages/pcbnew.py
   /usr/bin/kicad
 Kibot: 1.6.4
@@ -119,8 +119,11 @@ KICAD6_3RD_PARTY
 KICAD6_FOOTPRINT_DIR
 KICAD6_SYMBOL_DIR
 KICAD6_TEMPLATE_DIR
+KICAD7_3RD_PARTY
+KICAD7_FOOTPRINT_DIR
+KICAD7_SYMBOL_DIR
+KICAD7_TEMPLATE_DIR
 KICAD_AUTO_FULL
-KICAD_USER_TEMPLATE_DIR
 KIPRJMOD
 KISYSMOD
 LC_CTYPE
@@ -141,7 +144,7 @@ Installed at: /usr/bin/pcbnew_do
 Using kiauto module from: /usr/lib/python3/dist-packages/kiauto
 Interpreted by Python: /usr/bin/python3 (v3.11.2 (main, Mar 13 2023, 12:18:29) [GCC 12.2.0])
 Tools:
-- kicad: /usr/bin/kicad (v6.0.11+dfsg-1)
+- kicad: /usr/bin/kicad (v7.0.9-7.0.9~ubuntu23.04.1)
 - xdotool: /usr/bin/xdotool
 - recordmydesktop: /usr/bin/recordmydesktop
 - xsltproc: /usr/bin/xsltproc
