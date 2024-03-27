@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "7.0.9-7.0.9~ubuntu23.04.1"
+      "Version": "8.0.1+dfsg-1"
     },
-    "CreationDate": "2024-02-01T16:10:13+00:00"
+    "CreationDate": "2024-03-27T09:48:08+00:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -127,44 +127,53 @@
     },
     {
       "Type": "SolderMask",
+      "Thickness": 0.01,
       "Name": "Top Solder Mask"
     },
     {
       "Type": "Copper",
+      "Thickness": 0.035,
       "Name": "F.Cu"
     },
     {
       "Type": "Dielectric",
+      "Thickness": 0.48,
       "Material": "FR4",
       "Name": "F.Cu/GND.Cu",
       "Notes": "Type: dielectric layer 1 (from F.Cu to GND.Cu)"
     },
     {
       "Type": "Copper",
+      "Thickness": 0.035,
       "Name": "GND.Cu"
     },
     {
       "Type": "Dielectric",
+      "Thickness": 0.48,
       "Material": "FR4",
       "Name": "GND.Cu/Power.Cu",
       "Notes": "Type: dielectric layer 2 (from GND.Cu to Power.Cu)"
     },
     {
       "Type": "Copper",
+      "Thickness": 0.035,
       "Name": "Power.Cu"
     },
     {
       "Type": "Dielectric",
+      "Thickness": 0.48,
       "Material": "FR4",
       "Name": "Power.Cu/B.Cu",
       "Notes": "Type: dielectric layer 3 (from Power.Cu to B.Cu)"
     },
     {
       "Type": "Copper",
+      "Thickness": 0.035,
       "Name": "B.Cu"
     },
     {
       "Type": "SolderMask",
+      "Thickness": 0.01,
       "Name": "Bottom Solder Mask"
     },
     {

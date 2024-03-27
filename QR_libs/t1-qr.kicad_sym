@@ -9,35 +9,35 @@
 
     )
     (property "Footprint" "QR:QR_data" (at 0 -10.45 0)
-      (effects (font (size 1.27 1.27)) hide)
+      (effects (font (size 1.27 1.27)) (hide yes))
 
     )
     (property "Datasheet" "" (at 0 -12.15 0)
-      (effects (font (size 1.27 1.27)) hide)
+      (effects (font (size 1.27 1.27)) (hide yes))
 
     )
     (property "qr_version" "2" (at 0 -13.85 0)
-      (effects (font (size 1.27 1.27)) hide)
+      (effects (font (size 1.27 1.27)) (hide yes))
 
     )
     (property "qr_size" "25" (at 0 -15.55 0)
-      (effects (font (size 1.27 1.27)) hide)
+      (effects (font (size 1.27 1.27)) (hide yes))
 
     )
     (property "qr_ecc" "1,0" (at 0 -17.25 0)
-      (effects (font (size 1.27 1.27)) hide)
+      (effects (font (size 1.27 1.27)) (hide yes))
 
     )
     (property "qr_mask" "2" (at 0 -18.95 0)
-      (effects (font (size 1.27 1.27)) hide)
+      (effects (font (size 1.27 1.27)) (hide yes))
 
     )
     (property "qr_text" "Arduino UNO programmer r1" (at 0 -20.65 0)
-      (effects (font (size 1.27 1.27)) hide)
+      (effects (font (size 1.27 1.27)) (hide yes))
 
     )
     (property "Sim.Enable" "0" (at 0 -22.35 0)
-      (effects (font (size 1.27 1.27)) hide)
+      (effects (font (size 1.27 1.27)) (hide yes))
 
     )
     (rectangle (start -7.5 7.5) (end -6.9 6.9)
@@ -1331,35 +1331,35 @@
 
     )
     (property "Footprint" "QR:QR_kibot" (at 0 -10.45 0)
-      (effects (font (size 1.27 1.27)) hide)
+      (effects (font (size 1.27 1.27)) (hide yes))
 
     )
     (property "Datasheet" "" (at 0 -12.15 0)
-      (effects (font (size 1.27 1.27)) hide)
+      (effects (font (size 1.27 1.27)) (hide yes))
 
     )
     (property "qr_version" "3" (at 0 -13.85 0)
-      (effects (font (size 1.27 1.27)) hide)
+      (effects (font (size 1.27 1.27)) (hide yes))
 
     )
     (property "qr_size" "29" (at 0 -15.55 0)
-      (effects (font (size 1.27 1.27)) hide)
+      (effects (font (size 1.27 1.27)) (hide yes))
 
     )
     (property "qr_ecc" "1,0" (at 0 -17.25 0)
-      (effects (font (size 1.27 1.27)) hide)
+      (effects (font (size 1.27 1.27)) (hide yes))
 
     )
     (property "qr_mask" "1" (at 0 -18.95 0)
-      (effects (font (size 1.27 1.27)) hide)
+      (effects (font (size 1.27 1.27)) (hide yes))
 
     )
     (property "qr_text" "https://github.com/INTI-CMNB/KiBot/" (at 0 -20.65 0)
-      (effects (font (size 1.27 1.27)) hide)
+      (effects (font (size 1.27 1.27)) (hide yes))
 
     )
     (property "Sim.Enable" "0" (at 0 -22.35 0)
-      (effects (font (size 1.27 1.27)) hide)
+      (effects (font (size 1.27 1.27)) (hide yes))
 
     )
     (rectangle (start -7.5 7.5) (end -6.98 6.98)

@@ -1,13 +1,11 @@
 <?xml version='1.0' encoding='ASCII' standalone='yes'?>
 <svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="297.0022mm" height="210.0072mm" viewBox="0.0000 0.0000 297.0022 210.0072">
-<svg:text x="35.0000" y="11.6500" font-size="1.7333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="start" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="1.4281">1</svg:text><svg:text x="85.0000" y="11.6500" font-size="1.7333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="start" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="1.4281">2</svg:text><svg:text x="135.0000" y="11.6500" font-size="1.7333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="start" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="1.4281">3</svg:text><svg:text x="185.0000" y="11.6500" font-size="1.7333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="start" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="1.4281">4</svg:text><svg:text x="235.0000" y="11.6500" font-size="1.7333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="start" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="1.4281">5</svg:text><svg:text x="285.0000" y="11.6500" font-size="1.7333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="start" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="1.4281">6</svg:text><svg:text x="35.0000" y="199.6500" font-size="1.7333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="start" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="1.4281">1</svg:text><svg:text x="85.0000" y="199.6500" font-size="1.7333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="start" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="1.4281">2</svg:text><svg:text x="135.0000" y="199.6500" font-size="1.7333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="start" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="1.4281">3</svg:text><svg:text x="185.0000" y="199.6500" font-size="1.7333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="start" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="1.4281">4</svg:text><svg:text x="235.0000" y="199.6500" font-size="1.7333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="start" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="1.4281">5</svg:text><svg:text x="285.0000" y="199.6500" font-size="1.7333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="start" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="1.4281">6</svg:text><svg:text x="11.0000" y="35.6500" font-size="1.7333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="middle" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="1.3043">A</svg:text><svg:text x="11.0000" y="85.6500" font-size="1.7333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="middle" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="1.4900">B</svg:text><svg:text x="11.0000" y="135.6500" font-size="1.7333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="middle" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="1.4900">C</svg:text><svg:text x="11.0000" y="185.6500" font-size="1.7333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="middle" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="1.4900">D</svg:text><svg:text x="286.0000" y="35.6500" font-size="1.7333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="middle" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="1.3043">A</svg:text><svg:text x="286.0000" y="85.6500" font-size="1.7333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="middle" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="1.4900">B</svg:text><svg:text x="286.0000" y="135.6500" font-size="1.7333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="middle" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="1.4900">C</svg:text><svg:text x="286.0000" y="185.6500" font-size="1.7333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="middle" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="1.4900">D</svg:text><svg:text x="200.0000" y="193.8500" font-size="2.0000" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="start" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="35.5786">Date: 2024-02-01_16-05-01</svg:text><svg:text x="178.0000" y="196.6500" font-size="2.0000" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="start" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="63.7929">KiCad E.D.A. 7.0.9-7.0.9~ubuntu23.04.1 + KiBot v1.6.4</svg:text><svg:text x="263.0000" y="193.8500" font-size="2.0000" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="start" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="19.1714">Rev: ${git_hash}</svg:text><svg:text x="178.0000" y="193.8500" font-size="2.0000" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="start" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="9.3643">Size: A4</svg:text><svg:text x="263.0000" y="196.6500" font-size="2.0000" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="start" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="8.5071">Id: 7/8</svg:text><svg:text x="178.0000" y="190.3000" font-size="2.6667" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="start" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="9.3571">Title: </svg:text><svg:text x="178.0000" y="186.4500" font-size="2.0000" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="start" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="20.1500">File: t1.kicad_pcb</svg:text><svg:text x="178.0000" y="183.7500" font-size="2.0000" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="start" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="33.7929">Sheet: Bottom documentation</svg:text><svg:text x="178.0000" y="180.7500" font-size="2.0000" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="start" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="49.5286">Instituto Nacional de Tecnolog&#237;a Industrial</svg:text><svg:text x="178.0000" y="168.7500" font-size="2.0000" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="start" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="33.7214">An example of KiBot variants</svg:text><svg:g transform="rotate(-359.985813 146.5019 62.6118)"><svg:text x="146.5019" y="63.1118" font-size="1.3333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="middle" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="9.8690">63.0010 mm</svg:text></svg:g><svg:g transform="rotate(89.998391 179.9017 83.4923)"><svg:text x="179.9017" y="83.9923" font-size="1.3333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="middle" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="9.8690">35.6156 mm</svg:text></svg:g><svg:text x="141.1224" y="86.9362" font-size="1.3333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="middle" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="2.9643">TP9</svg:text><svg:text x="141.0716" y="83.3040" font-size="1.3333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="middle" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="7.1071">TestPoint</svg:text><svg:text x="143.5862" y="72.4836" font-size="1.3333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="middle" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="2.9643">TP8</svg:text><svg:text x="144.2212" y="68.7244" font-size="1.3333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="middle" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="7.1071">TestPoint</svg:text><svg:text x="132.8928" y="72.4074" font-size="1.3333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="middle" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="2.9643">TP6</svg:text><svg:text x="132.2832" y="68.6482" font-size="1.3333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="middle" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="7.1071">TestPoint</svg:text><svg:text x="117.9576" y="86.3520" font-size="1.3333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="middle" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="2.9643">TP5</svg:text><svg:text x="113.1824" y="84.5740" font-size="1.3333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="middle" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="7.1071">TestPoint</svg:text><svg:text x="118.0338" y="83.0754" font-size="1.3333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="middle" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="2.9643">TP4</svg:text><svg:text x="113.0046" y="81.1450" font-size="1.3333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="middle" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="7.1071">TestPoint</svg:text><svg:text x="125.4760" y="80.4846" font-size="1.3333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="middle" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="2.9643">TP3</svg:text><svg:text x="124.9172" y="77.2080" font-size="1.3333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="middle" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="7.1071">TestPoint</svg:text><svg:text x="129.2098" y="82.1124" font-size="1.3333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="middle" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="2.9643">TP2</svg:text><svg:text x="131.1656" y="78.8336" font-size="1.3333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="middle" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="7.1071">TestPoint</svg:text><title>SVG Image created as t1-B_Fab.svg date 2024/02/01 16:10:31 </title>
+<svg:text x="35.0000" y="11.6500" font-size="1.7333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="start" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="1.4281">1</svg:text><svg:text x="85.0000" y="11.6500" font-size="1.7333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="start" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="1.4281">2</svg:text><svg:text x="135.0000" y="11.6500" font-size="1.7333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="start" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="1.4281">3</svg:text><svg:text x="185.0000" y="11.6500" font-size="1.7333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="start" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="1.4281">4</svg:text><svg:text x="235.0000" y="11.6500" font-size="1.7333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="start" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="1.4281">5</svg:text><svg:text x="285.0000" y="11.6500" font-size="1.7333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="start" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="1.4281">6</svg:text><svg:text x="35.0000" y="199.6500" font-size="1.7333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="start" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="1.4281">1</svg:text><svg:text x="85.0000" y="199.6500" font-size="1.7333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="start" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="1.4281">2</svg:text><svg:text x="135.0000" y="199.6500" font-size="1.7333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="start" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="1.4281">3</svg:text><svg:text x="185.0000" y="199.6500" font-size="1.7333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="start" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="1.4281">4</svg:text><svg:text x="235.0000" y="199.6500" font-size="1.7333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="start" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="1.4281">5</svg:text><svg:text x="285.0000" y="199.6500" font-size="1.7333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="start" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="1.4281">6</svg:text><svg:text x="11.0000" y="35.6500" font-size="1.7333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="middle" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="1.3043">A</svg:text><svg:text x="11.0000" y="85.6500" font-size="1.7333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="middle" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="1.4900">B</svg:text><svg:text x="11.0000" y="135.6500" font-size="1.7333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="middle" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="1.4900">C</svg:text><svg:text x="11.0000" y="185.6500" font-size="1.7333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="middle" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="1.4900">D</svg:text><svg:text x="286.0000" y="35.6500" font-size="1.7333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="middle" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="1.3043">A</svg:text><svg:text x="286.0000" y="85.6500" font-size="1.7333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="middle" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="1.4900">B</svg:text><svg:text x="286.0000" y="135.6500" font-size="1.7333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="middle" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="1.4900">C</svg:text><svg:text x="286.0000" y="185.6500" font-size="1.7333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="middle" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="1.4900">D</svg:text><svg:text x="200.0000" y="193.8500" font-size="2.0000" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="start" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="35.5786">Date: 2024-03-27_09-43-16</svg:text><svg:text x="178.0000" y="196.6500" font-size="2.0000" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="start" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="48.8643">KiCad E.D.A. 8.0.1+dfsg-1 + KiBot v1.6.5</svg:text><svg:text x="263.0000" y="193.8500" font-size="2.0000" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="start" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="19.1714">Rev: ${git_hash}</svg:text><svg:text x="178.0000" y="193.8500" font-size="2.0000" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="start" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="9.3643">Size: A4</svg:text><svg:text x="263.0000" y="196.6500" font-size="2.0000" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="start" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="8.5071">Id: 7/8</svg:text><svg:text x="178.0000" y="190.3000" font-size="2.6667" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="start" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="9.3571">Title: </svg:text><svg:text x="178.0000" y="186.4500" font-size="2.0000" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="start" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="20.1500">File: t1.kicad_pcb</svg:text><svg:text x="178.0000" y="183.7500" font-size="2.0000" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="start" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="33.7929">Sheet: Bottom documentation</svg:text><svg:text x="178.0000" y="180.7500" font-size="2.0000" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="start" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="49.5286">Instituto Nacional de Tecnolog&#237;a Industrial</svg:text><svg:text x="178.0000" y="168.7500" font-size="2.0000" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="start" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="33.7214">An example of KiBot variants</svg:text><svg:g transform="rotate(359.985813 146.5019 62.6118)"><svg:text x="146.5019" y="63.1118" font-size="1.3333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="middle" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="9.8690">63.0010 mm</svg:text></svg:g><svg:g transform="rotate(270.001609 179.9017 83.4923)"><svg:text x="179.9017" y="83.9923" font-size="1.3333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="middle" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="9.8690">35.6156 mm</svg:text></svg:g><svg:text x="141.1224" y="86.9362" font-size="1.3333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="middle" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="2.9643">TP9</svg:text><svg:text x="141.0716" y="83.3040" font-size="1.3333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="middle" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="7.1071">TestPoint</svg:text><svg:text x="143.5862" y="72.4836" font-size="1.3333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="middle" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="2.9643">TP8</svg:text><svg:text x="144.2212" y="68.7244" font-size="1.3333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="middle" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="7.1071">TestPoint</svg:text><svg:text x="132.8928" y="72.4074" font-size="1.3333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="middle" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="2.9643">TP6</svg:text><svg:text x="132.2832" y="68.6482" font-size="1.3333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="middle" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="7.1071">TestPoint</svg:text><svg:text x="117.9576" y="86.3520" font-size="1.3333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="middle" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="2.9643">TP5</svg:text><svg:text x="113.1824" y="84.5740" font-size="1.3333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="middle" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="7.1071">TestPoint</svg:text><svg:text x="118.0338" y="83.0754" font-size="1.3333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="middle" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="2.9643">TP4</svg:text><svg:text x="113.0046" y="81.1450" font-size="1.3333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="middle" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="7.1071">TestPoint</svg:text><svg:text x="125.4760" y="80.4846" font-size="1.3333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="middle" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="2.9643">TP3</svg:text><svg:text x="124.9172" y="77.2080" font-size="1.3333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="middle" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="7.1071">TestPoint</svg:text><svg:text x="129.2098" y="82.1124" font-size="1.3333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="middle" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="2.9643">TP2</svg:text><svg:text x="131.1656" y="78.8336" font-size="1.3333" font-family="monospace" font-weight="normal" letter-spacing="0" text-anchor="middle" fill="#FFFFFF" lengthAdjust="spacingAndGlyphs" textLength="7.1071">TestPoint</svg:text><title>SVG Image created as t1-B_Fab.svg date 2024/03/27 09:48:26 </title>
   <desc>Image generated by PCBNEW </desc>
 <g style="fill:#000084; fill-opacity:1.0000;stroke:#000084; stroke-opacity:1.0000; stroke-linecap:round; stroke-linejoin:round;" transform="translate(0 0) scale(1 1)">
 </g>
-<g style="fill:#000084; fill-opacity:0.0;  stroke:#000084; stroke-width:0.0000; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;">
-</g>
-<g style="fill:#000084; fill-opacity:0.0;  stroke:#000084; stroke-width:0.1500; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;">
-<text x="131.1656" y="78.8336" transform="scale(-1 1) translate(-262.331200 0)" textLength="7.1071" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">TestPoint</text>
+<g style="fill:none;  stroke:#000084; stroke-width:0.1500; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;">
+<text x="131.1656" y="78.8336" textLength="7.1071" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">TestPoint</text>
 <g class="stroked-text"><desc>TestPoint</desc>
 <path d="M127.8323 77.7884 L128.4037 77.7884 "/>
 <path d="M128.1180 78.7884 L128.1180 77.7884 "/>
@@ -87,7 +85,7 @@
 <path d="M134.2608 78.6456 L134.3085 78.7408 "/>
 <path d="M134.3085 78.7408 L134.4037 78.7884 "/>
 <path d="M134.4037 78.7884 L134.4989 78.7884 "/>
-</g><text x="129.2098" y="82.1124" transform="scale(-1 1) translate(-258.419600 0)" textLength="2.9643" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">TP2</text>
+</g><text x="129.2098" y="82.1124" textLength="2.9643" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">TP2</text>
 <g class="stroked-text"><desc>TP2</desc>
 <path d="M127.9479 81.0672 L128.5193 81.0672 "/>
 <path d="M128.2336 82.0672 L128.2336 81.0672 "/>
@@ -111,7 +109,7 @@
 <path d="M130.3765 81.3529 L130.3288 81.4958 "/>
 <path d="M130.3288 81.4958 L129.7574 82.0672 "/>
 <path d="M129.7574 82.0672 L130.3765 82.0672 "/>
-</g><text x="124.9172" y="77.2080" transform="scale(-1 1) translate(-249.834400 0)" textLength="7.1071" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">TestPoint</text>
+</g><text x="124.9172" y="77.2080" textLength="7.1071" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">TestPoint</text>
 <g class="stroked-text"><desc>TestPoint</desc>
 <path d="M121.5839 76.1628 L122.1553 76.1628 "/>
 <path d="M121.8696 77.1628 L121.8696 76.1628 "/>
@@ -191,7 +189,7 @@
 <path d="M128.0124 77.0200 L128.0601 77.1152 "/>
 <path d="M128.0601 77.1152 L128.1553 77.1628 "/>
 <path d="M128.1553 77.1628 L128.2505 77.1628 "/>
-</g><text x="125.4760" y="80.4846" transform="scale(-1 1) translate(-250.952000 0)" textLength="2.9643" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">TP3</text>
+</g><text x="125.4760" y="80.4846" textLength="2.9643" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">TP3</text>
 <g class="stroked-text"><desc>TP3</desc>
 <path d="M124.2141 79.4394 L124.7855 79.4394 "/>
 <path d="M124.4998 80.4394 L124.4998 79.4394 "/>
@@ -218,7 +216,7 @@
 <path d="M126.4522 80.4394 L126.1665 80.4394 "/>
 <path d="M126.1665 80.4394 L126.0712 80.3918 "/>
 <path d="M126.0712 80.3918 L126.0236 80.3442 "/>
-</g><text x="113.0046" y="81.1450" transform="scale(-1 1) translate(-226.009200 0)" textLength="7.1071" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">TestPoint</text>
+</g><text x="113.0046" y="81.1450" textLength="7.1071" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">TestPoint</text>
 <g class="stroked-text"><desc>TestPoint</desc>
 <path d="M109.6713 80.0998 L110.2427 80.0998 "/>
 <path d="M109.9570 81.0998 L109.9570 80.0998 "/>
@@ -298,7 +296,7 @@
 <path d="M116.0998 80.9570 L116.1475 81.0522 "/>
 <path d="M116.1475 81.0522 L116.2427 81.0998 "/>
 <path d="M116.2427 81.0998 L116.3379 81.0998 "/>
-</g><text x="118.0338" y="83.0754" transform="scale(-1 1) translate(-236.067600 0)" textLength="2.9643" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">TP4</text>
+</g><text x="118.0338" y="83.0754" textLength="2.9643" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">TP4</text>
 <g class="stroked-text"><desc>TP4</desc>
 <path d="M116.7719 82.0302 L117.3433 82.0302 "/>
 <path d="M117.0576 83.0302 L117.0576 82.0302 "/>
@@ -315,7 +313,7 @@
 <path d="M119.1052 82.3636 L119.1052 83.0302 "/>
 <path d="M118.8671 81.9826 L118.6290 82.6969 "/>
 <path d="M118.6290 82.6969 L119.2481 82.6969 "/>
-</g><text x="113.1824" y="84.5740" transform="scale(-1 1) translate(-226.364800 0)" textLength="7.1071" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">TestPoint</text>
+</g><text x="113.1824" y="84.5740" textLength="7.1071" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">TestPoint</text>
 <g class="stroked-text"><desc>TestPoint</desc>
 <path d="M109.8491 83.5288 L110.4205 83.5288 "/>
 <path d="M110.1348 84.5288 L110.1348 83.5288 "/>
@@ -395,7 +393,7 @@
 <path d="M116.2776 84.3860 L116.3253 84.4812 "/>
 <path d="M116.3253 84.4812 L116.4205 84.5288 "/>
 <path d="M116.4205 84.5288 L116.5157 84.5288 "/>
-</g><text x="117.9576" y="86.3520" transform="scale(-1 1) translate(-235.915200 0)" textLength="2.9643" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">TP5</text>
+</g><text x="117.9576" y="86.3520" textLength="2.9643" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">TP5</text>
 <g class="stroked-text"><desc>TP5</desc>
 <path d="M116.6957 85.3068 L117.2671 85.3068 "/>
 <path d="M116.9814 86.3068 L116.9814 85.3068 "/>
@@ -424,7 +422,7 @@
 <path d="M118.9338 86.3068 L118.6957 86.3068 "/>
 <path d="M118.6957 86.3068 L118.6005 86.2592 "/>
 <path d="M118.6005 86.2592 L118.5528 86.2116 "/>
-</g><text x="132.2832" y="68.6482" transform="scale(-1 1) translate(-264.566400 0)" textLength="7.1071" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">TestPoint</text>
+</g><text x="132.2832" y="68.6482" textLength="7.1071" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">TestPoint</text>
 <g class="stroked-text"><desc>TestPoint</desc>
 <path d="M128.9499 67.6030 L129.5213 67.6030 "/>
 <path d="M129.2356 68.6030 L129.2356 67.6030 "/>
@@ -504,7 +502,7 @@
 <path d="M135.3784 68.4602 L135.4261 68.5554 "/>
 <path d="M135.4261 68.5554 L135.5213 68.6030 "/>
 <path d="M135.5213 68.6030 L135.6165 68.6030 "/>
-</g><text x="132.8928" y="72.4074" transform="scale(-1 1) translate(-265.785600 0)" textLength="2.9643" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">TP6</text>
+</g><text x="132.8928" y="72.4074" textLength="2.9643" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">TP6</text>
 <g class="stroked-text"><desc>TP6</desc>
 <path d="M131.6309 71.3622 L132.2023 71.3622 "/>
 <path d="M131.9166 72.3622 L131.9166 71.3622 "/>
@@ -539,7 +537,7 @@
 <path d="M133.6785 71.7432 L133.5833 71.7908 "/>
 <path d="M133.5833 71.7908 L133.5357 71.8384 "/>
 <path d="M133.5357 71.8384 L133.4880 71.9336 "/>
-</g><text x="144.2212" y="68.7244" transform="scale(-1 1) translate(-288.442400 0)" textLength="7.1071" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">TestPoint</text>
+</g><text x="144.2212" y="68.7244" textLength="7.1071" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">TestPoint</text>
 <g class="stroked-text"><desc>TestPoint</desc>
 <path d="M140.8879 67.6792 L141.4593 67.6792 "/>
 <path d="M141.1736 68.6792 L141.1736 67.6792 "/>
@@ -619,7 +617,7 @@
 <path d="M147.3164 68.5364 L147.3641 68.6316 "/>
 <path d="M147.3641 68.6316 L147.4593 68.6792 "/>
 <path d="M147.4593 68.6792 L147.5545 68.6792 "/>
-</g><text x="143.5862" y="72.4836" transform="scale(-1 1) translate(-287.172400 0)" textLength="2.9643" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">TP8</text>
+</g><text x="143.5862" y="72.4836" textLength="2.9643" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">TP8</text>
 <g class="stroked-text"><desc>TP8</desc>
 <path d="M142.3243 71.4384 L142.8957 71.4384 "/>
 <path d="M142.6100 72.4384 L142.6100 71.4384 "/>
@@ -664,7 +662,7 @@
 <path d="M144.7529 72.0575 L144.7052 71.9622 "/>
 <path d="M144.7052 71.9622 L144.6576 71.9146 "/>
 <path d="M144.6576 71.9146 L144.5624 71.8670 "/>
-</g><text x="141.0716" y="83.3040" transform="scale(-1 1) translate(-282.143200 0)" textLength="7.1071" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">TestPoint</text>
+</g><text x="141.0716" y="83.3040" textLength="7.1071" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">TestPoint</text>
 <g class="stroked-text"><desc>TestPoint</desc>
 <path d="M137.7383 82.2588 L138.3097 82.2588 "/>
 <path d="M138.0240 83.2588 L138.0240 82.2588 "/>
@@ -744,7 +742,7 @@
 <path d="M144.1668 83.1160 L144.2145 83.2112 "/>
 <path d="M144.2145 83.2112 L144.3097 83.2588 "/>
 <path d="M144.3097 83.2588 L144.4049 83.2588 "/>
-</g><text x="141.1224" y="86.9362" transform="scale(-1 1) translate(-282.244800 0)" textLength="2.9643" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">TP9</text>
+</g><text x="141.1224" y="86.9362" textLength="2.9643" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">TP9</text>
 <g class="stroked-text"><desc>TP9</desc>
 <path d="M139.8605 85.8910 L140.4319 85.8910 "/>
 <path d="M140.1462 86.8910 L140.1462 85.8910 "/>
@@ -779,228 +777,24 @@
 <path d="M142.0986 86.5101 L142.1938 86.4624 "/>
 <path d="M142.1938 86.4624 L142.2414 86.4148 "/>
 <path d="M142.2414 86.4148 L142.2891 86.3196 "/>
-</g><g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-</g> 
-<svg:g><svg:g><svg:title>SVG Image created as t1-Edge_Cuts.svg date 2024/02/01 16:10:31 </svg:title>
+</g></g> 
+<svg:g><svg:g><svg:title>SVG Image created as t1-Edge_Cuts.svg date 2024/03/27 09:48:26 </svg:title>
   <svg:desc>Image generated by PCBNEW </svg:desc>
 <svg:g style="fill:#C2C200; fill-opacity:1.0000;stroke:#C2C200; stroke-opacity:1.0000; stroke-linecap:round; stroke-linejoin:round;" transform="translate(0 0) scale(1 1)">
 </svg:g>
-<svg:g style="fill:#C2C200; fill-opacity:0.0;  stroke:#C2C200; stroke-width:0.0000; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;">
-</svg:g>
-<svg:g style="fill:#C2C200; fill-opacity:0.0;  stroke:#C2C200; stroke-width:0.0500; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;">
+<svg:g style="fill:none;  stroke:#C2C200; stroke-width:0.0500; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;">
 <svg:path d="M178.0022 101.3000 L115.0022 101.3000 "/>
 <svg:path d="M115.0022 101.3000 L115.0022 65.7000 "/>
 <svg:path d="M178.0022 65.7000 L178.0022 101.3000 "/>
 <svg:path d="M115.0022 65.7000 L178.0022 65.7000 "/>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
 </svg:g> 
-</svg:g></svg:g><svg:g><svg:g><svg:title>SVG Image created as t1-User_Drawings.svg date 2024/02/01 16:10:31 </svg:title>
+</svg:g></svg:g><svg:g><svg:g><svg:title>SVG Image created as t1-User_Drawings.svg date 2024/03/27 09:48:26 </svg:title>
   <svg:desc>Image generated by PCBNEW </svg:desc>
 <svg:g style="fill:#C2C2C2; fill-opacity:1.0000;stroke:#C2C2C2; stroke-opacity:1.0000; stroke-linecap:round; stroke-linejoin:round;" transform="translate(0 0) scale(1 1)">
 </svg:g>
-<svg:g style="fill:#C2C2C2; fill-opacity:0.0;  stroke:#C2C2C2; stroke-width:0.0000; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;">
-</svg:g>
-<svg:g style="fill:#C2C2C2; fill-opacity:0.0;  stroke:#C2C2C2; stroke-width:0.1500; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;">
-<svg:g transform="rotate(89.998391 179.9017 83.4923)">
-<svg:text x="179.9017" y="83.9923" transform="scale(-1 1) translate(-359.803428 0)" textLength="9.8690" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">35.6156 mm</svg:text>
+<svg:g style="fill:none;  stroke:#C2C2C2; stroke-width:0.1500; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;">
+<svg:g transform="rotate(270.001609 179.9017 83.4923)">
+<svg:text x="179.9017" y="83.9923" textLength="9.8690" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">35.6156 mm</svg:text>
 </svg:g>
 <svg:g class="stroked-text"><svg:desc>35.6156 mm</svg:desc>
 <svg:path d="M179.3564 88.1589 L179.3564 87.5399 "/>
@@ -1132,8 +926,8 @@
 <svg:path d="M181.0512 101.3001 L180.4648 100.1736 "/>
 <svg:path d="M181.0522 65.6845 L180.4658 66.8110 "/>
 <svg:path d="M181.0522 65.6845 L181.6386 66.8110 "/>
-<svg:g transform="rotate(-359.985813 146.5019 62.6118)">
-<svg:text x="146.5019" y="63.1118" transform="scale(-1 1) translate(-293.003874 0)" textLength="9.8690" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">63.0010 mm</svg:text>
+<svg:g transform="rotate(359.985813 146.5019 62.6118)">
+<svg:text x="146.5019" y="63.1118" textLength="9.8690" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">63.0010 mm</svg:text>
 </svg:g>
 <svg:g class="stroked-text"><svg:desc>63.0010 mm</svg:desc>
 <svg:path d="M142.3589 62.0676 L142.1685 62.0677 "/>
@@ -1274,226 +1068,22 @@
 <svg:path d="M178.0027 63.7540 L176.8764 64.3407 "/>
 <svg:path d="M115.0017 63.7696 L116.1284 64.3557 "/>
 <svg:path d="M115.0017 63.7696 L116.1281 63.1829 "/>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
 </svg:g> 
-</svg:g></svg:g><svg:g><svg:g><svg:title>SVG Image created as t1-User_Comments.svg date 2024/02/01 16:10:31 </svg:title>
+</svg:g></svg:g><svg:g><svg:g><svg:title>SVG Image created as t1-User_Comments.svg date 2024/03/27 09:48:26 </svg:title>
   <svg:desc>Image generated by PCBNEW </svg:desc>
 <svg:g style="fill:#000084; fill-opacity:1.0000;stroke:#000084; stroke-opacity:1.0000; stroke-linecap:round; stroke-linejoin:round;" transform="translate(0 0) scale(1 1)">
 </svg:g>
-<svg:g style="fill:#000084; fill-opacity:0.0;  stroke:#000084; stroke-width:0.0000; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;">
-</svg:g>
-<svg:g style="fill:#000084; fill-opacity:0.0;  stroke:#000084; stroke-width:0.1500; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;">
+<svg:g style="fill:none;  stroke:#000084; stroke-width:0.1500; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;">
 <svg:circle cx="120.0022" cy="97.0000" r="2.7000"/> 
 <svg:circle cx="174.0022" cy="97.0000" r="2.7000"/> 
 <svg:circle cx="174.0022" cy="69.5000" r="2.7000"/> 
 <svg:circle cx="120.0022" cy="69.5000" r="2.7000"/> 
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
 </svg:g> 
-</svg:g></svg:g><svg:g><svg:g><svg:title>SVG Image created as t1-frame.svg date 2024/02/01 16:10:31 </svg:title>
+</svg:g></svg:g><svg:g><svg:g><svg:title>SVG Image created as t1-frame.svg date 2024/03/27 09:48:26 </svg:title>
   <svg:desc>Image generated by PCBNEW </svg:desc>
 <svg:g style="fill:#480000; fill-opacity:1.0000;stroke:#480000; stroke-opacity:1.0000; stroke-linecap:round; stroke-linejoin:round;" transform="translate(0 0) scale(1 1)">
 </svg:g>
-<svg:g style="fill:#480000; fill-opacity:0.0;  stroke:#480000; stroke-width:0.0000; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;">
-</svg:g>
-<svg:g style="fill:#480000; fill-opacity:0.0;  stroke:#480000; stroke-width:0.1500; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;">
+<svg:g style="fill:none;  stroke:#480000; stroke-width:0.1500; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;">
 <svg:path d="M261.0000 191.5000 L261.0000 198.0000 "/>
 <svg:path d="M197.0000 191.5000 L197.0000 194.5000 "/>
 <svg:text x="178.0000" y="168.7500" textLength="33.7214" font-size="2.0000" lengthAdjust="spacingAndGlyphs" text-anchor="start" opacity="0">An example of KiBot variants</svg:text>
@@ -1714,7 +1304,7 @@
 <svg:path d="M210.9558 167.6861 L211.1701 167.6861 "/>
 <svg:path d="M211.1701 167.6861 L211.3130 167.7576 "/>
 </svg:g></svg:g>
-<svg:g style="fill:#480000; fill-opacity:0.0;  stroke:#480000; stroke-width:0.3000; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;">
+<svg:g style="fill:none;  stroke:#480000; stroke-width:0.3000; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;">
 <svg:text x="178.0000" y="180.7500" textLength="49.5286" font-size="2.0000" lengthAdjust="spacingAndGlyphs" text-anchor="start" opacity="0">Instituto Nacional de Tecnolog&#237;a Industrial</svg:text>
 <svg:g class="stroked-text"><svg:desc>Instituto Nacional de Tecnolog&#237;a Industrial</svg:desc>
 <svg:path d="M178.5545 180.6783 L178.5545 179.1783 "/>
@@ -2058,7 +1648,7 @@
 <svg:path d="M226.7688 180.6069 L226.6974 180.4640 "/>
 <svg:path d="M226.6974 180.4640 L226.6974 179.1783 "/>
 </svg:g></svg:g>
-<svg:g style="fill:#480000; fill-opacity:0.0;  stroke:#480000; stroke-width:0.1500; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;">
+<svg:g style="fill:none;  stroke:#480000; stroke-width:0.1500; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;">
 <svg:text x="178.0000" y="183.7500" textLength="33.7929" font-size="2.0000" lengthAdjust="spacingAndGlyphs" text-anchor="start" opacity="0">Sheet: Bottom documentation</svg:text>
 <svg:g class="stroked-text"><svg:desc>Sheet: Bottom documentation</svg:desc>
 <svg:path d="M178.3844 183.6147 L178.5987 183.6861 "/>
@@ -2465,7 +2055,7 @@
 <svg:path d="M197.5273 186.3861 L197.2415 186.3861 "/>
 <svg:path d="M197.2415 186.3861 L197.0987 186.3147 "/>
 </svg:g></svg:g>
-<svg:g style="fill:#480000; fill-opacity:0.0;  stroke:#480000; stroke-width:0.3000; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;">
+<svg:g style="fill:none;  stroke:#480000; stroke-width:0.3000; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;">
 <svg:text x="178.0000" y="190.3000" textLength="9.3571" font-size="2.6667" lengthAdjust="spacingAndGlyphs" text-anchor="start" opacity="0">Title: </svg:text>
 <svg:g class="stroked-text"><svg:desc>Title: </svg:desc>
 <svg:path d="M178.6259 188.2096 L179.7688 188.2096 "/>
@@ -2507,7 +2097,7 @@
 <svg:path d="M185.0902 189.0668 L185.1974 188.9715 "/>
 <svg:path d="M185.1974 188.9715 L185.1736 189.1620 "/>
 </svg:g></svg:g>
-<svg:g style="fill:#480000; fill-opacity:0.0;  stroke:#480000; stroke-width:0.1500; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;">
+<svg:g style="fill:none;  stroke:#480000; stroke-width:0.1500; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;">
 <svg:path d="M177.0000 187.5000 L285.0000 187.5000 "/>
 <svg:text x="263.0000" y="196.6500" textLength="8.5071" font-size="2.0000" lengthAdjust="spacingAndGlyphs" text-anchor="start" opacity="0">Id: 7/8</svg:text>
 <svg:g class="stroked-text"><svg:desc>Id: 7/8</svg:desc>
@@ -2627,7 +2217,7 @@
 <svg:path d="M186.5273 192.2147 L186.1701 193.2861 "/>
 <svg:path d="M186.1701 193.2861 L187.0987 193.2861 "/>
 </svg:g></svg:g>
-<svg:g style="fill:#480000; fill-opacity:0.0;  stroke:#480000; stroke-width:0.3000; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;">
+<svg:g style="fill:none;  stroke:#480000; stroke-width:0.3000; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;">
 <svg:text x="263.0000" y="193.8500" textLength="19.1714" font-size="2.0000" lengthAdjust="spacingAndGlyphs" text-anchor="start" opacity="0">Rev: ${git_hash}</svg:text>
 <svg:g class="stroked-text"><svg:desc>Rev: ${git_hash}</svg:desc>
 <svg:path d="M264.4117 193.7783 L263.9117 193.0640 "/>
@@ -2782,10 +2372,10 @@
 <svg:path d="M281.1974 192.1355 L281.0545 192.0640 "/>
 <svg:path d="M281.0545 192.0640 L280.9831 192.0640 "/>
 </svg:g></svg:g>
-<svg:g style="fill:#480000; fill-opacity:0.0;  stroke:#480000; stroke-width:0.1500; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;">
+<svg:g style="fill:none;  stroke:#480000; stroke-width:0.1500; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;">
 <svg:path d="M177.0000 191.5000 L285.0000 191.5000 "/>
-<svg:text x="178.0000" y="196.6500" textLength="63.7929" font-size="2.0000" lengthAdjust="spacingAndGlyphs" text-anchor="start" opacity="0">KiCad E.D.A. 7.0.9-7.0.9~ubuntu23.04.1 + KiBot v1.6.4</svg:text>
-<svg:g class="stroked-text"><svg:desc>KiCad E.D.A. 7.0.9-7.0.9~ubuntu23.04.1 + KiBot v1.6.4</svg:desc>
+<svg:text x="178.0000" y="196.6500" textLength="48.8643" font-size="2.0000" lengthAdjust="spacingAndGlyphs" text-anchor="start" opacity="0">KiCad E.D.A. 8.0.1+dfsg-1 + KiBot v1.6.5</svg:text>
+<svg:g class="stroked-text"><svg:desc>KiCad E.D.A. 8.0.1+dfsg-1 + KiBot v1.6.5</svg:desc>
 <svg:path d="M178.4558 196.5861 L178.4558 195.0861 "/>
 <svg:path d="M179.3130 196.5861 L178.6701 195.7290 "/>
 <svg:path d="M179.3130 195.0861 L178.4558 195.9433 "/>
@@ -2870,8 +2460,37 @@
 <svg:path d="M191.5987 196.5861 L191.5273 196.5147 "/>
 <svg:path d="M191.5273 196.5147 L191.5987 196.4433 "/>
 <svg:path d="M191.5987 196.4433 L191.5987 196.5861 "/>
-<svg:path d="M193.3130 195.0861 L194.3130 195.0861 "/>
-<svg:path d="M194.3130 195.0861 L193.6701 196.5861 "/>
+<svg:path d="M193.6701 195.7290 L193.5273 195.6576 "/>
+<svg:path d="M193.5273 195.6576 L193.4558 195.5861 "/>
+<svg:path d="M193.4558 195.5861 L193.3844 195.4433 "/>
+<svg:path d="M193.3844 195.4433 L193.3844 195.3718 "/>
+<svg:path d="M193.3844 195.3718 L193.4558 195.2290 "/>
+<svg:path d="M193.4558 195.2290 L193.5273 195.1576 "/>
+<svg:path d="M193.5273 195.1576 L193.6701 195.0861 "/>
+<svg:path d="M193.6701 195.0861 L193.9558 195.0861 "/>
+<svg:path d="M193.9558 195.0861 L194.0987 195.1576 "/>
+<svg:path d="M194.0987 195.1576 L194.1701 195.2290 "/>
+<svg:path d="M194.1701 195.2290 L194.2415 195.3718 "/>
+<svg:path d="M194.2415 195.3718 L194.2415 195.4433 "/>
+<svg:path d="M194.2415 195.4433 L194.1701 195.5861 "/>
+<svg:path d="M194.1701 195.5861 L194.0987 195.6576 "/>
+<svg:path d="M194.0987 195.6576 L193.9558 195.7290 "/>
+<svg:path d="M193.9558 195.7290 L193.6701 195.7290 "/>
+<svg:path d="M193.6701 195.7290 L193.5273 195.8004 "/>
+<svg:path d="M193.5273 195.8004 L193.4558 195.8718 "/>
+<svg:path d="M193.4558 195.8718 L193.3844 196.0147 "/>
+<svg:path d="M193.3844 196.0147 L193.3844 196.3004 "/>
+<svg:path d="M193.3844 196.3004 L193.4558 196.4433 "/>
+<svg:path d="M193.4558 196.4433 L193.5273 196.5147 "/>
+<svg:path d="M193.5273 196.5147 L193.6701 196.5861 "/>
+<svg:path d="M193.6701 196.5861 L193.9558 196.5861 "/>
+<svg:path d="M193.9558 196.5861 L194.0987 196.5147 "/>
+<svg:path d="M194.0987 196.5147 L194.1701 196.4433 "/>
+<svg:path d="M194.1701 196.4433 L194.2415 196.3004 "/>
+<svg:path d="M194.2415 196.3004 L194.2415 196.0147 "/>
+<svg:path d="M194.2415 196.0147 L194.1701 195.8718 "/>
+<svg:path d="M194.1701 195.8718 L194.0987 195.8004 "/>
+<svg:path d="M194.0987 195.8004 L193.9558 195.7290 "/>
 <svg:path d="M194.8844 196.4433 L194.9558 196.5147 "/>
 <svg:path d="M194.9558 196.5147 L194.8844 196.5861 "/>
 <svg:path d="M194.8844 196.5861 L194.8130 196.5147 "/>
@@ -2902,286 +2521,174 @@
 <svg:path d="M197.0273 196.5861 L196.9558 196.5147 "/>
 <svg:path d="M196.9558 196.5147 L197.0273 196.4433 "/>
 <svg:path d="M197.0273 196.4433 L197.0273 196.5861 "/>
-<svg:path d="M197.8130 196.5861 L198.0987 196.5861 "/>
-<svg:path d="M198.0987 196.5861 L198.2415 196.5147 "/>
-<svg:path d="M198.2415 196.5147 L198.3130 196.4433 "/>
-<svg:path d="M198.3130 196.4433 L198.4558 196.2290 "/>
-<svg:path d="M198.4558 196.2290 L198.5273 195.9433 "/>
-<svg:path d="M198.5273 195.9433 L198.5273 195.3718 "/>
-<svg:path d="M198.5273 195.3718 L198.4558 195.2290 "/>
-<svg:path d="M198.4558 195.2290 L198.3844 195.1576 "/>
-<svg:path d="M198.3844 195.1576 L198.2415 195.0861 "/>
-<svg:path d="M198.2415 195.0861 L197.9558 195.0861 "/>
-<svg:path d="M197.9558 195.0861 L197.8130 195.1576 "/>
-<svg:path d="M197.8130 195.1576 L197.7415 195.2290 "/>
-<svg:path d="M197.7415 195.2290 L197.6701 195.3718 "/>
-<svg:path d="M197.6701 195.3718 L197.6701 195.7290 "/>
-<svg:path d="M197.6701 195.7290 L197.7415 195.8718 "/>
-<svg:path d="M197.7415 195.8718 L197.8130 195.9433 "/>
-<svg:path d="M197.8130 195.9433 L197.9558 196.0147 "/>
-<svg:path d="M197.9558 196.0147 L198.2415 196.0147 "/>
-<svg:path d="M198.2415 196.0147 L198.3844 195.9433 "/>
-<svg:path d="M198.3844 195.9433 L198.4558 195.8718 "/>
-<svg:path d="M198.4558 195.8718 L198.5273 195.7290 "/>
+<svg:path d="M198.5273 196.5861 L197.6701 196.5861 "/>
+<svg:path d="M198.0987 196.5861 L198.0987 195.0861 "/>
+<svg:path d="M198.0987 195.0861 L197.9558 195.3004 "/>
+<svg:path d="M197.9558 195.3004 L197.8130 195.4433 "/>
+<svg:path d="M197.8130 195.4433 L197.6701 195.5147 "/>
 <svg:path d="M199.1701 196.0147 L200.3130 196.0147 "/>
-<svg:path d="M200.8844 195.0861 L201.8844 195.0861 "/>
-<svg:path d="M201.8844 195.0861 L201.2415 196.5861 "/>
-<svg:path d="M202.4558 196.4433 L202.5273 196.5147 "/>
-<svg:path d="M202.5273 196.5147 L202.4558 196.5861 "/>
-<svg:path d="M202.4558 196.5861 L202.3844 196.5147 "/>
-<svg:path d="M202.3844 196.5147 L202.4558 196.4433 "/>
-<svg:path d="M202.4558 196.4433 L202.4558 196.5861 "/>
-<svg:path d="M203.4558 195.0861 L203.5987 195.0861 "/>
-<svg:path d="M203.5987 195.0861 L203.7415 195.1576 "/>
-<svg:path d="M203.7415 195.1576 L203.8130 195.2290 "/>
-<svg:path d="M203.8130 195.2290 L203.8844 195.3718 "/>
-<svg:path d="M203.8844 195.3718 L203.9558 195.6576 "/>
-<svg:path d="M203.9558 195.6576 L203.9558 196.0147 "/>
-<svg:path d="M203.9558 196.0147 L203.8844 196.3004 "/>
-<svg:path d="M203.8844 196.3004 L203.8130 196.4433 "/>
-<svg:path d="M203.8130 196.4433 L203.7415 196.5147 "/>
-<svg:path d="M203.7415 196.5147 L203.5987 196.5861 "/>
-<svg:path d="M203.5987 196.5861 L203.4558 196.5861 "/>
-<svg:path d="M203.4558 196.5861 L203.3130 196.5147 "/>
-<svg:path d="M203.3130 196.5147 L203.2415 196.4433 "/>
-<svg:path d="M203.2415 196.4433 L203.1701 196.3004 "/>
-<svg:path d="M203.1701 196.3004 L203.0987 196.0147 "/>
-<svg:path d="M203.0987 196.0147 L203.0987 195.6576 "/>
-<svg:path d="M203.0987 195.6576 L203.1701 195.3718 "/>
-<svg:path d="M203.1701 195.3718 L203.2415 195.2290 "/>
-<svg:path d="M203.2415 195.2290 L203.3130 195.1576 "/>
-<svg:path d="M203.3130 195.1576 L203.4558 195.0861 "/>
-<svg:path d="M204.5987 196.4433 L204.6701 196.5147 "/>
-<svg:path d="M204.6701 196.5147 L204.5987 196.5861 "/>
-<svg:path d="M204.5987 196.5861 L204.5273 196.5147 "/>
-<svg:path d="M204.5273 196.5147 L204.5987 196.4433 "/>
-<svg:path d="M204.5987 196.4433 L204.5987 196.5861 "/>
-<svg:path d="M205.3844 196.5861 L205.6701 196.5861 "/>
-<svg:path d="M205.6701 196.5861 L205.8130 196.5147 "/>
-<svg:path d="M205.8130 196.5147 L205.8844 196.4433 "/>
-<svg:path d="M205.8844 196.4433 L206.0273 196.2290 "/>
-<svg:path d="M206.0273 196.2290 L206.0987 195.9433 "/>
-<svg:path d="M206.0987 195.9433 L206.0987 195.3718 "/>
-<svg:path d="M206.0987 195.3718 L206.0273 195.2290 "/>
-<svg:path d="M206.0273 195.2290 L205.9558 195.1576 "/>
-<svg:path d="M205.9558 195.1576 L205.8130 195.0861 "/>
-<svg:path d="M205.8130 195.0861 L205.5273 195.0861 "/>
-<svg:path d="M205.5273 195.0861 L205.3844 195.1576 "/>
-<svg:path d="M205.3844 195.1576 L205.3130 195.2290 "/>
-<svg:path d="M205.3130 195.2290 L205.2415 195.3718 "/>
-<svg:path d="M205.2415 195.3718 L205.2415 195.7290 "/>
-<svg:path d="M205.2415 195.7290 L205.3130 195.8718 "/>
-<svg:path d="M205.3130 195.8718 L205.3844 195.9433 "/>
-<svg:path d="M205.3844 195.9433 L205.5273 196.0147 "/>
-<svg:path d="M205.5273 196.0147 L205.8130 196.0147 "/>
-<svg:path d="M205.8130 196.0147 L205.9558 195.9433 "/>
-<svg:path d="M205.9558 195.9433 L206.0273 195.8718 "/>
-<svg:path d="M206.0273 195.8718 L206.0987 195.7290 "/>
-<svg:path d="M206.5273 196.0147 L206.5987 195.9433 "/>
-<svg:path d="M206.5987 195.9433 L206.7415 195.8718 "/>
-<svg:path d="M206.7415 195.8718 L207.0273 196.0147 "/>
-<svg:path d="M207.0273 196.0147 L207.1701 195.9433 "/>
-<svg:path d="M207.1701 195.9433 L207.2415 195.8718 "/>
-<svg:path d="M208.4558 195.5861 L208.4558 196.5861 "/>
-<svg:path d="M207.8130 195.5861 L207.8130 196.3718 "/>
-<svg:path d="M207.8130 196.3718 L207.8844 196.5147 "/>
-<svg:path d="M207.8844 196.5147 L208.0273 196.5861 "/>
-<svg:path d="M208.0273 196.5861 L208.2415 196.5861 "/>
-<svg:path d="M208.2415 196.5861 L208.3844 196.5147 "/>
-<svg:path d="M208.3844 196.5147 L208.4558 196.4433 "/>
-<svg:path d="M209.1701 196.5861 L209.1701 195.0861 "/>
-<svg:path d="M209.1701 195.6576 L209.3130 195.5861 "/>
-<svg:path d="M209.3130 195.5861 L209.5987 195.5861 "/>
-<svg:path d="M209.5987 195.5861 L209.7415 195.6576 "/>
-<svg:path d="M209.7415 195.6576 L209.8130 195.7290 "/>
-<svg:path d="M209.8130 195.7290 L209.8844 195.8718 "/>
-<svg:path d="M209.8844 195.8718 L209.8844 196.3004 "/>
-<svg:path d="M209.8844 196.3004 L209.8130 196.4433 "/>
-<svg:path d="M209.8130 196.4433 L209.7415 196.5147 "/>
-<svg:path d="M209.7415 196.5147 L209.5987 196.5861 "/>
-<svg:path d="M209.5987 196.5861 L209.3130 196.5861 "/>
-<svg:path d="M209.3130 196.5861 L209.1701 196.5147 "/>
-<svg:path d="M211.1701 195.5861 L211.1701 196.5861 "/>
-<svg:path d="M210.5273 195.5861 L210.5273 196.3718 "/>
-<svg:path d="M210.5273 196.3718 L210.5987 196.5147 "/>
-<svg:path d="M210.5987 196.5147 L210.7415 196.5861 "/>
-<svg:path d="M210.7415 196.5861 L210.9558 196.5861 "/>
-<svg:path d="M210.9558 196.5861 L211.0987 196.5147 "/>
-<svg:path d="M211.0987 196.5147 L211.1701 196.4433 "/>
-<svg:path d="M211.8844 195.5861 L211.8844 196.5861 "/>
-<svg:path d="M211.8844 195.7290 L211.9558 195.6576 "/>
-<svg:path d="M211.9558 195.6576 L212.0987 195.5861 "/>
-<svg:path d="M212.0987 195.5861 L212.3130 195.5861 "/>
-<svg:path d="M212.3130 195.5861 L212.4558 195.6576 "/>
-<svg:path d="M212.4558 195.6576 L212.5273 195.8004 "/>
-<svg:path d="M212.5273 195.8004 L212.5273 196.5861 "/>
-<svg:path d="M213.0273 195.5861 L213.5987 195.5861 "/>
-<svg:path d="M213.2415 195.0861 L213.2415 196.3718 "/>
-<svg:path d="M213.2415 196.3718 L213.3130 196.5147 "/>
-<svg:path d="M213.3130 196.5147 L213.4558 196.5861 "/>
-<svg:path d="M213.4558 196.5861 L213.5987 196.5861 "/>
-<svg:path d="M214.7415 195.5861 L214.7415 196.5861 "/>
-<svg:path d="M214.0987 195.5861 L214.0987 196.3718 "/>
-<svg:path d="M214.0987 196.3718 L214.1701 196.5147 "/>
-<svg:path d="M214.1701 196.5147 L214.3130 196.5861 "/>
-<svg:path d="M214.3130 196.5861 L214.5273 196.5861 "/>
-<svg:path d="M214.5273 196.5861 L214.6701 196.5147 "/>
-<svg:path d="M214.6701 196.5147 L214.7415 196.4433 "/>
-<svg:path d="M215.3844 195.2290 L215.4558 195.1576 "/>
-<svg:path d="M215.4558 195.1576 L215.5987 195.0861 "/>
-<svg:path d="M215.5987 195.0861 L215.9558 195.0861 "/>
+<svg:path d="M199.7415 196.5861 L199.7415 195.4433 "/>
+<svg:path d="M201.6701 196.5861 L201.6701 195.0861 "/>
+<svg:path d="M201.6701 196.5147 L201.5273 196.5861 "/>
+<svg:path d="M201.5273 196.5861 L201.2415 196.5861 "/>
+<svg:path d="M201.2415 196.5861 L201.0987 196.5147 "/>
+<svg:path d="M201.0987 196.5147 L201.0273 196.4433 "/>
+<svg:path d="M201.0273 196.4433 L200.9558 196.3004 "/>
+<svg:path d="M200.9558 196.3004 L200.9558 195.8718 "/>
+<svg:path d="M200.9558 195.8718 L201.0273 195.7290 "/>
+<svg:path d="M201.0273 195.7290 L201.0987 195.6576 "/>
+<svg:path d="M201.0987 195.6576 L201.2415 195.5861 "/>
+<svg:path d="M201.2415 195.5861 L201.5273 195.5861 "/>
+<svg:path d="M201.5273 195.5861 L201.6701 195.6576 "/>
+<svg:path d="M202.1701 195.5861 L202.7415 195.5861 "/>
+<svg:path d="M202.3844 196.5861 L202.3844 195.3004 "/>
+<svg:path d="M202.3844 195.3004 L202.4558 195.1576 "/>
+<svg:path d="M202.4558 195.1576 L202.5987 195.0861 "/>
+<svg:path d="M202.5987 195.0861 L202.7415 195.0861 "/>
+<svg:path d="M203.1701 196.5147 L203.3130 196.5861 "/>
+<svg:path d="M203.3130 196.5861 L203.5987 196.5861 "/>
+<svg:path d="M203.5987 196.5861 L203.7415 196.5147 "/>
+<svg:path d="M203.7415 196.5147 L203.8130 196.3718 "/>
+<svg:path d="M203.8130 196.3718 L203.8130 196.3004 "/>
+<svg:path d="M203.8130 196.3004 L203.7415 196.1576 "/>
+<svg:path d="M203.7415 196.1576 L203.5987 196.0861 "/>
+<svg:path d="M203.5987 196.0861 L203.3844 196.0861 "/>
+<svg:path d="M203.3844 196.0861 L203.2415 196.0147 "/>
+<svg:path d="M203.2415 196.0147 L203.1701 195.8718 "/>
+<svg:path d="M203.1701 195.8718 L203.1701 195.8004 "/>
+<svg:path d="M203.1701 195.8004 L203.2415 195.6576 "/>
+<svg:path d="M203.2415 195.6576 L203.3844 195.5861 "/>
+<svg:path d="M203.3844 195.5861 L203.5987 195.5861 "/>
+<svg:path d="M203.5987 195.5861 L203.7415 195.6576 "/>
+<svg:path d="M205.0987 195.5861 L205.0987 196.8004 "/>
+<svg:path d="M205.0987 196.8004 L205.0273 196.9433 "/>
+<svg:path d="M205.0273 196.9433 L204.9558 197.0147 "/>
+<svg:path d="M204.9558 197.0147 L204.8130 197.0861 "/>
+<svg:path d="M204.8130 197.0861 L204.5987 197.0861 "/>
+<svg:path d="M204.5987 197.0861 L204.4558 197.0147 "/>
+<svg:path d="M205.0987 196.5147 L204.9558 196.5861 "/>
+<svg:path d="M204.9558 196.5861 L204.6701 196.5861 "/>
+<svg:path d="M204.6701 196.5861 L204.5273 196.5147 "/>
+<svg:path d="M204.5273 196.5147 L204.4558 196.4433 "/>
+<svg:path d="M204.4558 196.4433 L204.3844 196.3004 "/>
+<svg:path d="M204.3844 196.3004 L204.3844 195.8718 "/>
+<svg:path d="M204.3844 195.8718 L204.4558 195.7290 "/>
+<svg:path d="M204.4558 195.7290 L204.5273 195.6576 "/>
+<svg:path d="M204.5273 195.6576 L204.6701 195.5861 "/>
+<svg:path d="M204.6701 195.5861 L204.9558 195.5861 "/>
+<svg:path d="M204.9558 195.5861 L205.0987 195.6576 "/>
+<svg:path d="M205.8130 196.0147 L206.9558 196.0147 "/>
+<svg:path d="M208.4558 196.5861 L207.5987 196.5861 "/>
+<svg:path d="M208.0273 196.5861 L208.0273 195.0861 "/>
+<svg:path d="M208.0273 195.0861 L207.8844 195.3004 "/>
+<svg:path d="M207.8844 195.3004 L207.7415 195.4433 "/>
+<svg:path d="M207.7415 195.4433 L207.5987 195.5147 "/>
+<svg:path d="M210.2415 196.0147 L211.3844 196.0147 "/>
+<svg:path d="M210.8130 196.5861 L210.8130 195.4433 "/>
+<svg:path d="M213.2415 196.5861 L213.2415 195.0861 "/>
+<svg:path d="M214.0987 196.5861 L213.4558 195.7290 "/>
+<svg:path d="M214.0987 195.0861 L213.2415 195.9433 "/>
+<svg:path d="M214.7415 196.5861 L214.7415 195.5861 "/>
+<svg:path d="M214.7415 195.0861 L214.6701 195.1576 "/>
+<svg:path d="M214.6701 195.1576 L214.7415 195.2290 "/>
+<svg:path d="M214.7415 195.2290 L214.8130 195.1576 "/>
+<svg:path d="M214.8130 195.1576 L214.7415 195.0861 "/>
+<svg:path d="M214.7415 195.0861 L214.7415 195.2290 "/>
+<svg:path d="M215.9558 195.8004 L216.1701 195.8718 "/>
+<svg:path d="M216.1701 195.8718 L216.2415 195.9433 "/>
+<svg:path d="M216.2415 195.9433 L216.3130 196.0861 "/>
+<svg:path d="M216.3130 196.0861 L216.3130 196.3004 "/>
+<svg:path d="M216.3130 196.3004 L216.2415 196.4433 "/>
+<svg:path d="M216.2415 196.4433 L216.1701 196.5147 "/>
+<svg:path d="M216.1701 196.5147 L216.0273 196.5861 "/>
+<svg:path d="M216.0273 196.5861 L215.4558 196.5861 "/>
+<svg:path d="M215.4558 196.5861 L215.4558 195.0861 "/>
+<svg:path d="M215.4558 195.0861 L215.9558 195.0861 "/>
 <svg:path d="M215.9558 195.0861 L216.0987 195.1576 "/>
 <svg:path d="M216.0987 195.1576 L216.1701 195.2290 "/>
 <svg:path d="M216.1701 195.2290 L216.2415 195.3718 "/>
 <svg:path d="M216.2415 195.3718 L216.2415 195.5147 "/>
-<svg:path d="M216.2415 195.5147 L216.1701 195.7290 "/>
-<svg:path d="M216.1701 195.7290 L215.3130 196.5861 "/>
-<svg:path d="M215.3130 196.5861 L216.2415 196.5861 "/>
-<svg:path d="M216.7415 195.0861 L217.6701 195.0861 "/>
-<svg:path d="M217.6701 195.0861 L217.1701 195.6576 "/>
-<svg:path d="M217.1701 195.6576 L217.3844 195.6576 "/>
-<svg:path d="M217.3844 195.6576 L217.5273 195.7290 "/>
-<svg:path d="M217.5273 195.7290 L217.5987 195.8004 "/>
-<svg:path d="M217.5987 195.8004 L217.6701 195.9433 "/>
-<svg:path d="M217.6701 195.9433 L217.6701 196.3004 "/>
+<svg:path d="M216.2415 195.5147 L216.1701 195.6576 "/>
+<svg:path d="M216.1701 195.6576 L216.0987 195.7290 "/>
+<svg:path d="M216.0987 195.7290 L215.9558 195.8004 "/>
+<svg:path d="M215.9558 195.8004 L215.4558 195.8004 "/>
+<svg:path d="M217.1701 196.5861 L217.0273 196.5147 "/>
+<svg:path d="M217.0273 196.5147 L216.9558 196.4433 "/>
+<svg:path d="M216.9558 196.4433 L216.8844 196.3004 "/>
+<svg:path d="M216.8844 196.3004 L216.8844 195.8718 "/>
+<svg:path d="M216.8844 195.8718 L216.9558 195.7290 "/>
+<svg:path d="M216.9558 195.7290 L217.0273 195.6576 "/>
+<svg:path d="M217.0273 195.6576 L217.1701 195.5861 "/>
+<svg:path d="M217.1701 195.5861 L217.3844 195.5861 "/>
+<svg:path d="M217.3844 195.5861 L217.5273 195.6576 "/>
+<svg:path d="M217.5273 195.6576 L217.5987 195.7290 "/>
+<svg:path d="M217.5987 195.7290 L217.6701 195.8718 "/>
+<svg:path d="M217.6701 195.8718 L217.6701 196.3004 "/>
 <svg:path d="M217.6701 196.3004 L217.5987 196.4433 "/>
 <svg:path d="M217.5987 196.4433 L217.5273 196.5147 "/>
 <svg:path d="M217.5273 196.5147 L217.3844 196.5861 "/>
-<svg:path d="M217.3844 196.5861 L216.9558 196.5861 "/>
-<svg:path d="M216.9558 196.5861 L216.8130 196.5147 "/>
-<svg:path d="M216.8130 196.5147 L216.7415 196.4433 "/>
-<svg:path d="M218.3130 196.4433 L218.3844 196.5147 "/>
-<svg:path d="M218.3844 196.5147 L218.3130 196.5861 "/>
-<svg:path d="M218.3130 196.5861 L218.2415 196.5147 "/>
-<svg:path d="M218.2415 196.5147 L218.3130 196.4433 "/>
-<svg:path d="M218.3130 196.4433 L218.3130 196.5861 "/>
-<svg:path d="M219.3130 195.0861 L219.4558 195.0861 "/>
-<svg:path d="M219.4558 195.0861 L219.5987 195.1576 "/>
-<svg:path d="M219.5987 195.1576 L219.6701 195.2290 "/>
-<svg:path d="M219.6701 195.2290 L219.7415 195.3718 "/>
-<svg:path d="M219.7415 195.3718 L219.8130 195.6576 "/>
-<svg:path d="M219.8130 195.6576 L219.8130 196.0147 "/>
-<svg:path d="M219.8130 196.0147 L219.7415 196.3004 "/>
-<svg:path d="M219.7415 196.3004 L219.6701 196.4433 "/>
-<svg:path d="M219.6701 196.4433 L219.5987 196.5147 "/>
-<svg:path d="M219.5987 196.5147 L219.4558 196.5861 "/>
-<svg:path d="M219.4558 196.5861 L219.3130 196.5861 "/>
-<svg:path d="M219.3130 196.5861 L219.1701 196.5147 "/>
-<svg:path d="M219.1701 196.5147 L219.0987 196.4433 "/>
-<svg:path d="M219.0987 196.4433 L219.0273 196.3004 "/>
-<svg:path d="M219.0273 196.3004 L218.9558 196.0147 "/>
-<svg:path d="M218.9558 196.0147 L218.9558 195.6576 "/>
-<svg:path d="M218.9558 195.6576 L219.0273 195.3718 "/>
-<svg:path d="M219.0273 195.3718 L219.0987 195.2290 "/>
-<svg:path d="M219.0987 195.2290 L219.1701 195.1576 "/>
-<svg:path d="M219.1701 195.1576 L219.3130 195.0861 "/>
-<svg:path d="M221.0987 195.5861 L221.0987 196.5861 "/>
-<svg:path d="M220.7415 195.0147 L220.3844 196.0861 "/>
-<svg:path d="M220.3844 196.0861 L221.3130 196.0861 "/>
-<svg:path d="M221.8844 196.4433 L221.9558 196.5147 "/>
-<svg:path d="M221.9558 196.5147 L221.8844 196.5861 "/>
-<svg:path d="M221.8844 196.5861 L221.8130 196.5147 "/>
-<svg:path d="M221.8130 196.5147 L221.8844 196.4433 "/>
-<svg:path d="M221.8844 196.4433 L221.8844 196.5861 "/>
-<svg:path d="M223.3844 196.5861 L222.5273 196.5861 "/>
-<svg:path d="M222.9558 196.5861 L222.9558 195.0861 "/>
-<svg:path d="M222.9558 195.0861 L222.8130 195.3004 "/>
-<svg:path d="M222.8130 195.3004 L222.6701 195.4433 "/>
-<svg:path d="M222.6701 195.4433 L222.5273 195.5147 "/>
-<svg:path d="M225.1701 196.0147 L226.3130 196.0147 "/>
-<svg:path d="M225.7415 196.5861 L225.7415 195.4433 "/>
-<svg:path d="M228.1701 196.5861 L228.1701 195.0861 "/>
-<svg:path d="M229.0273 196.5861 L228.3844 195.7290 "/>
-<svg:path d="M229.0273 195.0861 L228.1701 195.9433 "/>
-<svg:path d="M229.6701 196.5861 L229.6701 195.5861 "/>
-<svg:path d="M229.6701 195.0861 L229.5987 195.1576 "/>
-<svg:path d="M229.5987 195.1576 L229.6701 195.2290 "/>
-<svg:path d="M229.6701 195.2290 L229.7415 195.1576 "/>
-<svg:path d="M229.7415 195.1576 L229.6701 195.0861 "/>
-<svg:path d="M229.6701 195.0861 L229.6701 195.2290 "/>
-<svg:path d="M230.8844 195.8004 L231.0987 195.8718 "/>
-<svg:path d="M231.0987 195.8718 L231.1701 195.9433 "/>
-<svg:path d="M231.1701 195.9433 L231.2415 196.0861 "/>
-<svg:path d="M231.2415 196.0861 L231.2415 196.3004 "/>
-<svg:path d="M231.2415 196.3004 L231.1701 196.4433 "/>
-<svg:path d="M231.1701 196.4433 L231.0987 196.5147 "/>
-<svg:path d="M231.0987 196.5147 L230.9558 196.5861 "/>
-<svg:path d="M230.9558 196.5861 L230.3844 196.5861 "/>
-<svg:path d="M230.3844 196.5861 L230.3844 195.0861 "/>
-<svg:path d="M230.3844 195.0861 L230.8844 195.0861 "/>
-<svg:path d="M230.8844 195.0861 L231.0273 195.1576 "/>
-<svg:path d="M231.0273 195.1576 L231.0987 195.2290 "/>
-<svg:path d="M231.0987 195.2290 L231.1701 195.3718 "/>
-<svg:path d="M231.1701 195.3718 L231.1701 195.5147 "/>
-<svg:path d="M231.1701 195.5147 L231.0987 195.6576 "/>
-<svg:path d="M231.0987 195.6576 L231.0273 195.7290 "/>
-<svg:path d="M231.0273 195.7290 L230.8844 195.8004 "/>
-<svg:path d="M230.8844 195.8004 L230.3844 195.8004 "/>
-<svg:path d="M232.0987 196.5861 L231.9558 196.5147 "/>
-<svg:path d="M231.9558 196.5147 L231.8844 196.4433 "/>
-<svg:path d="M231.8844 196.4433 L231.8130 196.3004 "/>
-<svg:path d="M231.8130 196.3004 L231.8130 195.8718 "/>
-<svg:path d="M231.8130 195.8718 L231.8844 195.7290 "/>
-<svg:path d="M231.8844 195.7290 L231.9558 195.6576 "/>
-<svg:path d="M231.9558 195.6576 L232.0987 195.5861 "/>
-<svg:path d="M232.0987 195.5861 L232.3130 195.5861 "/>
-<svg:path d="M232.3130 195.5861 L232.4558 195.6576 "/>
-<svg:path d="M232.4558 195.6576 L232.5273 195.7290 "/>
-<svg:path d="M232.5273 195.7290 L232.5987 195.8718 "/>
-<svg:path d="M232.5987 195.8718 L232.5987 196.3004 "/>
-<svg:path d="M232.5987 196.3004 L232.5273 196.4433 "/>
-<svg:path d="M232.5273 196.4433 L232.4558 196.5147 "/>
-<svg:path d="M232.4558 196.5147 L232.3130 196.5861 "/>
-<svg:path d="M232.3130 196.5861 L232.0987 196.5861 "/>
-<svg:path d="M233.0273 195.5861 L233.5987 195.5861 "/>
-<svg:path d="M233.2415 195.0861 L233.2415 196.3718 "/>
-<svg:path d="M233.2415 196.3718 L233.3130 196.5147 "/>
-<svg:path d="M233.3130 196.5147 L233.4558 196.5861 "/>
-<svg:path d="M233.4558 196.5861 L233.5987 196.5861 "/>
-<svg:path d="M235.0987 195.5861 L235.4558 196.5861 "/>
-<svg:path d="M235.4558 196.5861 L235.8130 195.5861 "/>
-<svg:path d="M237.1701 196.5861 L236.3130 196.5861 "/>
-<svg:path d="M236.7415 196.5861 L236.7415 195.0861 "/>
-<svg:path d="M236.7415 195.0861 L236.5987 195.3004 "/>
-<svg:path d="M236.5987 195.3004 L236.4558 195.4433 "/>
-<svg:path d="M236.4558 195.4433 L236.3130 195.5147 "/>
-<svg:path d="M237.8130 196.4433 L237.8844 196.5147 "/>
-<svg:path d="M237.8844 196.5147 L237.8130 196.5861 "/>
-<svg:path d="M237.8130 196.5861 L237.7415 196.5147 "/>
-<svg:path d="M237.7415 196.5147 L237.8130 196.4433 "/>
-<svg:path d="M237.8130 196.4433 L237.8130 196.5861 "/>
-<svg:path d="M239.1701 195.0861 L238.8844 195.0861 "/>
-<svg:path d="M238.8844 195.0861 L238.7415 195.1576 "/>
-<svg:path d="M238.7415 195.1576 L238.6701 195.2290 "/>
-<svg:path d="M238.6701 195.2290 L238.5273 195.4433 "/>
-<svg:path d="M238.5273 195.4433 L238.4558 195.7290 "/>
-<svg:path d="M238.4558 195.7290 L238.4558 196.3004 "/>
-<svg:path d="M238.4558 196.3004 L238.5273 196.4433 "/>
-<svg:path d="M238.5273 196.4433 L238.5987 196.5147 "/>
-<svg:path d="M238.5987 196.5147 L238.7415 196.5861 "/>
-<svg:path d="M238.7415 196.5861 L239.0273 196.5861 "/>
-<svg:path d="M239.0273 196.5861 L239.1701 196.5147 "/>
-<svg:path d="M239.1701 196.5147 L239.2415 196.4433 "/>
-<svg:path d="M239.2415 196.4433 L239.3130 196.3004 "/>
-<svg:path d="M239.3130 196.3004 L239.3130 195.9433 "/>
-<svg:path d="M239.3130 195.9433 L239.2415 195.8004 "/>
-<svg:path d="M239.2415 195.8004 L239.1701 195.7290 "/>
-<svg:path d="M239.1701 195.7290 L239.0273 195.6576 "/>
-<svg:path d="M239.0273 195.6576 L238.7415 195.6576 "/>
-<svg:path d="M238.7415 195.6576 L238.5987 195.7290 "/>
-<svg:path d="M238.5987 195.7290 L238.5273 195.8004 "/>
-<svg:path d="M238.5273 195.8004 L238.4558 195.9433 "/>
-<svg:path d="M239.9558 196.4433 L240.0273 196.5147 "/>
-<svg:path d="M240.0273 196.5147 L239.9558 196.5861 "/>
-<svg:path d="M239.9558 196.5861 L239.8844 196.5147 "/>
-<svg:path d="M239.8844 196.5147 L239.9558 196.4433 "/>
-<svg:path d="M239.9558 196.4433 L239.9558 196.5861 "/>
-<svg:path d="M241.3130 195.5861 L241.3130 196.5861 "/>
-<svg:path d="M240.9558 195.0147 L240.5987 196.0861 "/>
-<svg:path d="M240.5987 196.0861 L241.5273 196.0861 "/>
+<svg:path d="M217.3844 196.5861 L217.1701 196.5861 "/>
+<svg:path d="M218.0987 195.5861 L218.6701 195.5861 "/>
+<svg:path d="M218.3130 195.0861 L218.3130 196.3718 "/>
+<svg:path d="M218.3130 196.3718 L218.3844 196.5147 "/>
+<svg:path d="M218.3844 196.5147 L218.5273 196.5861 "/>
+<svg:path d="M218.5273 196.5861 L218.6701 196.5861 "/>
+<svg:path d="M220.1701 195.5861 L220.5273 196.5861 "/>
+<svg:path d="M220.5273 196.5861 L220.8844 195.5861 "/>
+<svg:path d="M222.2415 196.5861 L221.3844 196.5861 "/>
+<svg:path d="M221.8130 196.5861 L221.8130 195.0861 "/>
+<svg:path d="M221.8130 195.0861 L221.6701 195.3004 "/>
+<svg:path d="M221.6701 195.3004 L221.5273 195.4433 "/>
+<svg:path d="M221.5273 195.4433 L221.3844 195.5147 "/>
+<svg:path d="M222.8844 196.4433 L222.9558 196.5147 "/>
+<svg:path d="M222.9558 196.5147 L222.8844 196.5861 "/>
+<svg:path d="M222.8844 196.5861 L222.8130 196.5147 "/>
+<svg:path d="M222.8130 196.5147 L222.8844 196.4433 "/>
+<svg:path d="M222.8844 196.4433 L222.8844 196.5861 "/>
+<svg:path d="M224.2415 195.0861 L223.9558 195.0861 "/>
+<svg:path d="M223.9558 195.0861 L223.8130 195.1576 "/>
+<svg:path d="M223.8130 195.1576 L223.7415 195.2290 "/>
+<svg:path d="M223.7415 195.2290 L223.5987 195.4433 "/>
+<svg:path d="M223.5987 195.4433 L223.5273 195.7290 "/>
+<svg:path d="M223.5273 195.7290 L223.5273 196.3004 "/>
+<svg:path d="M223.5273 196.3004 L223.5987 196.4433 "/>
+<svg:path d="M223.5987 196.4433 L223.6701 196.5147 "/>
+<svg:path d="M223.6701 196.5147 L223.8130 196.5861 "/>
+<svg:path d="M223.8130 196.5861 L224.0987 196.5861 "/>
+<svg:path d="M224.0987 196.5861 L224.2415 196.5147 "/>
+<svg:path d="M224.2415 196.5147 L224.3130 196.4433 "/>
+<svg:path d="M224.3130 196.4433 L224.3844 196.3004 "/>
+<svg:path d="M224.3844 196.3004 L224.3844 195.9433 "/>
+<svg:path d="M224.3844 195.9433 L224.3130 195.8004 "/>
+<svg:path d="M224.3130 195.8004 L224.2415 195.7290 "/>
+<svg:path d="M224.2415 195.7290 L224.0987 195.6576 "/>
+<svg:path d="M224.0987 195.6576 L223.8130 195.6576 "/>
+<svg:path d="M223.8130 195.6576 L223.6701 195.7290 "/>
+<svg:path d="M223.6701 195.7290 L223.5987 195.8004 "/>
+<svg:path d="M223.5987 195.8004 L223.5273 195.9433 "/>
+<svg:path d="M225.0273 196.4433 L225.0987 196.5147 "/>
+<svg:path d="M225.0987 196.5147 L225.0273 196.5861 "/>
+<svg:path d="M225.0273 196.5861 L224.9558 196.5147 "/>
+<svg:path d="M224.9558 196.5147 L225.0273 196.4433 "/>
+<svg:path d="M225.0273 196.4433 L225.0273 196.5861 "/>
+<svg:path d="M226.4558 195.0861 L225.7415 195.0861 "/>
+<svg:path d="M225.7415 195.0861 L225.6701 195.8004 "/>
+<svg:path d="M225.6701 195.8004 L225.7415 195.7290 "/>
+<svg:path d="M225.7415 195.7290 L225.8844 195.6576 "/>
+<svg:path d="M225.8844 195.6576 L226.2415 195.6576 "/>
+<svg:path d="M226.2415 195.6576 L226.3844 195.7290 "/>
+<svg:path d="M226.3844 195.7290 L226.4558 195.8004 "/>
+<svg:path d="M226.4558 195.8004 L226.5273 195.9433 "/>
+<svg:path d="M226.5273 195.9433 L226.5273 196.3004 "/>
+<svg:path d="M226.5273 196.3004 L226.4558 196.4433 "/>
+<svg:path d="M226.4558 196.4433 L226.3844 196.5147 "/>
+<svg:path d="M226.3844 196.5147 L226.2415 196.5861 "/>
+<svg:path d="M226.2415 196.5861 L225.8844 196.5861 "/>
+<svg:path d="M225.8844 196.5861 L225.7415 196.5147 "/>
+<svg:path d="M225.7415 196.5147 L225.6701 196.4433 "/>
 </svg:g><svg:path d="M177.0000 194.5000 L285.0000 194.5000 "/>
-<svg:text x="200.0000" y="193.8500" textLength="35.5786" font-size="2.0000" lengthAdjust="spacingAndGlyphs" text-anchor="start" opacity="0">Date: 2024-02-01_16-05-01</svg:text>
-<svg:g class="stroked-text"><svg:desc>Date: 2024-02-01_16-05-01</svg:desc>
+<svg:text x="200.0000" y="193.8500" textLength="35.5786" font-size="2.0000" lengthAdjust="spacingAndGlyphs" text-anchor="start" opacity="0">Date: 2024-03-27_09-43-16</svg:text>
+<svg:g class="stroked-text"><svg:desc>Date: 2024-03-27_09-43-16</svg:desc>
 <svg:path d="M200.4558 193.7861 L200.4558 192.2861 "/>
 <svg:path d="M200.4558 192.2861 L200.8130 192.2861 "/>
 <svg:path d="M200.8130 192.2861 L201.0273 192.3576 "/>
@@ -3299,95 +2806,81 @@
 <svg:path d="M214.8844 192.5718 L214.9558 192.4290 "/>
 <svg:path d="M214.9558 192.4290 L215.0273 192.3576 "/>
 <svg:path d="M215.0273 192.3576 L215.1701 192.2861 "/>
-<svg:path d="M216.2415 192.4290 L216.3130 192.3576 "/>
-<svg:path d="M216.3130 192.3576 L216.4558 192.2861 "/>
-<svg:path d="M216.4558 192.2861 L216.8130 192.2861 "/>
-<svg:path d="M216.8130 192.2861 L216.9558 192.3576 "/>
-<svg:path d="M216.9558 192.3576 L217.0273 192.4290 "/>
-<svg:path d="M217.0273 192.4290 L217.0987 192.5718 "/>
-<svg:path d="M217.0987 192.5718 L217.0987 192.7147 "/>
-<svg:path d="M217.0987 192.7147 L217.0273 192.9290 "/>
-<svg:path d="M217.0273 192.9290 L216.1701 193.7861 "/>
-<svg:path d="M216.1701 193.7861 L217.0987 193.7861 "/>
+<svg:path d="M216.1701 192.2861 L217.0987 192.2861 "/>
+<svg:path d="M217.0987 192.2861 L216.5987 192.8576 "/>
+<svg:path d="M216.5987 192.8576 L216.8130 192.8576 "/>
+<svg:path d="M216.8130 192.8576 L216.9558 192.9290 "/>
+<svg:path d="M216.9558 192.9290 L217.0273 193.0004 "/>
+<svg:path d="M217.0273 193.0004 L217.0987 193.1433 "/>
+<svg:path d="M217.0987 193.1433 L217.0987 193.5004 "/>
+<svg:path d="M217.0987 193.5004 L217.0273 193.6433 "/>
+<svg:path d="M217.0273 193.6433 L216.9558 193.7147 "/>
+<svg:path d="M216.9558 193.7147 L216.8130 193.7861 "/>
+<svg:path d="M216.8130 193.7861 L216.3844 193.7861 "/>
+<svg:path d="M216.3844 193.7861 L216.2415 193.7147 "/>
+<svg:path d="M216.2415 193.7147 L216.1701 193.6433 "/>
 <svg:path d="M217.7415 193.2147 L218.8844 193.2147 "/>
-<svg:path d="M219.8844 192.2861 L220.0273 192.2861 "/>
-<svg:path d="M220.0273 192.2861 L220.1701 192.3576 "/>
-<svg:path d="M220.1701 192.3576 L220.2415 192.4290 "/>
-<svg:path d="M220.2415 192.4290 L220.3130 192.5718 "/>
-<svg:path d="M220.3130 192.5718 L220.3844 192.8576 "/>
-<svg:path d="M220.3844 192.8576 L220.3844 193.2147 "/>
-<svg:path d="M220.3844 193.2147 L220.3130 193.5004 "/>
-<svg:path d="M220.3130 193.5004 L220.2415 193.6433 "/>
-<svg:path d="M220.2415 193.6433 L220.1701 193.7147 "/>
-<svg:path d="M220.1701 193.7147 L220.0273 193.7861 "/>
-<svg:path d="M220.0273 193.7861 L219.8844 193.7861 "/>
-<svg:path d="M219.8844 193.7861 L219.7415 193.7147 "/>
-<svg:path d="M219.7415 193.7147 L219.6701 193.6433 "/>
-<svg:path d="M219.6701 193.6433 L219.5987 193.5004 "/>
-<svg:path d="M219.5987 193.5004 L219.5273 193.2147 "/>
-<svg:path d="M219.5273 193.2147 L219.5273 192.8576 "/>
-<svg:path d="M219.5273 192.8576 L219.5987 192.5718 "/>
-<svg:path d="M219.5987 192.5718 L219.6701 192.4290 "/>
-<svg:path d="M219.6701 192.4290 L219.7415 192.3576 "/>
-<svg:path d="M219.7415 192.3576 L219.8844 192.2861 "/>
-<svg:path d="M221.8130 193.7861 L220.9558 193.7861 "/>
-<svg:path d="M221.3844 193.7861 L221.3844 192.2861 "/>
-<svg:path d="M221.3844 192.2861 L221.2415 192.5004 "/>
-<svg:path d="M221.2415 192.5004 L221.0987 192.6433 "/>
-<svg:path d="M221.0987 192.6433 L220.9558 192.7147 "/>
+<svg:path d="M219.5273 192.4290 L219.5987 192.3576 "/>
+<svg:path d="M219.5987 192.3576 L219.7415 192.2861 "/>
+<svg:path d="M219.7415 192.2861 L220.0987 192.2861 "/>
+<svg:path d="M220.0987 192.2861 L220.2415 192.3576 "/>
+<svg:path d="M220.2415 192.3576 L220.3130 192.4290 "/>
+<svg:path d="M220.3130 192.4290 L220.3844 192.5718 "/>
+<svg:path d="M220.3844 192.5718 L220.3844 192.7147 "/>
+<svg:path d="M220.3844 192.7147 L220.3130 192.9290 "/>
+<svg:path d="M220.3130 192.9290 L219.4558 193.7861 "/>
+<svg:path d="M219.4558 193.7861 L220.3844 193.7861 "/>
+<svg:path d="M220.8844 192.2861 L221.8844 192.2861 "/>
+<svg:path d="M221.8844 192.2861 L221.2415 193.7861 "/>
 <svg:path d="M222.0987 193.9290 L223.2415 193.9290 "/>
-<svg:path d="M224.3844 193.7861 L223.5273 193.7861 "/>
-<svg:path d="M223.9558 193.7861 L223.9558 192.2861 "/>
-<svg:path d="M223.9558 192.2861 L223.8130 192.5004 "/>
-<svg:path d="M223.8130 192.5004 L223.6701 192.6433 "/>
-<svg:path d="M223.6701 192.6433 L223.5273 192.7147 "/>
-<svg:path d="M225.6701 192.2861 L225.3844 192.2861 "/>
-<svg:path d="M225.3844 192.2861 L225.2415 192.3576 "/>
-<svg:path d="M225.2415 192.3576 L225.1701 192.4290 "/>
-<svg:path d="M225.1701 192.4290 L225.0273 192.6433 "/>
-<svg:path d="M225.0273 192.6433 L224.9558 192.9290 "/>
-<svg:path d="M224.9558 192.9290 L224.9558 193.5004 "/>
-<svg:path d="M224.9558 193.5004 L225.0273 193.6433 "/>
-<svg:path d="M225.0273 193.6433 L225.0987 193.7147 "/>
-<svg:path d="M225.0987 193.7147 L225.2415 193.7861 "/>
-<svg:path d="M225.2415 193.7861 L225.5273 193.7861 "/>
-<svg:path d="M225.5273 193.7861 L225.6701 193.7147 "/>
-<svg:path d="M225.6701 193.7147 L225.7415 193.6433 "/>
-<svg:path d="M225.7415 193.6433 L225.8130 193.5004 "/>
-<svg:path d="M225.8130 193.5004 L225.8130 193.1433 "/>
-<svg:path d="M225.8130 193.1433 L225.7415 193.0004 "/>
-<svg:path d="M225.7415 193.0004 L225.6701 192.9290 "/>
-<svg:path d="M225.6701 192.9290 L225.5273 192.8576 "/>
-<svg:path d="M225.5273 192.8576 L225.2415 192.8576 "/>
-<svg:path d="M225.2415 192.8576 L225.0987 192.9290 "/>
-<svg:path d="M225.0987 192.9290 L225.0273 193.0004 "/>
-<svg:path d="M225.0273 193.0004 L224.9558 193.1433 "/>
+<svg:path d="M223.8844 192.2861 L224.0273 192.2861 "/>
+<svg:path d="M224.0273 192.2861 L224.1701 192.3576 "/>
+<svg:path d="M224.1701 192.3576 L224.2415 192.4290 "/>
+<svg:path d="M224.2415 192.4290 L224.3130 192.5718 "/>
+<svg:path d="M224.3130 192.5718 L224.3844 192.8576 "/>
+<svg:path d="M224.3844 192.8576 L224.3844 193.2147 "/>
+<svg:path d="M224.3844 193.2147 L224.3130 193.5004 "/>
+<svg:path d="M224.3130 193.5004 L224.2415 193.6433 "/>
+<svg:path d="M224.2415 193.6433 L224.1701 193.7147 "/>
+<svg:path d="M224.1701 193.7147 L224.0273 193.7861 "/>
+<svg:path d="M224.0273 193.7861 L223.8844 193.7861 "/>
+<svg:path d="M223.8844 193.7861 L223.7415 193.7147 "/>
+<svg:path d="M223.7415 193.7147 L223.6701 193.6433 "/>
+<svg:path d="M223.6701 193.6433 L223.5987 193.5004 "/>
+<svg:path d="M223.5987 193.5004 L223.5273 193.2147 "/>
+<svg:path d="M223.5273 193.2147 L223.5273 192.8576 "/>
+<svg:path d="M223.5273 192.8576 L223.5987 192.5718 "/>
+<svg:path d="M223.5987 192.5718 L223.6701 192.4290 "/>
+<svg:path d="M223.6701 192.4290 L223.7415 192.3576 "/>
+<svg:path d="M223.7415 192.3576 L223.8844 192.2861 "/>
+<svg:path d="M225.0987 193.7861 L225.3844 193.7861 "/>
+<svg:path d="M225.3844 193.7861 L225.5273 193.7147 "/>
+<svg:path d="M225.5273 193.7147 L225.5987 193.6433 "/>
+<svg:path d="M225.5987 193.6433 L225.7415 193.4290 "/>
+<svg:path d="M225.7415 193.4290 L225.8130 193.1433 "/>
+<svg:path d="M225.8130 193.1433 L225.8130 192.5718 "/>
+<svg:path d="M225.8130 192.5718 L225.7415 192.4290 "/>
+<svg:path d="M225.7415 192.4290 L225.6701 192.3576 "/>
+<svg:path d="M225.6701 192.3576 L225.5273 192.2861 "/>
+<svg:path d="M225.5273 192.2861 L225.2415 192.2861 "/>
+<svg:path d="M225.2415 192.2861 L225.0987 192.3576 "/>
+<svg:path d="M225.0987 192.3576 L225.0273 192.4290 "/>
+<svg:path d="M225.0273 192.4290 L224.9558 192.5718 "/>
+<svg:path d="M224.9558 192.5718 L224.9558 192.9290 "/>
+<svg:path d="M224.9558 192.9290 L225.0273 193.0718 "/>
+<svg:path d="M225.0273 193.0718 L225.0987 193.1433 "/>
+<svg:path d="M225.0987 193.1433 L225.2415 193.2147 "/>
+<svg:path d="M225.2415 193.2147 L225.5273 193.2147 "/>
+<svg:path d="M225.5273 193.2147 L225.6701 193.1433 "/>
+<svg:path d="M225.6701 193.1433 L225.7415 193.0718 "/>
+<svg:path d="M225.7415 193.0718 L225.8130 192.9290 "/>
 <svg:path d="M226.4558 193.2147 L227.5987 193.2147 "/>
-<svg:path d="M228.5987 192.2861 L228.7415 192.2861 "/>
-<svg:path d="M228.7415 192.2861 L228.8844 192.3576 "/>
-<svg:path d="M228.8844 192.3576 L228.9558 192.4290 "/>
-<svg:path d="M228.9558 192.4290 L229.0273 192.5718 "/>
-<svg:path d="M229.0273 192.5718 L229.0987 192.8576 "/>
-<svg:path d="M229.0987 192.8576 L229.0987 193.2147 "/>
-<svg:path d="M229.0987 193.2147 L229.0273 193.5004 "/>
-<svg:path d="M229.0273 193.5004 L228.9558 193.6433 "/>
-<svg:path d="M228.9558 193.6433 L228.8844 193.7147 "/>
-<svg:path d="M228.8844 193.7147 L228.7415 193.7861 "/>
-<svg:path d="M228.7415 193.7861 L228.5987 193.7861 "/>
-<svg:path d="M228.5987 193.7861 L228.4558 193.7147 "/>
-<svg:path d="M228.4558 193.7147 L228.3844 193.6433 "/>
-<svg:path d="M228.3844 193.6433 L228.3130 193.5004 "/>
-<svg:path d="M228.3130 193.5004 L228.2415 193.2147 "/>
-<svg:path d="M228.2415 193.2147 L228.2415 192.8576 "/>
-<svg:path d="M228.2415 192.8576 L228.3130 192.5718 "/>
-<svg:path d="M228.3130 192.5718 L228.3844 192.4290 "/>
-<svg:path d="M228.3844 192.4290 L228.4558 192.3576 "/>
-<svg:path d="M228.4558 192.3576 L228.5987 192.2861 "/>
-<svg:path d="M230.4558 192.2861 L229.7415 192.2861 "/>
-<svg:path d="M229.7415 192.2861 L229.6701 193.0004 "/>
-<svg:path d="M229.6701 193.0004 L229.7415 192.9290 "/>
-<svg:path d="M229.7415 192.9290 L229.8844 192.8576 "/>
-<svg:path d="M229.8844 192.8576 L230.2415 192.8576 "/>
+<svg:path d="M228.9558 192.7861 L228.9558 193.7861 "/>
+<svg:path d="M228.5987 192.2147 L228.2415 193.2861 "/>
+<svg:path d="M228.2415 193.2861 L229.1701 193.2861 "/>
+<svg:path d="M229.5987 192.2861 L230.5273 192.2861 "/>
+<svg:path d="M230.5273 192.2861 L230.0273 192.8576 "/>
+<svg:path d="M230.0273 192.8576 L230.2415 192.8576 "/>
 <svg:path d="M230.2415 192.8576 L230.3844 192.9290 "/>
 <svg:path d="M230.3844 192.9290 L230.4558 193.0004 "/>
 <svg:path d="M230.4558 193.0004 L230.5273 193.1433 "/>
@@ -3395,35 +2888,36 @@
 <svg:path d="M230.5273 193.5004 L230.4558 193.6433 "/>
 <svg:path d="M230.4558 193.6433 L230.3844 193.7147 "/>
 <svg:path d="M230.3844 193.7147 L230.2415 193.7861 "/>
-<svg:path d="M230.2415 193.7861 L229.8844 193.7861 "/>
-<svg:path d="M229.8844 193.7861 L229.7415 193.7147 "/>
-<svg:path d="M229.7415 193.7147 L229.6701 193.6433 "/>
+<svg:path d="M230.2415 193.7861 L229.8130 193.7861 "/>
+<svg:path d="M229.8130 193.7861 L229.6701 193.7147 "/>
+<svg:path d="M229.6701 193.7147 L229.5987 193.6433 "/>
 <svg:path d="M231.1701 193.2147 L232.3130 193.2147 "/>
-<svg:path d="M233.3130 192.2861 L233.4558 192.2861 "/>
-<svg:path d="M233.4558 192.2861 L233.5987 192.3576 "/>
-<svg:path d="M233.5987 192.3576 L233.6701 192.4290 "/>
-<svg:path d="M233.6701 192.4290 L233.7415 192.5718 "/>
-<svg:path d="M233.7415 192.5718 L233.8130 192.8576 "/>
-<svg:path d="M233.8130 192.8576 L233.8130 193.2147 "/>
-<svg:path d="M233.8130 193.2147 L233.7415 193.5004 "/>
-<svg:path d="M233.7415 193.5004 L233.6701 193.6433 "/>
-<svg:path d="M233.6701 193.6433 L233.5987 193.7147 "/>
-<svg:path d="M233.5987 193.7147 L233.4558 193.7861 "/>
-<svg:path d="M233.4558 193.7861 L233.3130 193.7861 "/>
-<svg:path d="M233.3130 193.7861 L233.1701 193.7147 "/>
-<svg:path d="M233.1701 193.7147 L233.0987 193.6433 "/>
-<svg:path d="M233.0987 193.6433 L233.0272 193.5004 "/>
-<svg:path d="M233.0272 193.5004 L232.9558 193.2147 "/>
-<svg:path d="M232.9558 193.2147 L232.9558 192.8576 "/>
-<svg:path d="M232.9558 192.8576 L233.0272 192.5718 "/>
-<svg:path d="M233.0272 192.5718 L233.0987 192.4290 "/>
-<svg:path d="M233.0987 192.4290 L233.1701 192.3576 "/>
-<svg:path d="M233.1701 192.3576 L233.3130 192.2861 "/>
-<svg:path d="M235.2415 193.7861 L234.3844 193.7861 "/>
-<svg:path d="M234.8130 193.7861 L234.8130 192.2861 "/>
-<svg:path d="M234.8130 192.2861 L234.6701 192.5004 "/>
-<svg:path d="M234.6701 192.5004 L234.5272 192.6433 "/>
-<svg:path d="M234.5272 192.6433 L234.3844 192.7147 "/>
+<svg:path d="M233.8130 193.7861 L232.9558 193.7861 "/>
+<svg:path d="M233.3844 193.7861 L233.3844 192.2861 "/>
+<svg:path d="M233.3844 192.2861 L233.2415 192.5004 "/>
+<svg:path d="M233.2415 192.5004 L233.0987 192.6433 "/>
+<svg:path d="M233.0987 192.6433 L232.9558 192.7147 "/>
+<svg:path d="M235.0987 192.2861 L234.8130 192.2861 "/>
+<svg:path d="M234.8130 192.2861 L234.6701 192.3576 "/>
+<svg:path d="M234.6701 192.3576 L234.5987 192.4290 "/>
+<svg:path d="M234.5987 192.4290 L234.4558 192.6433 "/>
+<svg:path d="M234.4558 192.6433 L234.3844 192.9290 "/>
+<svg:path d="M234.3844 192.9290 L234.3844 193.5004 "/>
+<svg:path d="M234.3844 193.5004 L234.4558 193.6433 "/>
+<svg:path d="M234.4558 193.6433 L234.5272 193.7147 "/>
+<svg:path d="M234.5272 193.7147 L234.6701 193.7861 "/>
+<svg:path d="M234.6701 193.7861 L234.9558 193.7861 "/>
+<svg:path d="M234.9558 193.7861 L235.0987 193.7147 "/>
+<svg:path d="M235.0987 193.7147 L235.1701 193.6433 "/>
+<svg:path d="M235.1701 193.6433 L235.2415 193.5004 "/>
+<svg:path d="M235.2415 193.5004 L235.2415 193.1433 "/>
+<svg:path d="M235.2415 193.1433 L235.1701 193.0004 "/>
+<svg:path d="M235.1701 193.0004 L235.0987 192.9290 "/>
+<svg:path d="M235.0987 192.9290 L234.9558 192.8576 "/>
+<svg:path d="M234.9558 192.8576 L234.6701 192.8576 "/>
+<svg:path d="M234.6701 192.8576 L234.5272 192.9290 "/>
+<svg:path d="M234.5272 192.9290 L234.4558 193.0004 "/>
+<svg:path d="M234.4558 193.0004 L234.3844 193.1433 "/>
 </svg:g><svg:text x="286.0000" y="185.6500" textLength="1.4900" font-size="1.7333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">D</svg:text>
 <svg:g class="stroked-text"><svg:desc>D</svg:desc>
 <svg:path d="M285.6595 185.5936 L285.6595 184.2936 "/>
@@ -3710,108 +3204,8 @@
 <svg:path d="M160.0000 12.0000 L160.0000 10.0000 "/>
 <svg:path d="M110.0000 12.0000 L110.0000 10.0000 "/>
 <svg:path d="M60.0000 12.0000 L60.0000 10.0000 "/>
-<svg:path style="fill:#480000; fill-opacity:0.0;  stroke:#480000; stroke-width:0.1500; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;fill:none" d="M 12.0000,12.0000 285.0000,12.0000 285.0000,198.0000 12.0000,198.0000 Z"/> 
-<svg:path style="fill:#480000; fill-opacity:0.0;  stroke:#480000; stroke-width:0.1500; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;fill:none" d="M 10.0000,10.0000 287.0000,10.0000 287.0000,200.0000 10.0000,200.0000 Z"/> 
-<svg:path style="fill:#480000; fill-opacity:0.0;  stroke:#480000; stroke-width:0.1500; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;fill:none" d="M 177.0000,166.0000 285.0000,166.0000 285.0000,198.0000 177.0000,198.0000 Z"/> 
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
-<svg:g>
-</svg:g>
+<svg:path style="fill:none;  stroke:#480000; stroke-width:0.1500; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;fill:none" d="M 12.0000,12.0000 285.0000,12.0000 285.0000,198.0000 12.0000,198.0000 Z"/> 
+<svg:path style="fill:none;  stroke:#480000; stroke-width:0.1500; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;fill:none" d="M 10.0000,10.0000 287.0000,10.0000 287.0000,200.0000 10.0000,200.0000 Z"/> 
+<svg:path style="fill:none;  stroke:#480000; stroke-width:0.1500; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;fill:none" d="M 177.0000,166.0000 285.0000,166.0000 285.0000,198.0000 177.0000,198.0000 Z"/> 
 </svg:g> 
 </svg:g></svg:g></svg>
