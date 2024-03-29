@@ -53,11 +53,11 @@
    </ul>
    <li><a href="t1-navigate_PCB_3D.html">3D</a></li>
    <ul>
+    <li><a href="t1-navigate_PCB_3D.html#_PCB2Blender_2_1">_PCB2Blender_2_1</a></li>
     <li><a href="t1-navigate_PCB_3D_Auxiliar.html">Auxiliar</a></li>
     <ul>
      <li><a href="t1-navigate_PCB_3D_Auxiliar.html#_PCB2Blender_2_1">_PCB2Blender_2_1</a></li>
     </ul>
-    <li><a href="t1-navigate_PCB_3D.html#_PCB2Blender_2_1">_PCB2Blender_2_1</a></li>
     <li><a href="t1-navigate_PCB_3D.html#basic_blender_export">basic_blender_export</a></li>
     <li><a href="t1-navigate_PCB_3D.html#basic_render_3d_top">basic_render_3d_top</a></li>
     <li><a href="t1-navigate_PCB_3D.html#basic_render_3d_30deg">basic_render_3d_30deg</a></li>
@@ -342,6 +342,17 @@ function closeNav() {
   document.getElementById("theTopMenu").style.marginLeft = "0";
   document.getElementById("bmenu").style.display = "block";
 }
+
+function ScrollUp() {
+  /* When we come here from the navbar we must scroll to avoid the top menu */
+  var p = document.getElementById("main");
+  var style = p.currentStyle || window.getComputedStyle(p);
+  var m_top = parseInt(style.marginTop)
+
+  window.scrollBy(0, -(m_top + 5));
+}
+
+window.onload = ScrollUp;
 </script>
 </body>
 </html>
