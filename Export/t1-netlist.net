@@ -1,7 +1,7 @@
 (export (version "E")
   (design
     (source "/__w/kibot_variants_arduprog_test/kibot_variants_arduprog_test/t1.kicad_sch")
-    (date "2024-04-11T11:58:39+0000")
+    (date "2024-04-11T12:14:46+0000")
     (tool "Eeschema 8.0.1+dfsg-1")
     (sheet (number "1") (name "/") (tstamps "/")
       (title_block
@@ -385,14 +385,13 @@
     (comp (ref "J2")
       (value "USB_B")
       (footprint "Connector_USB:USB_B_Lumberg_2411_02_Horizontal")
-      (datasheet " ~")
       (description "USB Type B connector")
       (fields
         (field (name "MFN") "TE Connectivity AMP Connectors")
         (field (name "MFP") "292304-1")
         (field (name "Config") "+USB")
         (field (name "Footprint") "Connector_USB:USB_B_Lumberg_2411_02_Horizontal")
-        (field (name "Datasheet") " ~")
+        (field (name "Datasheet"))
         (field (name "Description") "USB Type B connector"))
       (libsource (lib "Connector") (part "USB_B") (description "USB Type B connector"))
       (property (name "MFN") (value "TE Connectivity AMP Connectors"))
