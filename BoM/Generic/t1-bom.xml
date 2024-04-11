@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<KiCad_BOM PCB_Variant="default" KiCad_Version="8.0.1+dfsg-1" Component_Groups="21" Component_Count="30 (25 SMD/ 5 THT)" Fitted_Components="18 (15 SMD/ 3 THT)" Number_of_PCBs="1" Total_Components="18" Schematic_Source="t1" Schematic_Revision="r1" Schematic_Date="2020-09-09" encoding="utf-8">
+<KiCad_BOM PCB_Variant="default" KiCad_Version="8.0.1+dfsg-1" Component_Groups="22" Component_Count="31 (25 SMD/ 5 THT)" Fitted_Components="19 (15 SMD/ 3 THT)" Number_of_PCBs="1" Total_Components="19" Schematic_Source="t1" Schematic_Revision="r1" Schematic_Date="2020-09-09" encoding="utf-8">
 	<group Row="1" Description="" Part="C" References="C2 C6 C7 C8" Value="100nF" Footprint="C_0805_2012Metric" Quantity_Per_PCB="4" Status=" " Datasheet="~" Config="" MFN="" MFP=""/>
 	<group Row="2" Description="" Part="C" References="C5" Value="1uF" Footprint="C_0805_2012Metric" Quantity_Per_PCB="1" Status=" " Datasheet="~" Config="" MFN="" MFP=""/>
 	<group Row="3" Description="" Part="C_Polarized" References="C1" Value="47uF" Footprint="CP_Elec_8x10" Quantity_Per_PCB="1" Status=" " Datasheet="https://www.vishay.com/docs/28388/153crv.pdf" Config="" MFN="Vishay Beyschlag/Draloric/BC Components" MFP="MAL215371479E3"/>
@@ -9,7 +9,8 @@
 	<group Row="7" Description="" Part="Conn_02x03_Odd_Even" References="J5" Value="ICSP1" Footprint="PinHeader_2x03_P2.54mm_Vertical" Quantity_Per_PCB="1" Status=" " Datasheet="https://cdn.harwin.com/pdfs/M20-998.pdf" Config="-USB" MFN="Harwin Inc." MFP="M20-9980346"/>
 	<group Row="8" Description="" Part="Conn_01x05_Male" References="J3" Value="P1" Footprint="PinHeader_1x05_P2.54mm_Vertical" Quantity_Per_PCB="1" Status=" " Datasheet="~" Config="" MFN="" MFP=""/>
 	<group Row="9" Description="" Part="Conn_01x06_Male" References="J6" Value="P2" Footprint="PinHeader_1x06_P2.54mm_Vertical" Quantity_Per_PCB="1" Status=" " Datasheet="~" Config="" MFN="" MFP=""/>
-	<group Row="10" Description="" Part="R" References="R5 R6 R7" Value="1K" Footprint="R_0805_2012Metric" Quantity_Per_PCB="3" Status=" " Datasheet="~" Config="" MFN="" MFP=""/>
-	<group Row="11" Description="" Part="R" References="R4" Value="10K" Footprint="R_0805_2012Metric" Quantity_Per_PCB="1" Status=" " Datasheet="~" Config="" MFN="" MFP=""/>
-	<group Row="12" Description="" Part="ATmega8U2-A" References="U1" Value="ATmega8U2-AU" Footprint="TQFP-32_7x7mm_P0.8mm" Quantity_Per_PCB="1" Status=" " Datasheet="http://ww1.microchip.com/downloads/en/DeviceDoc/doc7799.pdf" Config="" MFN="" MFP=""/>
+	<group Row="10" Description="" Part="Logo_Open_Hardware_Large" References="LOGO1" Value="Logo_Open_Hardware_Large" Footprint="OSHW-Logo_11.4x12mm_SilkScreen" Quantity_Per_PCB="1" Status=" " Datasheet="~" Config="" MFN="" MFP=""/>
+	<group Row="11" Description="" Part="R" References="R5 R6 R7" Value="1K" Footprint="R_0805_2012Metric" Quantity_Per_PCB="3" Status=" " Datasheet="~" Config="" MFN="" MFP=""/>
+	<group Row="12" Description="" Part="R" References="R4" Value="10K" Footprint="R_0805_2012Metric" Quantity_Per_PCB="1" Status=" " Datasheet="~" Config="" MFN="" MFP=""/>
+	<group Row="13" Description="" Part="ATmega8U2-A" References="U1" Value="ATmega8U2-AU" Footprint="TQFP-32_7x7mm_P0.8mm" Quantity_Per_PCB="1" Status=" " Datasheet="http://ww1.microchip.com/downloads/en/DeviceDoc/doc7799.pdf" Config="" MFN="" MFP=""/>
 </KiCad_BOM>

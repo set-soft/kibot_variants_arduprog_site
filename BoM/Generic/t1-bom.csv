@@ -8,9 +8,10 @@ Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datashee
 7,,Conn_02x03_Odd_Even,J5,ICSP1,PinHeader_2x03_P2.54mm_Vertical,1, ,https://cdn.harwin.com/pdfs/M20-998.pdf,-USB,Harwin Inc.,M20-9980346
 8,,Conn_01x05_Male,J3,P1,PinHeader_1x05_P2.54mm_Vertical,1, ,~,,,
 9,,Conn_01x06_Male,J6,P2,PinHeader_1x06_P2.54mm_Vertical,1, ,~,,,
-10,,R,R5 R6 R7,1K,R_0805_2012Metric,3, ,~,,,
-11,,R,R4,10K,R_0805_2012Metric,1, ,~,,,
-12,,ATmega8U2-A,U1,ATmega8U2-AU,TQFP-32_7x7mm_P0.8mm,1, ,http://ww1.microchip.com/downloads/en/DeviceDoc/doc7799.pdf,,,
+10,,Logo_Open_Hardware_Large,LOGO1,Logo_Open_Hardware_Large,OSHW-Logo_11.4x12mm_SilkScreen,1, ,~,,,
+11,,R,R5 R6 R7,1K,R_0805_2012Metric,3, ,~,,,
+12,,R,R4,10K,R_0805_2012Metric,1, ,~,,,
+13,,ATmega8U2-A,U1,ATmega8U2-AU,TQFP-32_7x7mm_P0.8mm,1, ,http://ww1.microchip.com/downloads/en/DeviceDoc/doc7799.pdf,,,
 
 
 
@@ -23,8 +24,8 @@ Revision:,r1
 Date:,2020-09-09
 KiCad Version:,8.0.1+dfsg-1
 Statistics:
-Component Groups:,21
-Component Count:,30 (25 SMD/ 5 THT)
-Fitted Components:,18 (15 SMD/ 3 THT)
+Component Groups:,22
+Component Count:,31 (25 SMD/ 5 THT)
+Fitted Components:,19 (15 SMD/ 3 THT)
 Number of PCBs:,1
-Total Components:,18
+Total Components:,19
