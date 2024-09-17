@@ -5218,6 +5218,9 @@
     (property "Description" "Open Hardware logo, large" (at 86.36 172.72 0)
       (effects (font (size 1.27 1.27)) (hide yes))
     )
+    (property "Sim.Enable" "0" (at 86.36 172.72 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
     (instances
       (project "t1"
         (path "/4f66b314-0f62-4fb6-8c3c-f9c6a75cd3ec"

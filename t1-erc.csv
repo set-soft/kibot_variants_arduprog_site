@@ -1,1 +1,2 @@
 "Sheet","Severity","Excluded","Type","Description","Details"
+"/ (t1.kicad_sch)","warning","False","lib_symbol_issues","Symbol 'USB_B' has been modified in library 'Connector'","@(0.7239 mm, 1.0795 mm): Symbol J2 [USB_B]"
