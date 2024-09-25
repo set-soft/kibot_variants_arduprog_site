@@ -1,7 +1,7 @@
 KiBot installation checker
 
 Core:
-Linux: 6.5.0.1025 (Linux ca9df1213d82 6.5.0-1025-azure #26~22.04.1-Ubuntu SMP Thu Jul 11 22:33:04 UTC 2024 x86_64 GNU/Linux)
+Linux: 6.8.0.1014 (Linux ccf631b1454f 6.8.0-1014-azure #16~22.04.1-Ubuntu SMP Thu Aug 15 21:31:41 UTC 2024 x86_64 GNU/Linux)
   /usr/bin/uname
 Python: 3.11.2 (main, Aug 26 2024, 07:20:54) [GCC 12.2.0]
   /usr/lib/python3.11/os.py
@@ -9,7 +9,7 @@ Python: 3.11.2 (main, Aug 26 2024, 07:20:54) [GCC 12.2.0]
 KiCad: 8.0.4+1
   /usr/lib/python3/dist-packages/pcbnew.py
   /usr/bin/kicad
-Kibot: 1.7.1
+Kibot: 1.8.1
   /usr/local/lib/python3.11/dist-packages/kibot/__main__.py
   /usr/local/bin/kibot
 
