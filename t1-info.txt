@@ -1,15 +1,15 @@
 KiBot installation checker
 
 Core:
-Linux: 6.8.0.1014 (Linux ccf631b1454f 6.8.0-1014-azure #16~22.04.1-Ubuntu SMP Thu Aug 15 21:31:41 UTC 2024 x86_64 GNU/Linux)
+Linux: 6.5.0.1025 (Linux 93039dc6f7bd 6.5.0-1025-azure #26~22.04.1-Ubuntu SMP Thu Jul 11 22:33:04 UTC 2024 x86_64 GNU/Linux)
   /usr/bin/uname
 Python: 3.11.2 (main, Aug 26 2024, 07:20:54) [GCC 12.2.0]
   /usr/lib/python3.11/os.py
   /usr/bin/python3
-KiCad: 8.0.4+1
+KiCad: 8.0.5+1
   /usr/lib/python3/dist-packages/pcbnew.py
   /usr/bin/kicad
-Kibot: 1.8.1
+Kibot: 1.8.2
   /usr/local/lib/python3.11/dist-packages/kibot/__main__.py
   /usr/local/bin/kibot
 
@@ -50,7 +50,7 @@ Interactive HTML BoM: 2.9.0 (v2.9.0)
   /usr/bin/python3
 KiBoM: 1.9.1 (KiBOM Version: 1.9.1)
   /usr/bin/KiBOM_CLI.py
-KiCad Automation tools (kiauto): 2.3.2 (pcbnew_do 2.3.2 - Copyright 2018-2024, INTI/Productize SPRL - License: Apache)
+KiCad Automation tools (kiauto): 2.3.3 (pcbnew_do 2.3.3 - Copyright 2018-2024, INTI/Productize SPRL - License: Apache)
   /usr/local/bin/pcbnew_do
 KiCad PCB/SCH Diff (kidiff): 2.5.5 (kicad-diff.py 2.5.5 - Copyright 2020-2024, INTI/Salvador E. Tropea - License:)
   /usr/local/bin/kicad-diff.py
@@ -142,12 +142,12 @@ RUNNER_WORKSPACE
 TZ
 
 KiAuto:
-This is KiAuto v2.3.2
+This is KiAuto v2.3.3
 Installed at: /usr/local/bin/pcbnew_do
 Using kiauto module from: /usr/local/lib/python3.11/dist-packages/kiauto
 Interpreted by Python: /usr/bin/python3 (v3.11.2 (main, Aug 26 2024, 07:20:54) [GCC 12.2.0])
 Tools:
-- kicad: /usr/bin/kicad (v8.0.4+1)
+- kicad: /usr/bin/kicad (v8.0.5+1)
 - xdotool: /usr/bin/xdotool
 - recordmydesktop: /usr/bin/recordmydesktop
 - xsltproc: /usr/bin/xsltproc
