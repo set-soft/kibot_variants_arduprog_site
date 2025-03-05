@@ -5,1119 +5,1550 @@
  <meta charset="UTF-8">
  <link rel="stylesheet" href="styles.css">
  <link rel="icon" href="favicon.ico">
+ <script src="markdown-it.min.js"></script>
 </head>
 <body>
-<div id="theSideNav" class="sidenav">
-<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
- <ul>
-  <li><a href="t1-navigate_PCB.html">PCB</a></li>
-  <ul>
-   <li><a href="t1-navigate_PCB_docs.html">docs</a></li>
-   <ul>
-    <li><a href="t1-navigate_PCB_docs.html#drc">drc</a></li>
-    <li><a href="t1-navigate_PCB_docs.html#_ExportProject_compress">_ExportProject_compress</a></li>
-    <li><a href="t1-navigate_PCB_docs.html#_PCB2Blender_2_1">_PCB2Blender_2_1</a></li>
-    <li><a href="t1-navigate_PCB_docs.html#basic_diff_pcb">basic_diff_pcb</a></li>
-    <li><a href="t1-navigate_PCB_docs.html#basic_hpgl">basic_hpgl</a></li>
-    <li><a href="t1-navigate_PCB_docs.html#basic_info">basic_info</a></li>
-    <li><a href="t1-navigate_PCB_docs.html#basic_kicanvas">basic_kicanvas</a></li>
-    <li><a href="t1-navigate_PCB_docs.html#basic_kikit_present">basic_kikit_present</a></li>
-    <li><a href="t1-navigate_PCB_docs.html#basic_kiri">basic_kiri</a></li>
-    <li><a href="t1-navigate_PCB_docs.html#basic_pcb_print_pdf">basic_pcb_print_pdf</a></li>
-    <li><a href="t1-navigate_PCB_docs.html#basic_pcb_print_svg">basic_pcb_print_svg</a></li>
-    <li><a href="t1-navigate_PCB_docs.html#basic_pcb_print_png">basic_pcb_print_png</a></li>
-    <li><a href="t1-navigate_PCB_docs.html#basic_pcb_print_eps">basic_pcb_print_eps</a></li>
-    <li><a href="t1-navigate_PCB_docs.html#basic_pcb_print_ps">basic_pcb_print_ps</a></li>
-    <li><a href="t1-navigate_PCB_docs.html#basic_pcbdraw_svg_jlcpcb_green_enig_top">basic_pcbdraw_svg_jlcpcb_green_enig_top</a></li>
-    <li><a href="t1-navigate_PCB_docs.html#basic_pcbdraw_png_jlcpcb_green_enig_top">basic_pcbdraw_png_jlcpcb_green_enig_top</a></li>
-    <li><a href="t1-navigate_PCB_docs.html#basic_pcbdraw_jpg_jlcpcb_green_enig_top">basic_pcbdraw_jpg_jlcpcb_green_enig_top</a></li>
-    <li><a href="t1-navigate_PCB_docs.html#basic_pcbdraw_svg_set_blue_enig_top">basic_pcbdraw_svg_set_blue_enig_top</a></li>
-    <li><a href="t1-navigate_PCB_docs.html#basic_pcbdraw_png_set_blue_enig_top">basic_pcbdraw_png_set_blue_enig_top</a></li>
-    <li><a href="t1-navigate_PCB_docs.html#basic_pcbdraw_jpg_set_blue_enig_top">basic_pcbdraw_jpg_set_blue_enig_top</a></li>
-    <li><a href="t1-navigate_PCB_docs.html#basic_pcbdraw_svg_set_red_hasl_top">basic_pcbdraw_svg_set_red_hasl_top</a></li>
-    <li><a href="t1-navigate_PCB_docs.html#basic_pcbdraw_png_set_red_hasl_top">basic_pcbdraw_png_set_red_hasl_top</a></li>
-    <li><a href="t1-navigate_PCB_docs.html#basic_pcbdraw_jpg_set_red_hasl_top">basic_pcbdraw_jpg_set_red_hasl_top</a></li>
-    <li><a href="t1-navigate_PCB_docs.html#basic_pcbdraw_svg_jlcpcb_green_enig_bottom">basic_pcbdraw_svg_jlcpcb_green_enig_bottom</a></li>
-    <li><a href="t1-navigate_PCB_docs.html#basic_pcbdraw_png_jlcpcb_green_enig_bottom">basic_pcbdraw_png_jlcpcb_green_enig_bottom</a></li>
-    <li><a href="t1-navigate_PCB_docs.html#basic_pcbdraw_jpg_jlcpcb_green_enig_bottom">basic_pcbdraw_jpg_jlcpcb_green_enig_bottom</a></li>
-    <li><a href="t1-navigate_PCB_docs.html#basic_pcbdraw_svg_set_blue_enig_bottom">basic_pcbdraw_svg_set_blue_enig_bottom</a></li>
-    <li><a href="t1-navigate_PCB_docs.html#basic_pcbdraw_png_set_blue_enig_bottom">basic_pcbdraw_png_set_blue_enig_bottom</a></li>
-    <li><a href="t1-navigate_PCB_docs.html#basic_pcbdraw_jpg_set_blue_enig_bottom">basic_pcbdraw_jpg_set_blue_enig_bottom</a></li>
-    <li><a href="t1-navigate_PCB_docs.html#basic_pcbdraw_svg_set_red_hasl_bottom">basic_pcbdraw_svg_set_red_hasl_bottom</a></li>
-    <li><a href="t1-navigate_PCB_docs.html#basic_pcbdraw_png_set_red_hasl_bottom">basic_pcbdraw_png_set_red_hasl_bottom</a></li>
-    <li><a href="t1-navigate_PCB_docs.html#basic_pcbdraw_jpg_set_red_hasl_bottom">basic_pcbdraw_jpg_set_red_hasl_bottom</a></li>
-    <li><a href="t1-navigate_PCB_docs.html#basic_pdf">basic_pdf</a></li>
-    <li><a href="t1-navigate_PCB_docs.html#basic_ps">basic_ps</a></li>
-    <li><a href="t1-navigate_PCB_docs.html#report_simple">report_simple</a></li>
-    <li><a href="t1-navigate_PCB_docs.html#report_full">report_full</a></li>
-    <li><a href="t1-navigate_PCB_docs.html#basic_svg">basic_svg</a></li>
-   </ul>
-   <li><a href="t1-navigate_PCB_fabrication.html">fabrication</a></li>
-   <ul>
-    <li><a href="t1-navigate_PCB_fabrication_gerber.html">gerber</a></li>
-    <ul>
-     <li><a href="t1-navigate_PCB_fabrication_gerber.html#_Elecrow_gerbers">_Elecrow_gerbers</a></li>
-     <li><a href="t1-navigate_PCB_fabrication_gerber.html#_Elecrow_compress">_Elecrow_compress</a></li>
-     <li><a href="t1-navigate_PCB_fabrication_gerber.html#_FusionPCB_gerbers">_FusionPCB_gerbers</a></li>
-     <li><a href="t1-navigate_PCB_fabrication_gerber.html#_FusionPCB_compress">_FusionPCB_compress</a></li>
-     <li><a href="t1-navigate_PCB_fabrication_gerber.html#_JLCPCB_gerbers">_JLCPCB_gerbers</a></li>
-     <li><a href="t1-navigate_PCB_fabrication_gerber.html#_JLCPCB_compress">_JLCPCB_compress</a></li>
-     <li><a href="t1-navigate_PCB_fabrication_gerber.html#_PCBWay_gerbers">_PCBWay_gerbers</a></li>
-     <li><a href="t1-navigate_PCB_fabrication_gerber.html#_PCBWay_compress">_PCBWay_compress</a></li>
-     <li><a href="t1-navigate_PCB_fabrication_gerber.html#gerber_modern">gerber_modern</a></li>
-    </ul>
-    <li><a href="t1-navigate_PCB_fabrication_drill.html">drill</a></li>
-    <ul>
-     <li><a href="t1-navigate_PCB_fabrication_drill.html#_Elecrow_drill">_Elecrow_drill</a></li>
-     <li><a href="t1-navigate_PCB_fabrication_drill.html#_Elecrow_compress">_Elecrow_compress</a></li>
-     <li><a href="t1-navigate_PCB_fabrication_drill.html#_FusionPCB_drill">_FusionPCB_drill</a></li>
-     <li><a href="t1-navigate_PCB_fabrication_drill.html#_FusionPCB_compress">_FusionPCB_compress</a></li>
-     <li><a href="t1-navigate_PCB_fabrication_drill.html#_JLCPCB_drill">_JLCPCB_drill</a></li>
-     <li><a href="t1-navigate_PCB_fabrication_drill.html#_JLCPCB_compress">_JLCPCB_compress</a></li>
-     <li><a href="t1-navigate_PCB_fabrication_drill.html#_PCBWay_drill">_PCBWay_drill</a></li>
-     <li><a href="t1-navigate_PCB_fabrication_drill.html#_PCBWay_compress">_PCBWay_compress</a></li>
-     <li><a href="t1-navigate_PCB_fabrication_drill.html#basic_excellon">basic_excellon</a></li>
-     <li><a href="t1-navigate_PCB_fabrication_drill.html#basic_gerb_drill">basic_gerb_drill</a></li>
-    </ul>
-    <li><a href="t1-navigate_PCB_fabrication_assembly.html">assembly</a></li>
-    <ul>
-     <li><a href="t1-navigate_PCB_fabrication_assembly.html#_JLCPCB_position">_JLCPCB_position</a></li>
-     <li><a href="t1-navigate_PCB_fabrication_assembly.html#basic_boardview">basic_boardview</a></li>
-     <li><a href="t1-navigate_PCB_fabrication_assembly.html#basic_ibom">basic_ibom</a></li>
-     <li><a href="t1-navigate_PCB_fabrication_assembly.html#basic_position_ASCII">basic_position_ASCII</a></li>
-     <li><a href="t1-navigate_PCB_fabrication_assembly.html#basic_position_CSV">basic_position_CSV</a></li>
-     <li><a href="t1-navigate_PCB_fabrication_assembly.html#basic_stencil_3d">basic_stencil_3d</a></li>
-     <li><a href="t1-navigate_PCB_fabrication_assembly.html#basic_stencil_for_jig">basic_stencil_for_jig</a></li>
-    </ul>
-    <li><a href="t1-navigate_PCB_fabrication.html#_PanelDemo_4x4">_PanelDemo_4x4</a></li>
-   </ul>
-   <li><a href="t1-navigate_PCB_3D.html">3D</a></li>
-   <ul>
-    <li><a href="t1-navigate_PCB_3D.html#_PCB2Blender_2_1">_PCB2Blender_2_1</a></li>
-    <li><a href="t1-navigate_PCB_3D_Auxiliar.html">Auxiliar</a></li>
-    <ul>
-     <li><a href="t1-navigate_PCB_3D_Auxiliar.html#_PCB2Blender_2_1">_PCB2Blender_2_1</a></li>
-    </ul>
-    <li><a href="t1-navigate_PCB_3D.html#basic_blender_export">basic_blender_export</a></li>
-    <li><a href="t1-navigate_PCB_3D.html#basic_render_3d_top">basic_render_3d_top</a></li>
-    <li><a href="t1-navigate_PCB_3D.html#basic_render_3d_30deg">basic_render_3d_30deg</a></li>
-    <li><a href="t1-navigate_PCB_3D.html#basic_render_3d_bottom">basic_render_3d_bottom</a></li>
-    <li><a href="t1-navigate_PCB_3D.html#basic_step">basic_step</a></li>
-    <li><a href="t1-navigate_PCB_3D.html#basic_vrml">basic_vrml</a></li>
-   </ul>
-   <li><a href="t1-navigate_PCB_repair.html">repair</a></li>
-   <ul>
-    <li><a href="t1-navigate_PCB_repair.html#basic_boardview">basic_boardview</a></li>
-   </ul>
-   <li><a href="t1-navigate_PCB_export.html">export</a></li>
-   <ul>
-    <li><a href="t1-navigate_PCB_export.html#basic_dxf">basic_dxf</a></li>
-    <li><a href="t1-navigate_PCB_export.html#basic_gencad">basic_gencad</a></li>
-   </ul>
+
+        <div id="theSideNav" class="navbar">
+            <!-- Search bar container -->
+            <div id="search-container">
+                <input type="text" id="search-bar" placeholder="Search outputs..." autocomplete="off">
+                <ul id="autocomplete-list"></ul>
+            </div>
+        <ul class='navbar-category'>
+  <li class='folder'><span onclick='toggleFolder(this)'><span class='chevron'></span> PCB</span>
+    <ul id='folder-t1-navigate-pcb' class='folder-contents' style='display:none;'>
+ <ul class='navbar-category'>
+   <li class='folder'><span onclick='toggleFolder(this)'><span class='chevron'></span> docs</span>
+     <ul id='folder-t1-navigate_pcb-docs' class='folder-contents' style='display:none;'>
+  <ul class='navbar-category'>
+    <li><a href='t1-navigate_PCB_docs.html#drc' class='navbar-output'>drc</a></li>
+    <li><a href='t1-navigate_PCB_docs.html#_ExportProject_compress' class='navbar-output'>_ExportProject_compress</a></li>
+    <li><a href='t1-navigate_PCB_docs.html#_PCB2Blender_2_1' class='navbar-output'>_PCB2Blender_2_1</a></li>
+    <li><a href='t1-navigate_PCB_docs.html#basic_diff_pcb' class='navbar-output'>basic_diff_pcb</a></li>
+    <li><a href='t1-navigate_PCB_docs.html#basic_hpgl' class='navbar-output'>basic_hpgl</a></li>
+    <li><a href='t1-navigate_PCB_docs.html#basic_info' class='navbar-output'>basic_info</a></li>
+    <li><a href='t1-navigate_PCB_docs.html#basic_kicanvas' class='navbar-output'>basic_kicanvas</a></li>
+    <li><a href='t1-navigate_PCB_docs.html#basic_kikit_present' class='navbar-output'>basic_kikit_present</a></li>
+    <li><a href='t1-navigate_PCB_docs.html#basic_kiri' class='navbar-output'>basic_kiri</a></li>
+    <li><a href='t1-navigate_PCB_docs.html#basic_pcb_print_pdf' class='navbar-output'>basic_pcb_print_pdf</a></li>
+    <li><a href='t1-navigate_PCB_docs.html#basic_pcb_print_svg' class='navbar-output'>basic_pcb_print_svg</a></li>
+    <li><a href='t1-navigate_PCB_docs.html#basic_pcb_print_png' class='navbar-output'>basic_pcb_print_png</a></li>
+    <li><a href='t1-navigate_PCB_docs.html#basic_pcb_print_eps' class='navbar-output'>basic_pcb_print_eps</a></li>
+    <li><a href='t1-navigate_PCB_docs.html#basic_pcb_print_ps' class='navbar-output'>basic_pcb_print_ps</a></li>
+    <li><a href='t1-navigate_PCB_docs.html#basic_pcbdraw_svg_jlcpcb_green_enig_top' class='navbar-output'>basic_pcbdraw_svg_jlcpcb_green_enig_top</a></li>
+    <li><a href='t1-navigate_PCB_docs.html#basic_pcbdraw_png_jlcpcb_green_enig_top' class='navbar-output'>basic_pcbdraw_png_jlcpcb_green_enig_top</a></li>
+    <li><a href='t1-navigate_PCB_docs.html#basic_pcbdraw_jpg_jlcpcb_green_enig_top' class='navbar-output'>basic_pcbdraw_jpg_jlcpcb_green_enig_top</a></li>
+    <li><a href='t1-navigate_PCB_docs.html#basic_pcbdraw_svg_set_blue_enig_top' class='navbar-output'>basic_pcbdraw_svg_set_blue_enig_top</a></li>
+    <li><a href='t1-navigate_PCB_docs.html#basic_pcbdraw_png_set_blue_enig_top' class='navbar-output'>basic_pcbdraw_png_set_blue_enig_top</a></li>
+    <li><a href='t1-navigate_PCB_docs.html#basic_pcbdraw_jpg_set_blue_enig_top' class='navbar-output'>basic_pcbdraw_jpg_set_blue_enig_top</a></li>
+    <li><a href='t1-navigate_PCB_docs.html#basic_pcbdraw_svg_set_red_hasl_top' class='navbar-output'>basic_pcbdraw_svg_set_red_hasl_top</a></li>
+    <li><a href='t1-navigate_PCB_docs.html#basic_pcbdraw_png_set_red_hasl_top' class='navbar-output'>basic_pcbdraw_png_set_red_hasl_top</a></li>
+    <li><a href='t1-navigate_PCB_docs.html#basic_pcbdraw_jpg_set_red_hasl_top' class='navbar-output'>basic_pcbdraw_jpg_set_red_hasl_top</a></li>
+    <li><a href='t1-navigate_PCB_docs.html#basic_pcbdraw_svg_jlcpcb_green_enig_bottom' class='navbar-output'>basic_pcbdraw_svg_jlcpcb_green_enig_bottom</a></li>
+    <li><a href='t1-navigate_PCB_docs.html#basic_pcbdraw_png_jlcpcb_green_enig_bottom' class='navbar-output'>basic_pcbdraw_png_jlcpcb_green_enig_bottom</a></li>
+    <li><a href='t1-navigate_PCB_docs.html#basic_pcbdraw_jpg_jlcpcb_green_enig_bottom' class='navbar-output'>basic_pcbdraw_jpg_jlcpcb_green_enig_bottom</a></li>
+    <li><a href='t1-navigate_PCB_docs.html#basic_pcbdraw_svg_set_blue_enig_bottom' class='navbar-output'>basic_pcbdraw_svg_set_blue_enig_bottom</a></li>
+    <li><a href='t1-navigate_PCB_docs.html#basic_pcbdraw_png_set_blue_enig_bottom' class='navbar-output'>basic_pcbdraw_png_set_blue_enig_bottom</a></li>
+    <li><a href='t1-navigate_PCB_docs.html#basic_pcbdraw_jpg_set_blue_enig_bottom' class='navbar-output'>basic_pcbdraw_jpg_set_blue_enig_bottom</a></li>
+    <li><a href='t1-navigate_PCB_docs.html#basic_pcbdraw_svg_set_red_hasl_bottom' class='navbar-output'>basic_pcbdraw_svg_set_red_hasl_bottom</a></li>
+    <li><a href='t1-navigate_PCB_docs.html#basic_pcbdraw_png_set_red_hasl_bottom' class='navbar-output'>basic_pcbdraw_png_set_red_hasl_bottom</a></li>
+    <li><a href='t1-navigate_PCB_docs.html#basic_pcbdraw_jpg_set_red_hasl_bottom' class='navbar-output'>basic_pcbdraw_jpg_set_red_hasl_bottom</a></li>
+    <li><a href='t1-navigate_PCB_docs.html#basic_pdf' class='navbar-output'>basic_pdf</a></li>
+    <li><a href='t1-navigate_PCB_docs.html#basic_ps' class='navbar-output'>basic_ps</a></li>
+    <li><a href='t1-navigate_PCB_docs.html#report_simple' class='navbar-output'>report_simple</a></li>
+    <li><a href='t1-navigate_PCB_docs.html#report_full' class='navbar-output'>report_full</a></li>
+    <li><a href='t1-navigate_PCB_docs.html#basic_svg' class='navbar-output'>basic_svg</a></li>
   </ul>
-  <li><a href="t1-navigate_Schematic.html">Schematic</a></li>
-  <ul>
-   <li><a href="t1-navigate_Schematic_docs.html">docs</a></li>
-   <ul>
-    <li><a href="t1-navigate_Schematic_docs.html#erc">erc</a></li>
-    <li><a href="t1-navigate_Schematic_docs.html#_ExportProject_compress">_ExportProject_compress</a></li>
-    <li><a href="t1-navigate_Schematic_docs.html#basic_diff_sch">basic_diff_sch</a></li>
-    <li><a href="t1-navigate_Schematic_docs.html#basic_download_datasheets">basic_download_datasheets</a></li>
-    <li><a href="t1-navigate_Schematic_docs.html#basic_dxf_sch_print">basic_dxf_sch_print</a></li>
-    <li><a href="t1-navigate_Schematic_docs.html#basic_hpgl_sch_print">basic_hpgl_sch_print</a></li>
-    <li><a href="t1-navigate_Schematic_docs.html#basic_info">basic_info</a></li>
-    <li><a href="t1-navigate_Schematic_docs.html#basic_kicanvas">basic_kicanvas</a></li>
-    <li><a href="t1-navigate_Schematic_docs.html#basic_kiri">basic_kiri</a></li>
-    <li><a href="t1-navigate_Schematic_docs.html#basic_pdf_sch_print">basic_pdf_sch_print</a></li>
-    <li><a href="t1-navigate_Schematic_docs.html#basic_ps_sch_print">basic_ps_sch_print</a></li>
-    <li><a href="t1-navigate_Schematic_docs.html#basic_svg_sch_print">basic_svg_sch_print</a></li>
+     </ul>
+  </li>
+   <li class='folder'><span onclick='toggleFolder(this)'><span class='chevron'></span> fabrication</span>
+     <ul id='folder-t1-navigate_pcb-fabrication' class='folder-contents' style='display:none;'>
+  <ul class='navbar-category'>
+    <li class='folder'><span onclick='toggleFolder(this)'><span class='chevron'></span> gerber</span>
+      <ul id='folder-t1-navigate_pcb_fabrication-gerber' class='folder-contents' style='display:none;'>
+   <ul class='navbar-category'>
+     <li><a href='t1-navigate_PCB_fabrication_gerber.html#_Elecrow_gerbers' class='navbar-output'>_Elecrow_gerbers</a></li>
+     <li><a href='t1-navigate_PCB_fabrication_gerber.html#_Elecrow_compress' class='navbar-output'>_Elecrow_compress</a></li>
+     <li><a href='t1-navigate_PCB_fabrication_gerber.html#_FusionPCB_gerbers' class='navbar-output'>_FusionPCB_gerbers</a></li>
+     <li><a href='t1-navigate_PCB_fabrication_gerber.html#_FusionPCB_compress' class='navbar-output'>_FusionPCB_compress</a></li>
+     <li><a href='t1-navigate_PCB_fabrication_gerber.html#_JLCPCB_gerbers' class='navbar-output'>_JLCPCB_gerbers</a></li>
+     <li><a href='t1-navigate_PCB_fabrication_gerber.html#_JLCPCB_compress' class='navbar-output'>_JLCPCB_compress</a></li>
+     <li><a href='t1-navigate_PCB_fabrication_gerber.html#_PCBWay_gerbers' class='navbar-output'>_PCBWay_gerbers</a></li>
+     <li><a href='t1-navigate_PCB_fabrication_gerber.html#_PCBWay_compress' class='navbar-output'>_PCBWay_compress</a></li>
+     <li><a href='t1-navigate_PCB_fabrication_gerber.html#gerber_modern' class='navbar-output'>gerber_modern</a></li>
    </ul>
-   <li><a href="t1-navigate_Schematic_BoM.html">BoM</a></li>
-   <ul>
-    <li><a href="t1-navigate_Schematic_BoM.html#_macrofab_xyrs">_macrofab_xyrs</a></li>
-    <li><a href="t1-navigate_Schematic_BoM.html#generic_bom_html">generic_bom_html</a></li>
-    <li><a href="t1-navigate_Schematic_BoM.html#generic_bom_csv">generic_bom_csv</a></li>
-    <li><a href="t1-navigate_Schematic_BoM.html#generic_bom_hrtxt">generic_bom_hrtxt</a></li>
-    <li><a href="t1-navigate_Schematic_BoM.html#generic_bom_tsv">generic_bom_tsv</a></li>
-    <li><a href="t1-navigate_Schematic_BoM.html#generic_bom_xml">generic_bom_xml</a></li>
-    <li><a href="t1-navigate_Schematic_BoM.html#generic_bom_xlsx">generic_bom_xlsx</a></li>
-    <li><a href="t1-navigate_Schematic_BoM.html#positional_bom_html">positional_bom_html</a></li>
-    <li><a href="t1-navigate_Schematic_BoM.html#positional_bom_xlsx">positional_bom_xlsx</a></li>
-    <li><a href="t1-navigate_Schematic_BoM.html#costs_bom_xlsx">costs_bom_xlsx</a></li>
-    <li><a href="t1-navigate_Schematic_BoM.html#basic_ibom">basic_ibom</a></li>
+      </ul>
+  </li>
+    <li class='folder'><span onclick='toggleFolder(this)'><span class='chevron'></span> drill</span>
+      <ul id='folder-t1-navigate_pcb_fabrication-drill' class='folder-contents' style='display:none;'>
+   <ul class='navbar-category'>
+     <li><a href='t1-navigate_PCB_fabrication_drill.html#_Elecrow_drill' class='navbar-output'>_Elecrow_drill</a></li>
+     <li><a href='t1-navigate_PCB_fabrication_drill.html#_Elecrow_compress' class='navbar-output'>_Elecrow_compress</a></li>
+     <li><a href='t1-navigate_PCB_fabrication_drill.html#_FusionPCB_drill' class='navbar-output'>_FusionPCB_drill</a></li>
+     <li><a href='t1-navigate_PCB_fabrication_drill.html#_FusionPCB_compress' class='navbar-output'>_FusionPCB_compress</a></li>
+     <li><a href='t1-navigate_PCB_fabrication_drill.html#_JLCPCB_drill' class='navbar-output'>_JLCPCB_drill</a></li>
+     <li><a href='t1-navigate_PCB_fabrication_drill.html#_JLCPCB_compress' class='navbar-output'>_JLCPCB_compress</a></li>
+     <li><a href='t1-navigate_PCB_fabrication_drill.html#_PCBWay_drill' class='navbar-output'>_PCBWay_drill</a></li>
+     <li><a href='t1-navigate_PCB_fabrication_drill.html#_PCBWay_compress' class='navbar-output'>_PCBWay_compress</a></li>
+     <li><a href='t1-navigate_PCB_fabrication_drill.html#basic_excellon' class='navbar-output'>basic_excellon</a></li>
+     <li><a href='t1-navigate_PCB_fabrication_drill.html#basic_gerb_drill' class='navbar-output'>basic_gerb_drill</a></li>
    </ul>
+      </ul>
+  </li>
+    <li class='folder'><span onclick='toggleFolder(this)'><span class='chevron'></span> assembly</span>
+      <ul id='folder-t1-navigate_pcb_fabrication-assembly' class='folder-contents' style='display:none;'>
+   <ul class='navbar-category'>
+     <li><a href='t1-navigate_PCB_fabrication_assembly.html#_JLCPCB_position' class='navbar-output'>_JLCPCB_position</a></li>
+     <li><a href='t1-navigate_PCB_fabrication_assembly.html#basic_boardview' class='navbar-output'>basic_boardview</a></li>
+     <li><a href='t1-navigate_PCB_fabrication_assembly.html#basic_ibom' class='navbar-output'>basic_ibom</a></li>
+     <li><a href='t1-navigate_PCB_fabrication_assembly.html#basic_position_ASCII' class='navbar-output'>basic_position_ASCII</a></li>
+     <li><a href='t1-navigate_PCB_fabrication_assembly.html#basic_position_CSV' class='navbar-output'>basic_position_CSV</a></li>
+     <li><a href='t1-navigate_PCB_fabrication_assembly.html#basic_stencil_3d' class='navbar-output'>basic_stencil_3d</a></li>
+     <li><a href='t1-navigate_PCB_fabrication_assembly.html#basic_stencil_for_jig' class='navbar-output'>basic_stencil_for_jig</a></li>
+   </ul>
+      </ul>
+  </li>
+    <li><a href='t1-navigate_PCB_fabrication.html#_PanelDemo_4x4' class='navbar-output'>_PanelDemo_4x4</a></li>
+    <li><a href='t1-navigate_PCB_fabrication.html#basic_ipc2581' class='navbar-output'>basic_ipc2581</a></li>
+    <li><a href='t1-navigate_PCB_fabrication.html#basic_odb' class='navbar-output'>basic_odb</a></li>
   </ul>
+     </ul>
+  </li>
+   <li class='folder'><span onclick='toggleFolder(this)'><span class='chevron'></span> 3D</span>
+     <ul id='folder-t1-navigate_pcb-3d' class='folder-contents' style='display:none;'>
+  <ul class='navbar-category'>
+    <li class='folder'><span onclick='toggleFolder(this)'><span class='chevron'></span> Auxiliar</span>
+      <ul id='folder-t1-navigate_pcb_3d-auxiliar' class='folder-contents' style='display:none;'>
+   <ul class='navbar-category'>
+     <li><a href='t1-navigate_PCB_3D_Auxiliar.html#_PCB2Blender_2_1' class='navbar-output'>_PCB2Blender_2_1</a></li>
+   </ul>
+      </ul>
+  </li>
+    <li><a href='t1-navigate_PCB_3D.html#_PCB2Blender_2_1' class='navbar-output'>_PCB2Blender_2_1</a></li>
+    <li><a href='t1-navigate_PCB_3D.html#basic_blender_export' class='navbar-output'>basic_blender_export</a></li>
+    <li><a href='t1-navigate_PCB_3D.html#basic_export_3d_step' class='navbar-output'>basic_export_3d_step</a></li>
+    <li><a href='t1-navigate_PCB_3D.html#basic_export_3d_glb' class='navbar-output'>basic_export_3d_glb</a></li>
+    <li><a href='t1-navigate_PCB_3D.html#basic_export_3d_stl' class='navbar-output'>basic_export_3d_stl</a></li>
+    <li><a href='t1-navigate_PCB_3D.html#basic_export_3d_xao' class='navbar-output'>basic_export_3d_xao</a></li>
+    <li><a href='t1-navigate_PCB_3D.html#basic_export_3d_brep' class='navbar-output'>basic_export_3d_brep</a></li>
+    <li><a href='t1-navigate_PCB_3D.html#basic_render_3d_top' class='navbar-output'>basic_render_3d_top</a></li>
+    <li><a href='t1-navigate_PCB_3D.html#basic_render_3d_30deg' class='navbar-output'>basic_render_3d_30deg</a></li>
+    <li><a href='t1-navigate_PCB_3D.html#basic_render_3d_bottom' class='navbar-output'>basic_render_3d_bottom</a></li>
+    <li><a href='t1-navigate_PCB_3D.html#basic_vrml' class='navbar-output'>basic_vrml</a></li>
+  </ul>
+     </ul>
+  </li>
+   <li class='folder'><span onclick='toggleFolder(this)'><span class='chevron'></span> repair</span>
+     <ul id='folder-t1-navigate_pcb-repair' class='folder-contents' style='display:none;'>
+  <ul class='navbar-category'>
+    <li><a href='t1-navigate_PCB_repair.html#basic_boardview' class='navbar-output'>basic_boardview</a></li>
+  </ul>
+     </ul>
+  </li>
+   <li class='folder'><span onclick='toggleFolder(this)'><span class='chevron'></span> export</span>
+     <ul id='folder-t1-navigate_pcb-export' class='folder-contents' style='display:none;'>
+  <ul class='navbar-category'>
+    <li><a href='t1-navigate_PCB_export.html#basic_dxf' class='navbar-output'>basic_dxf</a></li>
+    <li><a href='t1-navigate_PCB_export.html#basic_gencad' class='navbar-output'>basic_gencad</a></li>
+    <li><a href='t1-navigate_PCB_export.html#basic_ipc2581' class='navbar-output'>basic_ipc2581</a></li>
+    <li><a href='t1-navigate_PCB_export.html#basic_odb' class='navbar-output'>basic_odb</a></li>
+  </ul>
+     </ul>
+  </li>
  </ul>
+    </ul>
+  </li>
+  <li class='folder'><span onclick='toggleFolder(this)'><span class='chevron'></span> Schematic</span>
+    <ul id='folder-t1-navigate-schematic' class='folder-contents' style='display:none;'>
+ <ul class='navbar-category'>
+   <li class='folder'><span onclick='toggleFolder(this)'><span class='chevron'></span> docs</span>
+     <ul id='folder-t1-navigate_schematic-docs' class='folder-contents' style='display:none;'>
+  <ul class='navbar-category'>
+    <li><a href='t1-navigate_Schematic_docs.html#erc' class='navbar-output'>erc</a></li>
+    <li><a href='t1-navigate_Schematic_docs.html#_ExportProject_compress' class='navbar-output'>_ExportProject_compress</a></li>
+    <li><a href='t1-navigate_Schematic_docs.html#basic_diff_sch' class='navbar-output'>basic_diff_sch</a></li>
+    <li><a href='t1-navigate_Schematic_docs.html#basic_download_datasheets' class='navbar-output'>basic_download_datasheets</a></li>
+    <li><a href='t1-navigate_Schematic_docs.html#basic_dxf_sch_print' class='navbar-output'>basic_dxf_sch_print</a></li>
+    <li><a href='t1-navigate_Schematic_docs.html#basic_hpgl_sch_print' class='navbar-output'>basic_hpgl_sch_print</a></li>
+    <li><a href='t1-navigate_Schematic_docs.html#basic_info' class='navbar-output'>basic_info</a></li>
+    <li><a href='t1-navigate_Schematic_docs.html#basic_kicanvas' class='navbar-output'>basic_kicanvas</a></li>
+    <li><a href='t1-navigate_Schematic_docs.html#basic_kiri' class='navbar-output'>basic_kiri</a></li>
+    <li><a href='t1-navigate_Schematic_docs.html#basic_pdf_sch_print' class='navbar-output'>basic_pdf_sch_print</a></li>
+    <li><a href='t1-navigate_Schematic_docs.html#basic_ps_sch_print' class='navbar-output'>basic_ps_sch_print</a></li>
+    <li><a href='t1-navigate_Schematic_docs.html#basic_svg_sch_print' class='navbar-output'>basic_svg_sch_print</a></li>
+  </ul>
+     </ul>
+  </li>
+   <li class='folder'><span onclick='toggleFolder(this)'><span class='chevron'></span> BoM</span>
+     <ul id='folder-t1-navigate_schematic-bom' class='folder-contents' style='display:none;'>
+  <ul class='navbar-category'>
+    <li><a href='t1-navigate_Schematic_BoM.html#_macrofab_xyrs' class='navbar-output'>_macrofab_xyrs</a></li>
+    <li><a href='t1-navigate_Schematic_BoM.html#generic_bom_html' class='navbar-output'>generic_bom_html</a></li>
+    <li><a href='t1-navigate_Schematic_BoM.html#generic_bom_csv' class='navbar-output'>generic_bom_csv</a></li>
+    <li><a href='t1-navigate_Schematic_BoM.html#generic_bom_hrtxt' class='navbar-output'>generic_bom_hrtxt</a></li>
+    <li><a href='t1-navigate_Schematic_BoM.html#generic_bom_tsv' class='navbar-output'>generic_bom_tsv</a></li>
+    <li><a href='t1-navigate_Schematic_BoM.html#generic_bom_xml' class='navbar-output'>generic_bom_xml</a></li>
+    <li><a href='t1-navigate_Schematic_BoM.html#generic_bom_xlsx' class='navbar-output'>generic_bom_xlsx</a></li>
+    <li><a href='t1-navigate_Schematic_BoM.html#positional_bom_html' class='navbar-output'>positional_bom_html</a></li>
+    <li><a href='t1-navigate_Schematic_BoM.html#positional_bom_xlsx' class='navbar-output'>positional_bom_xlsx</a></li>
+    <li><a href='t1-navigate_Schematic_BoM.html#costs_bom_xlsx' class='navbar-output'>costs_bom_xlsx</a></li>
+    <li><a href='t1-navigate_Schematic_BoM.html#kicad_internal_bom' class='navbar-output'>kicad_internal_bom</a></li>
+    <li><a href='t1-navigate_Schematic_BoM.html#basic_ibom' class='navbar-output'>basic_ibom</a></li>
+  </ul>
+     </ul>
+  </li>
+ </ul>
+    </ul>
+  </li>
+</ul>
 </div>
-<div id="theTopMenu" class="topmenu">
- <table style="width:100%">
-  <tr>
-   <td valign="top" align="left">
-    <span id="bmenu" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
-   </td>
-   <td>
-     <a href="https://github.com/INTI-CMNB/KiBot/">
-     <img src="images/logo.png" alt="Logo" width="185" height="100">
-     </a>
-   </td>
-   <td>
-     <a href="https://github.com/set-soft/kibot_variants_arduprog_test">
-     <span style="font-size:30px;">Arduino UNO programmer</span>
-     </a>
-   </td>
-  </tr>
- </table>
+
+        <div id="topmenu" class="topmenu">
+        <div style="display: flex; align-items: center; flex: 1; min-width: 0; gap: 10px;">
+<span id="open-navbar" style="font-size:30px;cursor:pointer;" onclick="openNav()">&#9776;</span>
+<span id="close-navbar" style="font-size:30px;cursor:pointer;display:none;" onclick="closeNav()">⨉</span>
+<button id="back-button" onclick="history.back()" style="font-size:30px;">↩</button>
+<button id="forward-button" onclick="history.forward()" style="font-size:30px;">↪</button>
+<button id="up-button" onclick="location.href='t1-navigate_PCB.html'" style="font-size:44px; position: relative; top: -3px;">⌅</button>
+<button id="home-button" onclick="location.href='t1-navigate.html'" style="font-size:25px; position: relative; top: -2px;">🏠︎</button>
+
+            <span style="
+                font-size:18px;
+                color: var(--text-color-accent);
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                flex: 1;
+            ">
+                <a href="t1-navigate_PCB.html" style="text-decoration:none;color:inherit;">PCB</a>/<wbr><a href="t1-navigate_PCB_docs.html" style="text-decoration:none;color:inherit;">docs</a>
+            </span>
+</div>
+<div style="text-align: center; flex: 1; min-width: 200px;">
+<a href="https://github.com/set-soft/kibot_variants_arduprog_test" style="text-decoration: none; color: inherit;">
+<span style="font-size:30px;">Arduino UNO programmer</span>
+</a>
+
+            <div style="
+                font-size:14px;
+                color: var(--text-color-accent);
+                margin-top: 5px;">
+                Arduino
+            </div>
+        </div>
+<div style="display: flex; align-items: center; flex: 1; justify-content: flex-end; min-width: 0; gap: 10px; padding-right: 10px;">
+
+            <div style="
+                text-align: left;
+                font-size:14px;
+                margin-right: 10px;
+                color: var(--text-color-accent);">
+                <div style="margin-bottom: 5px;">Rev. r1</div>
+                <div>Variant: </div>
+            </div>
+<a href="https://github.com/INTI-CMNB/KiBot/" style="margin-right: 10px;">
+<img src="images/logo.png" alt="Logo" style="max-height: 50px; max-width: 92.5px;">
+</a>
+
+            <label class="theme-switch" style="
+                position: relative;
+                margin-right: 10px; /* Move toggle slightly left */
+                max-width: 100%; /* Prevent overflow */
+            ">
+                <input type="checkbox" id="themeToggle" onchange="toggleTheme()">
+                <span></span>
+            </label>
+        </div>
 </div>
 <div id="main">
-<table id="drc" class="output-table">
-<thead><tr><th colspan="12">Drc</th></tr></thead>
-<tbody><tr>
-<td class="out-cell" colspan="1"><a href="../t1-drc.html"><table class="out-img"><tr><td><img src="images/drc.svg_64.png" alt="t1-drc.html" width="64" height="64"></td></tr><tr><td class="td-small">t1-drc.html</td></tr></table></a></td>
-<td class="out-cell" colspan="1"><a href="../t1-drc.rpt"><table class="out-img"><tr><td><img src="images/drc.svg_64.png" alt="t1-drc.rpt" width="64" height="64"></td></tr><tr><td class="td-small">t1-drc.rpt</td></tr></table></a></td>
-<td class="out-cell" colspan="1"><a href="../t1-drc.json"><table class="out-img"><tr><td><img src="images/file_json_64.png" alt="t1-drc.json" width="64" height="64"></td></tr><tr><td class="td-small">t1-drc.json</td></tr></table></a></td>
-<td class="out-cell" colspan="1"><a href="../t1-drc.csv"><table class="out-img"><tr><td><img src="images/file_csv_64.png" alt="t1-drc.csv" width="64" height="64"></td></tr><tr><td class="td-small">t1-drc.csv</td></tr></table></a></td>
-<td class="out-cell" colspan="8"></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<table id="_ExportProject_compress" class="output-table">
-<thead><tr><th colspan="12"> ExportProject compress: ZIP file for the exported project</th></tr></thead>
-<tbody><tr>
-<td class="out-cell" colspan="12"><a href="../ExportedProject/t1-_ExportProject_compress.zip"><table class="out-img"><tr><td><img src="images/file_zip_64.png" alt="t1-_ExportProject_compress.zip" width="64" height="64"></td></tr><tr><td class="td-small">t1-_ExportProject_compress.zip</td></tr></table></a></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<table id="_PCB2Blender_2_1" class="output-table">
-<thead><tr><th colspan="12"> PCB2Blender 2 1: PCB3D model for pcb2blender plug-in</th></tr></thead>
-<tbody><tr>
-<td class="out-cell" colspan="12"><a href="../t1.pcb3d"><table class="out-img"><tr><td><img src="images/file_pcb3d_64.png" alt="t1.pcb3d" width="64" height="64"></td></tr><tr><td class="td-small">t1.pcb3d</td></tr></table></a></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<table id="basic_diff_pcb" class="output-table">
-<thead><tr><th colspan="12">Basic diff pcb: PCB diff between the last two changes</th></tr></thead>
-<tbody><tr>
-<td class="out-cell" colspan="12"><a href="../diff/t1-diff_pcb.pdf"><table class="out-img"><tr><td><img src="images/cat_basic_diff_pcb_t1-diff_pcb.png" alt="t1-diff_pcb.pdf" width="256" height="181"></td></tr><tr><td class="td-small">t1-diff_pcb.pdf</td></tr></table></a></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<table id="basic_hpgl" class="output-table">
-<thead><tr><th colspan="12">Basic hpgl: Individual layers in HPGL format</th></tr></thead>
-<tbody><tr>
-<td class="out-cell" colspan="1"><a href="../Individual_Layers/HPGL/t1-F_Cu.plt"><table class="out-img"><tr><td><img src="images/file_plt_64.png" alt="t1-F_Cu.plt" width="64" height="64"></td></tr><tr><td class="td-small">t1-F_Cu.plt</td></tr></table></a></td>
-<td class="out-cell" colspan="1"><a href="../Individual_Layers/HPGL/t1-GND_Cu.plt"><table class="out-img"><tr><td><img src="images/file_plt_64.png" alt="t1-GND_Cu.plt" width="64" height="64"></td></tr><tr><td class="td-small">t1-GND_Cu.plt</td></tr></table></a></td>
-<td class="out-cell" colspan="1"><a href="../Individual_Layers/HPGL/t1-Power_Cu.plt"><table class="out-img"><tr><td><img src="images/file_plt_64.png" alt="t1-Power_Cu.plt" width="64" height="64"></td></tr><tr><td class="td-small">t1-Power_Cu.plt</td></tr></table></a></td>
-<td class="out-cell" colspan="1"><a href="../Individual_Layers/HPGL/t1-B_Cu.plt"><table class="out-img"><tr><td><img src="images/file_plt_64.png" alt="t1-B_Cu.plt" width="64" height="64"></td></tr><tr><td class="td-small">t1-B_Cu.plt</td></tr></table></a></td>
-<td class="out-cell" colspan="1"><a href="../Individual_Layers/HPGL/t1-F_Adhesive.plt"><table class="out-img"><tr><td><img src="images/file_plt_64.png" alt="t1-F_Adhesive.plt" width="64" height="64"></td></tr><tr><td class="td-small">t1-F_Adhesive.plt</td></tr></table></a></td>
-<td class="out-cell" colspan="1"><a href="../Individual_Layers/HPGL/t1-F_Paste.plt"><table class="out-img"><tr><td><img src="images/file_plt_64.png" alt="t1-F_Paste.plt" width="64" height="64"></td></tr><tr><td class="td-small">t1-F_Paste.plt</td></tr></table></a></td>
-<td class="out-cell" colspan="1"><a href="../Individual_Layers/HPGL/t1-B_Silkscreen.plt"><table class="out-img"><tr><td><img src="images/file_plt_64.png" alt="t1-B_Silkscreen.plt" width="64" height="64"></td></tr><tr><td class="td-small">t1-B_Silkscreen.plt</td></tr></table></a></td>
-<td class="out-cell" colspan="1"><a href="../Individual_Layers/HPGL/t1-F_Silkscreen.plt"><table class="out-img"><tr><td><img src="images/file_plt_64.png" alt="t1-F_Silkscreen.plt" width="64" height="64"></td></tr><tr><td class="td-small">t1-F_Silkscreen.plt</td></tr></table></a></td>
-<td class="out-cell" colspan="1"><a href="../Individual_Layers/HPGL/t1-B_Mask.plt"><table class="out-img"><tr><td><img src="images/file_plt_64.png" alt="t1-B_Mask.plt" width="64" height="64"></td></tr><tr><td class="td-small">t1-B_Mask.plt</td></tr></table></a></td>
-<td class="out-cell" colspan="1"><a href="../Individual_Layers/HPGL/t1-F_Mask.plt"><table class="out-img"><tr><td><img src="images/file_plt_64.png" alt="t1-F_Mask.plt" width="64" height="64"></td></tr><tr><td class="td-small">t1-F_Mask.plt</td></tr></table></a></td>
-<td class="out-cell" colspan="1"><a href="../Individual_Layers/HPGL/t1-User_Drawings.plt"><table class="out-img"><tr><td><img src="images/file_plt_64.png" alt="t1-User_Drawings.plt" width="64" height="64"></td></tr><tr><td class="td-small">t1-User_Drawings.plt</td></tr></table></a></td>
-<td class="out-cell" colspan="1"><a href="../Individual_Layers/HPGL/t1-User_Comments.plt"><table class="out-img"><tr><td><img src="images/file_plt_64.png" alt="t1-User_Comments.plt" width="64" height="64"></td></tr><tr><td class="td-small">t1-User_Comments.plt</td></tr></table></a></td>
-</tr>
-<tr>
-<td class="out-cell" colspan="1"><a href="../Individual_Layers/HPGL/t1-Edge_Cuts.plt"><table class="out-img"><tr><td><img src="images/file_plt_64.png" alt="t1-Edge_Cuts.plt" width="64" height="64"></td></tr><tr><td class="td-small">t1-Edge_Cuts.plt</td></tr></table></a></td>
-<td class="out-cell" colspan="1"><a href="../Individual_Layers/HPGL/t1-B_Courtyard.plt"><table class="out-img"><tr><td><img src="images/file_plt_64.png" alt="t1-B_Courtyard.plt" width="64" height="64"></td></tr><tr><td class="td-small">t1-B_Courtyard.plt</td></tr></table></a></td>
-<td class="out-cell" colspan="1"><a href="../Individual_Layers/HPGL/t1-F_Courtyard.plt"><table class="out-img"><tr><td><img src="images/file_plt_64.png" alt="t1-F_Courtyard.plt" width="64" height="64"></td></tr><tr><td class="td-small">t1-F_Courtyard.plt</td></tr></table></a></td>
-<td class="out-cell" colspan="1"><a href="../Individual_Layers/HPGL/t1-B_Fab.plt"><table class="out-img"><tr><td><img src="images/file_plt_64.png" alt="t1-B_Fab.plt" width="64" height="64"></td></tr><tr><td class="td-small">t1-B_Fab.plt</td></tr></table></a></td>
-<td class="out-cell" colspan="1"><a href="../Individual_Layers/HPGL/t1-F_Fab.plt"><table class="out-img"><tr><td><img src="images/file_plt_64.png" alt="t1-F_Fab.plt" width="64" height="64"></td></tr><tr><td class="td-small">t1-F_Fab.plt</td></tr></table></a></td>
-<td class="out-cell" colspan="7"></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<table id="basic_info" class="output-table">
-<thead><tr><th colspan="12">Basic info: Information about the run</th></tr></thead>
-<tbody><tr>
-<td class="out-cell" colspan="12"><a href="../t1-info.txt"><table class="out-img"><tr><td><img src="images/file_txt_64.png" alt="t1-info.txt" width="64" height="64"></td></tr><tr><td class="td-small">t1-info.txt</td></tr></table></a></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<table id="basic_kicanvas" class="output-table">
-<thead><tr><th colspan="12">Basic kicanvas: Web page to browse the schematic and/or PCB</th></tr></thead>
-<tbody><tr>
-<td class="out-cell" colspan="12"><a href="t1-kicanvas.html"><table class="out-img"><tr><td><img src="images/kicanvas.svg_64.png" alt="t1-kicanvas.html" width="64" height="64"></td></tr><tr><td class="td-small">t1-kicanvas.html</td></tr></table></a></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<table id="basic_kikit_present" class="output-table">
-<thead><tr><th colspan="12">Basic kikit present: Simple project presentation</th></tr></thead>
-<tbody><tr>
-<td class="out-cell" colspan="12"><a href="../Presentation/index.html"><table class="out-img"><tr><td><img src="images/file_html_64.png" alt="index.html" width="64" height="64"></td></tr><tr><td class="td-small">index.html</td></tr></table></a></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<table id="basic_kiri" class="output-table">
-<thead><tr><th colspan="12">Basic kiri: Interactive diff between commits</th></tr></thead>
-<tbody><tr>
-<td class="out-cell" colspan="12"><a href="../diff/index.html"><table class="out-img"><tr><td><img src="images/icon.svg_64.png" alt="index.html" width="64" height="64"></td></tr><tr><td class="td-small">index.html</td></tr></table></a></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<table id="basic_pcb_print_pdf" class="output-table">
-<thead><tr><th colspan="12">Basic pcb print pdf: PCB</th></tr></thead>
-<tbody><tr>
-<td class="out-cell" colspan="12"><a href="../PCB/PDF/t1-assembly.pdf"><table class="out-img"><tr><td><img src="images/cat_basic_pcb_print_pdf_t1-assembly.png" alt="t1-assembly.pdf" width="256" height="181"></td></tr><tr><td class="td-small">t1-assembly.pdf</td></tr></table></a></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<table id="basic_pcb_print_svg" class="output-table">
-<thead><tr><th colspan="12">Basic pcb print svg: PCB</th></tr></thead>
-<tbody><tr>
-<td class="out-cell" colspan="4"><a href="../PCB/SVG/t1-assembly_page_01.svg"><table class="out-img"><tr><td><img src="images/cat_basic_pcb_print_svg_t1-assembly_page_01.png" alt="t1-assembly_page_01.svg" width="256" height="182"></td></tr><tr><td class="td-small">t1-assembly_page_01.svg</td></tr></table></a></td>
-<td class="out-cell" colspan="4"><a href="../PCB/SVG/t1-assembly_page_02.svg"><table class="out-img"><tr><td><img src="images/cat_basic_pcb_print_svg_t1-assembly_page_02.png" alt="t1-assembly_page_02.svg" width="256" height="182"></td></tr><tr><td class="td-small">t1-assembly_page_02.svg</td></tr></table></a></td>
-<td class="out-cell" colspan="4"><a href="../PCB/SVG/t1-assembly_page_03.svg"><table class="out-img"><tr><td><img src="images/cat_basic_pcb_print_svg_t1-assembly_page_03.png" alt="t1-assembly_page_03.svg" width="256" height="182"></td></tr><tr><td class="td-small">t1-assembly_page_03.svg</td></tr></table></a></td>
-</tr>
-<tr>
-<td class="out-cell" colspan="4"><a href="../PCB/SVG/t1-assembly_page_04.svg"><table class="out-img"><tr><td><img src="images/cat_basic_pcb_print_svg_t1-assembly_page_04.png" alt="t1-assembly_page_04.svg" width="256" height="182"></td></tr><tr><td class="td-small">t1-assembly_page_04.svg</td></tr></table></a></td>
-<td class="out-cell" colspan="4"><a href="../PCB/SVG/t1-assembly_page_05.svg"><table class="out-img"><tr><td><img src="images/cat_basic_pcb_print_svg_t1-assembly_page_05.png" alt="t1-assembly_page_05.svg" width="256" height="182"></td></tr><tr><td class="td-small">t1-assembly_page_05.svg</td></tr></table></a></td>
-<td class="out-cell" colspan="4"><a href="../PCB/SVG/t1-assembly_page_06.svg"><table class="out-img"><tr><td><img src="images/cat_basic_pcb_print_svg_t1-assembly_page_06.png" alt="t1-assembly_page_06.svg" width="256" height="182"></td></tr><tr><td class="td-small">t1-assembly_page_06.svg</td></tr></table></a></td>
-</tr>
-<tr>
-<td class="out-cell" colspan="4"><a href="../PCB/SVG/t1-assembly_page_07.svg"><table class="out-img"><tr><td><img src="images/cat_basic_pcb_print_svg_t1-assembly_page_07.png" alt="t1-assembly_page_07.svg" width="256" height="182"></td></tr><tr><td class="td-small">t1-assembly_page_07.svg</td></tr></table></a></td>
-<td class="out-cell" colspan="4"><a href="../PCB/SVG/t1-assembly_page_08.svg"><table class="out-img"><tr><td><img src="images/cat_basic_pcb_print_svg_t1-assembly_page_08.png" alt="t1-assembly_page_08.svg" width="256" height="182"></td></tr><tr><td class="td-small">t1-assembly_page_08.svg</td></tr></table></a></td>
-<td class="out-cell" colspan="4"></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<table id="basic_pcb_print_png" class="output-table">
-<thead><tr><th colspan="12">Basic pcb print png: PCB</th></tr></thead>
-<tbody><tr>
-<td class="out-cell" colspan="4"><a href="../PCB/PNG/t1-assembly_page_01.png"><table class="out-img"><tr><td><img src="images/cat_basic_pcb_print_png_t1-assembly_page_01.png" alt="t1-assembly_page_01.png" width="256" height="181"></td></tr><tr><td class="td-small">t1-assembly_page_01.png</td></tr></table></a></td>
-<td class="out-cell" colspan="4"><a href="../PCB/PNG/t1-assembly_page_02.png"><table class="out-img"><tr><td><img src="images/cat_basic_pcb_print_png_t1-assembly_page_02.png" alt="t1-assembly_page_02.png" width="256" height="181"></td></tr><tr><td class="td-small">t1-assembly_page_02.png</td></tr></table></a></td>
-<td class="out-cell" colspan="4"><a href="../PCB/PNG/t1-assembly_page_03.png"><table class="out-img"><tr><td><img src="images/cat_basic_pcb_print_png_t1-assembly_page_03.png" alt="t1-assembly_page_03.png" width="256" height="181"></td></tr><tr><td class="td-small">t1-assembly_page_03.png</td></tr></table></a></td>
-</tr>
-<tr>
-<td class="out-cell" colspan="4"><a href="../PCB/PNG/t1-assembly_page_04.png"><table class="out-img"><tr><td><img src="images/cat_basic_pcb_print_png_t1-assembly_page_04.png" alt="t1-assembly_page_04.png" width="256" height="181"></td></tr><tr><td class="td-small">t1-assembly_page_04.png</td></tr></table></a></td>
-<td class="out-cell" colspan="4"><a href="../PCB/PNG/t1-assembly_page_05.png"><table class="out-img"><tr><td><img src="images/cat_basic_pcb_print_png_t1-assembly_page_05.png" alt="t1-assembly_page_05.png" width="256" height="181"></td></tr><tr><td class="td-small">t1-assembly_page_05.png</td></tr></table></a></td>
-<td class="out-cell" colspan="4"><a href="../PCB/PNG/t1-assembly_page_06.png"><table class="out-img"><tr><td><img src="images/cat_basic_pcb_print_png_t1-assembly_page_06.png" alt="t1-assembly_page_06.png" width="256" height="181"></td></tr><tr><td class="td-small">t1-assembly_page_06.png</td></tr></table></a></td>
-</tr>
-<tr>
-<td class="out-cell" colspan="4"><a href="../PCB/PNG/t1-assembly_page_07.png"><table class="out-img"><tr><td><img src="images/cat_basic_pcb_print_png_t1-assembly_page_07.png" alt="t1-assembly_page_07.png" width="256" height="181"></td></tr><tr><td class="td-small">t1-assembly_page_07.png</td></tr></table></a></td>
-<td class="out-cell" colspan="4"><a href="../PCB/PNG/t1-assembly_page_08.png"><table class="out-img"><tr><td><img src="images/cat_basic_pcb_print_png_t1-assembly_page_08.png" alt="t1-assembly_page_08.png" width="256" height="181"></td></tr><tr><td class="td-small">t1-assembly_page_08.png</td></tr></table></a></td>
-<td class="out-cell" colspan="4"></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<table id="basic_pcb_print_eps" class="output-table">
-<thead><tr><th colspan="12">Basic pcb print eps: PCB</th></tr></thead>
-<tbody><tr>
-<td class="out-cell" colspan="4"><a href="../PCB/EPS/t1-assembly_page_01.eps"><table class="out-img"><tr><td><img src="images/cat_basic_pcb_print_eps_t1-assembly_page_01.png" alt="t1-assembly_page_01.eps" width="256" height="181"></td></tr><tr><td class="td-small">t1-assembly_page_01.eps</td></tr></table></a></td>
-<td class="out-cell" colspan="4"><a href="../PCB/EPS/t1-assembly_page_02.eps"><table class="out-img"><tr><td><img src="images/cat_basic_pcb_print_eps_t1-assembly_page_02.png" alt="t1-assembly_page_02.eps" width="256" height="176"></td></tr><tr><td class="td-small">t1-assembly_page_02.eps</td></tr></table></a></td>
-<td class="out-cell" colspan="4"><a href="../PCB/EPS/t1-assembly_page_03.eps"><table class="out-img"><tr><td><img src="images/cat_basic_pcb_print_eps_t1-assembly_page_03.png" alt="t1-assembly_page_03.eps" width="256" height="176"></td></tr><tr><td class="td-small">t1-assembly_page_03.eps</td></tr></table></a></td>
-</tr>
-<tr>
-<td class="out-cell" colspan="4"><a href="../PCB/EPS/t1-assembly_page_04.eps"><table class="out-img"><tr><td><img src="images/cat_basic_pcb_print_eps_t1-assembly_page_04.png" alt="t1-assembly_page_04.eps" width="256" height="181"></td></tr><tr><td class="td-small">t1-assembly_page_04.eps</td></tr></table></a></td>
-<td class="out-cell" colspan="4"><a href="../PCB/EPS/t1-assembly_page_05.eps"><table class="out-img"><tr><td><img src="images/cat_basic_pcb_print_eps_t1-assembly_page_05.png" alt="t1-assembly_page_05.eps" width="256" height="176"></td></tr><tr><td class="td-small">t1-assembly_page_05.eps</td></tr></table></a></td>
-<td class="out-cell" colspan="4"><a href="../PCB/EPS/t1-assembly_page_06.eps"><table class="out-img"><tr><td><img src="images/cat_basic_pcb_print_eps_t1-assembly_page_06.png" alt="t1-assembly_page_06.eps" width="256" height="176"></td></tr><tr><td class="td-small">t1-assembly_page_06.eps</td></tr></table></a></td>
-</tr>
-<tr>
-<td class="out-cell" colspan="4"><a href="../PCB/EPS/t1-assembly_page_07.eps"><table class="out-img"><tr><td><img src="images/cat_basic_pcb_print_eps_t1-assembly_page_07.png" alt="t1-assembly_page_07.eps" width="256" height="176"></td></tr><tr><td class="td-small">t1-assembly_page_07.eps</td></tr></table></a></td>
-<td class="out-cell" colspan="4"><a href="../PCB/EPS/t1-assembly_page_08.eps"><table class="out-img"><tr><td><img src="images/cat_basic_pcb_print_eps_t1-assembly_page_08.png" alt="t1-assembly_page_08.eps" width="256" height="176"></td></tr><tr><td class="td-small">t1-assembly_page_08.eps</td></tr></table></a></td>
-<td class="out-cell" colspan="4"></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<table id="basic_pcb_print_ps" class="output-table">
-<thead><tr><th colspan="12">Basic pcb print ps: PCB</th></tr></thead>
-<tbody><tr>
-<td class="out-cell" colspan="12"><a href="../PCB/PS/t1-assembly.ps"><table class="out-img"><tr><td><img src="images/cat_basic_pcb_print_ps_t1-assembly.png" alt="t1-assembly.ps" width="181" height="256"></td></tr><tr><td class="td-small">t1-assembly.ps</td></tr></table></a></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<table id="basic_pcbdraw_svg_jlcpcb_green_enig_top" class="output-table">
-<thead><tr><th colspan="12">Basic pcbdraw svg jlcpcb green enig top: PCB 2D render in SVG format, using jlcpcb-green-enig style</th></tr></thead>
-<tbody><tr>
-<td class="out-cell" colspan="12"><a href="../PCB/2D_render/jlcpcb_green_enig/t1-top.svg"><table class="out-img"><tr><td><img src="images/cat_basic_pcbdraw_svg_jlcpcb_green_enig_top_t1-top.png" alt="t1-top.svg" width="256" height="145"></td></tr><tr><td class="td-small">t1-top.svg</td></tr></table></a></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<table id="basic_pcbdraw_png_jlcpcb_green_enig_top" class="output-table">
-<thead><tr><th colspan="12">Basic pcbdraw png jlcpcb green enig top: PCB 2D render in PNG format, using jlcpcb-green-enig style</th></tr></thead>
-<tbody><tr>
-<td class="out-cell" colspan="12"><a href="../PCB/2D_render/jlcpcb_green_enig/t1-top.png"><table class="out-img"><tr><td><img src="images/cat_basic_pcbdraw_png_jlcpcb_green_enig_top_t1-top.png" alt="t1-top.png" width="256" height="145"></td></tr><tr><td class="td-small">t1-top.png</td></tr></table></a></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<table id="basic_pcbdraw_jpg_jlcpcb_green_enig_top" class="output-table">
-<thead><tr><th colspan="12">Basic pcbdraw jpg jlcpcb green enig top: PCB 2D render in JPG format, using jlcpcb-green-enig style</th></tr></thead>
-<tbody><tr>
-<td class="out-cell" colspan="12"><a href="../PCB/2D_render/jlcpcb_green_enig/t1-top.jpg"><table class="out-img"><tr><td><img src="images/cat_basic_pcbdraw_jpg_jlcpcb_green_enig_top_t1-top.png" alt="t1-top.jpg" width="256" height="145"></td></tr><tr><td class="td-small">t1-top.jpg</td></tr></table></a></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<table id="basic_pcbdraw_svg_set_blue_enig_top" class="output-table">
-<thead><tr><th colspan="12">Basic pcbdraw svg set blue enig top: PCB 2D render in SVG format, using set-blue-enig style</th></tr></thead>
-<tbody><tr>
-<td class="out-cell" colspan="12"><a href="../PCB/2D_render/set_blue_enig/t1-top.svg"><table class="out-img"><tr><td><img src="images/cat_basic_pcbdraw_svg_set_blue_enig_top_t1-top.png" alt="t1-top.svg" width="256" height="145"></td></tr><tr><td class="td-small">t1-top.svg</td></tr></table></a></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<table id="basic_pcbdraw_png_set_blue_enig_top" class="output-table">
-<thead><tr><th colspan="12">Basic pcbdraw png set blue enig top: PCB 2D render in PNG format, using set-blue-enig style</th></tr></thead>
-<tbody><tr>
-<td class="out-cell" colspan="12"><a href="../PCB/2D_render/set_blue_enig/t1-top.png"><table class="out-img"><tr><td><img src="images/cat_basic_pcbdraw_png_set_blue_enig_top_t1-top.png" alt="t1-top.png" width="256" height="145"></td></tr><tr><td class="td-small">t1-top.png</td></tr></table></a></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<table id="basic_pcbdraw_jpg_set_blue_enig_top" class="output-table">
-<thead><tr><th colspan="12">Basic pcbdraw jpg set blue enig top: PCB 2D render in JPG format, using set-blue-enig style</th></tr></thead>
-<tbody><tr>
-<td class="out-cell" colspan="12"><a href="../PCB/2D_render/set_blue_enig/t1-top.jpg"><table class="out-img"><tr><td><img src="images/cat_basic_pcbdraw_jpg_set_blue_enig_top_t1-top.png" alt="t1-top.jpg" width="256" height="145"></td></tr><tr><td class="td-small">t1-top.jpg</td></tr></table></a></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<table id="basic_pcbdraw_svg_set_red_hasl_top" class="output-table">
-<thead><tr><th colspan="12">Basic pcbdraw svg set red hasl top: PCB 2D render in SVG format, using set-red-hasl style</th></tr></thead>
-<tbody><tr>
-<td class="out-cell" colspan="12"><a href="../PCB/2D_render/set_red_hasl/t1-top.svg"><table class="out-img"><tr><td><img src="images/cat_basic_pcbdraw_svg_set_red_hasl_top_t1-top.png" alt="t1-top.svg" width="256" height="145"></td></tr><tr><td class="td-small">t1-top.svg</td></tr></table></a></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<table id="basic_pcbdraw_png_set_red_hasl_top" class="output-table">
-<thead><tr><th colspan="12">Basic pcbdraw png set red hasl top: PCB 2D render in PNG format, using set-red-hasl style</th></tr></thead>
-<tbody><tr>
-<td class="out-cell" colspan="12"><a href="../PCB/2D_render/set_red_hasl/t1-top.png"><table class="out-img"><tr><td><img src="images/cat_basic_pcbdraw_png_set_red_hasl_top_t1-top.png" alt="t1-top.png" width="256" height="145"></td></tr><tr><td class="td-small">t1-top.png</td></tr></table></a></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<table id="basic_pcbdraw_jpg_set_red_hasl_top" class="output-table">
-<thead><tr><th colspan="12">Basic pcbdraw jpg set red hasl top: PCB 2D render in JPG format, using set-red-hasl style</th></tr></thead>
-<tbody><tr>
-<td class="out-cell" colspan="12"><a href="../PCB/2D_render/set_red_hasl/t1-top.jpg"><table class="out-img"><tr><td><img src="images/cat_basic_pcbdraw_jpg_set_red_hasl_top_t1-top.png" alt="t1-top.jpg" width="256" height="145"></td></tr><tr><td class="td-small">t1-top.jpg</td></tr></table></a></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<table id="basic_pcbdraw_svg_jlcpcb_green_enig_bottom" class="output-table">
-<thead><tr><th colspan="12">Basic pcbdraw svg jlcpcb green enig bottom: PCB 2D render in SVG format, using jlcpcb-green-enig style</th></tr></thead>
-<tbody><tr>
-<td class="out-cell" colspan="12"><a href="../PCB/2D_render/jlcpcb_green_enig/t1-bottom.svg"><table class="out-img"><tr><td><img src="images/cat_basic_pcbdraw_svg_jlcpcb_green_enig_bottom_t1-bottom.png" alt="t1-bottom.svg" width="256" height="145"></td></tr><tr><td class="td-small">t1-bottom.svg</td></tr></table></a></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<table id="basic_pcbdraw_png_jlcpcb_green_enig_bottom" class="output-table">
-<thead><tr><th colspan="12">Basic pcbdraw png jlcpcb green enig bottom: PCB 2D render in PNG format, using jlcpcb-green-enig style</th></tr></thead>
-<tbody><tr>
-<td class="out-cell" colspan="12"><a href="../PCB/2D_render/jlcpcb_green_enig/t1-bottom.png"><table class="out-img"><tr><td><img src="images/cat_basic_pcbdraw_png_jlcpcb_green_enig_bottom_t1-bottom.png" alt="t1-bottom.png" width="256" height="145"></td></tr><tr><td class="td-small">t1-bottom.png</td></tr></table></a></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<table id="basic_pcbdraw_jpg_jlcpcb_green_enig_bottom" class="output-table">
-<thead><tr><th colspan="12">Basic pcbdraw jpg jlcpcb green enig bottom: PCB 2D render in JPG format, using jlcpcb-green-enig style</th></tr></thead>
-<tbody><tr>
-<td class="out-cell" colspan="12"><a href="../PCB/2D_render/jlcpcb_green_enig/t1-bottom.jpg"><table class="out-img"><tr><td><img src="images/cat_basic_pcbdraw_jpg_jlcpcb_green_enig_bottom_t1-bottom.png" alt="t1-bottom.jpg" width="256" height="145"></td></tr><tr><td class="td-small">t1-bottom.jpg</td></tr></table></a></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<table id="basic_pcbdraw_svg_set_blue_enig_bottom" class="output-table">
-<thead><tr><th colspan="12">Basic pcbdraw svg set blue enig bottom: PCB 2D render in SVG format, using set-blue-enig style</th></tr></thead>
-<tbody><tr>
-<td class="out-cell" colspan="12"><a href="../PCB/2D_render/set_blue_enig/t1-bottom.svg"><table class="out-img"><tr><td><img src="images/cat_basic_pcbdraw_svg_set_blue_enig_bottom_t1-bottom.png" alt="t1-bottom.svg" width="256" height="145"></td></tr><tr><td class="td-small">t1-bottom.svg</td></tr></table></a></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<table id="basic_pcbdraw_png_set_blue_enig_bottom" class="output-table">
-<thead><tr><th colspan="12">Basic pcbdraw png set blue enig bottom: PCB 2D render in PNG format, using set-blue-enig style</th></tr></thead>
-<tbody><tr>
-<td class="out-cell" colspan="12"><a href="../PCB/2D_render/set_blue_enig/t1-bottom.png"><table class="out-img"><tr><td><img src="images/cat_basic_pcbdraw_png_set_blue_enig_bottom_t1-bottom.png" alt="t1-bottom.png" width="256" height="145"></td></tr><tr><td class="td-small">t1-bottom.png</td></tr></table></a></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<table id="basic_pcbdraw_jpg_set_blue_enig_bottom" class="output-table">
-<thead><tr><th colspan="12">Basic pcbdraw jpg set blue enig bottom: PCB 2D render in JPG format, using set-blue-enig style</th></tr></thead>
-<tbody><tr>
-<td class="out-cell" colspan="12"><a href="../PCB/2D_render/set_blue_enig/t1-bottom.jpg"><table class="out-img"><tr><td><img src="images/cat_basic_pcbdraw_jpg_set_blue_enig_bottom_t1-bottom.png" alt="t1-bottom.jpg" width="256" height="145"></td></tr><tr><td class="td-small">t1-bottom.jpg</td></tr></table></a></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<table id="basic_pcbdraw_svg_set_red_hasl_bottom" class="output-table">
-<thead><tr><th colspan="12">Basic pcbdraw svg set red hasl bottom: PCB 2D render in SVG format, using set-red-hasl style</th></tr></thead>
-<tbody><tr>
-<td class="out-cell" colspan="12"><a href="../PCB/2D_render/set_red_hasl/t1-bottom.svg"><table class="out-img"><tr><td><img src="images/cat_basic_pcbdraw_svg_set_red_hasl_bottom_t1-bottom.png" alt="t1-bottom.svg" width="256" height="145"></td></tr><tr><td class="td-small">t1-bottom.svg</td></tr></table></a></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<table id="basic_pcbdraw_png_set_red_hasl_bottom" class="output-table">
-<thead><tr><th colspan="12">Basic pcbdraw png set red hasl bottom: PCB 2D render in PNG format, using set-red-hasl style</th></tr></thead>
-<tbody><tr>
-<td class="out-cell" colspan="12"><a href="../PCB/2D_render/set_red_hasl/t1-bottom.png"><table class="out-img"><tr><td><img src="images/cat_basic_pcbdraw_png_set_red_hasl_bottom_t1-bottom.png" alt="t1-bottom.png" width="256" height="145"></td></tr><tr><td class="td-small">t1-bottom.png</td></tr></table></a></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<table id="basic_pcbdraw_jpg_set_red_hasl_bottom" class="output-table">
-<thead><tr><th colspan="12">Basic pcbdraw jpg set red hasl bottom: PCB 2D render in JPG format, using set-red-hasl style</th></tr></thead>
-<tbody><tr>
-<td class="out-cell" colspan="12"><a href="../PCB/2D_render/set_red_hasl/t1-bottom.jpg"><table class="out-img"><tr><td><img src="images/cat_basic_pcbdraw_jpg_set_red_hasl_bottom_t1-bottom.png" alt="t1-bottom.jpg" width="256" height="145"></td></tr><tr><td class="td-small">t1-bottom.jpg</td></tr></table></a></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<table id="basic_pdf" class="output-table">
-<thead><tr><th colspan="12">Basic pdf: Individual layers in PDF format</th></tr></thead>
-<tbody><tr>
-<td class="out-cell" colspan="4"><a href="../Individual_Layers/PDF/t1-F_Cu.pdf"><table class="out-img"><tr><td><img src="images/cat_basic_pdf_t1-F_Cu.png" alt="t1-F_Cu.pdf" width="256" height="181"></td></tr><tr><td class="td-small">t1-F_Cu.pdf</td></tr></table></a></td>
-<td class="out-cell" colspan="4"><a href="../Individual_Layers/PDF/t1-GND_Cu.pdf"><table class="out-img"><tr><td><img src="images/cat_basic_pdf_t1-GND_Cu.png" alt="t1-GND_Cu.pdf" width="256" height="181"></td></tr><tr><td class="td-small">t1-GND_Cu.pdf</td></tr></table></a></td>
-<td class="out-cell" colspan="4"><a href="../Individual_Layers/PDF/t1-Power_Cu.pdf"><table class="out-img"><tr><td><img src="images/cat_basic_pdf_t1-Power_Cu.png" alt="t1-Power_Cu.pdf" width="256" height="181"></td></tr><tr><td class="td-small">t1-Power_Cu.pdf</td></tr></table></a></td>
-</tr>
-<tr>
-<td class="out-cell" colspan="4"><a href="../Individual_Layers/PDF/t1-B_Cu.pdf"><table class="out-img"><tr><td><img src="images/cat_basic_pdf_t1-B_Cu.png" alt="t1-B_Cu.pdf" width="256" height="181"></td></tr><tr><td class="td-small">t1-B_Cu.pdf</td></tr></table></a></td>
-<td class="out-cell" colspan="4"><a href="../Individual_Layers/PDF/t1-F_Adhesive.pdf"><table class="out-img"><tr><td><img src="images/cat_basic_pdf_t1-F_Adhesive.png" alt="t1-F_Adhesive.pdf" width="256" height="181"></td></tr><tr><td class="td-small">t1-F_Adhesive.pdf</td></tr></table></a></td>
-<td class="out-cell" colspan="4"><a href="../Individual_Layers/PDF/t1-F_Paste.pdf"><table class="out-img"><tr><td><img src="images/cat_basic_pdf_t1-F_Paste.png" alt="t1-F_Paste.pdf" width="256" height="181"></td></tr><tr><td class="td-small">t1-F_Paste.pdf</td></tr></table></a></td>
-</tr>
-<tr>
-<td class="out-cell" colspan="4"><a href="../Individual_Layers/PDF/t1-B_Silkscreen.pdf"><table class="out-img"><tr><td><img src="images/cat_basic_pdf_t1-B_Silkscreen.png" alt="t1-B_Silkscreen.pdf" width="256" height="181"></td></tr><tr><td class="td-small">t1-B_Silkscreen.pdf</td></tr></table></a></td>
-<td class="out-cell" colspan="4"><a href="../Individual_Layers/PDF/t1-F_Silkscreen.pdf"><table class="out-img"><tr><td><img src="images/cat_basic_pdf_t1-F_Silkscreen.png" alt="t1-F_Silkscreen.pdf" width="256" height="181"></td></tr><tr><td class="td-small">t1-F_Silkscreen.pdf</td></tr></table></a></td>
-<td class="out-cell" colspan="4"><a href="../Individual_Layers/PDF/t1-B_Mask.pdf"><table class="out-img"><tr><td><img src="images/cat_basic_pdf_t1-B_Mask.png" alt="t1-B_Mask.pdf" width="256" height="181"></td></tr><tr><td class="td-small">t1-B_Mask.pdf</td></tr></table></a></td>
-</tr>
-<tr>
-<td class="out-cell" colspan="4"><a href="../Individual_Layers/PDF/t1-F_Mask.pdf"><table class="out-img"><tr><td><img src="images/cat_basic_pdf_t1-F_Mask.png" alt="t1-F_Mask.pdf" width="256" height="181"></td></tr><tr><td class="td-small">t1-F_Mask.pdf</td></tr></table></a></td>
-<td class="out-cell" colspan="4"><a href="../Individual_Layers/PDF/t1-User_Drawings.pdf"><table class="out-img"><tr><td><img src="images/cat_basic_pdf_t1-User_Drawings.png" alt="t1-User_Drawings.pdf" width="256" height="181"></td></tr><tr><td class="td-small">t1-User_Drawings.pdf</td></tr></table></a></td>
-<td class="out-cell" colspan="4"><a href="../Individual_Layers/PDF/t1-User_Comments.pdf"><table class="out-img"><tr><td><img src="images/cat_basic_pdf_t1-User_Comments.png" alt="t1-User_Comments.pdf" width="256" height="181"></td></tr><tr><td class="td-small">t1-User_Comments.pdf</td></tr></table></a></td>
-</tr>
-<tr>
-<td class="out-cell" colspan="4"><a href="../Individual_Layers/PDF/t1-Edge_Cuts.pdf"><table class="out-img"><tr><td><img src="images/cat_basic_pdf_t1-Edge_Cuts.png" alt="t1-Edge_Cuts.pdf" width="256" height="181"></td></tr><tr><td class="td-small">t1-Edge_Cuts.pdf</td></tr></table></a></td>
-<td class="out-cell" colspan="4"><a href="../Individual_Layers/PDF/t1-B_Courtyard.pdf"><table class="out-img"><tr><td><img src="images/cat_basic_pdf_t1-B_Courtyard.png" alt="t1-B_Courtyard.pdf" width="256" height="181"></td></tr><tr><td class="td-small">t1-B_Courtyard.pdf</td></tr></table></a></td>
-<td class="out-cell" colspan="4"><a href="../Individual_Layers/PDF/t1-F_Courtyard.pdf"><table class="out-img"><tr><td><img src="images/cat_basic_pdf_t1-F_Courtyard.png" alt="t1-F_Courtyard.pdf" width="256" height="181"></td></tr><tr><td class="td-small">t1-F_Courtyard.pdf</td></tr></table></a></td>
-</tr>
-<tr>
-<td class="out-cell" colspan="4"><a href="../Individual_Layers/PDF/t1-B_Fab.pdf"><table class="out-img"><tr><td><img src="images/cat_basic_pdf_t1-B_Fab.png" alt="t1-B_Fab.pdf" width="256" height="181"></td></tr><tr><td class="td-small">t1-B_Fab.pdf</td></tr></table></a></td>
-<td class="out-cell" colspan="4"><a href="../Individual_Layers/PDF/t1-F_Fab.pdf"><table class="out-img"><tr><td><img src="images/cat_basic_pdf_t1-F_Fab.png" alt="t1-F_Fab.pdf" width="256" height="181"></td></tr><tr><td class="td-small">t1-F_Fab.pdf</td></tr></table></a></td>
-<td class="out-cell" colspan="4"></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<table id="basic_ps" class="output-table">
-<thead><tr><th colspan="12">Basic ps: Individual layers in PS format</th></tr></thead>
-<tbody><tr>
-<td class="out-cell" colspan="4"><a href="../Individual_Layers/PS/t1-F_Cu.ps"><table class="out-img"><tr><td><img src="images/cat_basic_ps_t1-F_Cu.png" alt="t1-F_Cu.ps" width="362" height="256"></td></tr><tr><td class="td-small">t1-F_Cu.ps</td></tr></table></a></td>
-<td class="out-cell" colspan="4"><a href="../Individual_Layers/PS/t1-GND_Cu.ps"><table class="out-img"><tr><td><img src="images/cat_basic_ps_t1-GND_Cu.png" alt="t1-GND_Cu.ps" width="362" height="256"></td></tr><tr><td class="td-small">t1-GND_Cu.ps</td></tr></table></a></td>
-<td class="out-cell" colspan="4"><a href="../Individual_Layers/PS/t1-Power_Cu.ps"><table class="out-img"><tr><td><img src="images/cat_basic_ps_t1-Power_Cu.png" alt="t1-Power_Cu.ps" width="362" height="256"></td></tr><tr><td class="td-small">t1-Power_Cu.ps</td></tr></table></a></td>
-</tr>
-<tr>
-<td class="out-cell" colspan="4"><a href="../Individual_Layers/PS/t1-B_Cu.ps"><table class="out-img"><tr><td><img src="images/cat_basic_ps_t1-B_Cu.png" alt="t1-B_Cu.ps" width="362" height="256"></td></tr><tr><td class="td-small">t1-B_Cu.ps</td></tr></table></a></td>
-<td class="out-cell" colspan="4"><a href="../Individual_Layers/PS/t1-F_Adhesive.ps"><table class="out-img"><tr><td><img src="images/cat_basic_ps_t1-F_Adhesive.png" alt="t1-F_Adhesive.ps" width="362" height="256"></td></tr><tr><td class="td-small">t1-F_Adhesive.ps</td></tr></table></a></td>
-<td class="out-cell" colspan="4"><a href="../Individual_Layers/PS/t1-F_Paste.ps"><table class="out-img"><tr><td><img src="images/cat_basic_ps_t1-F_Paste.png" alt="t1-F_Paste.ps" width="362" height="256"></td></tr><tr><td class="td-small">t1-F_Paste.ps</td></tr></table></a></td>
-</tr>
-<tr>
-<td class="out-cell" colspan="4"><a href="../Individual_Layers/PS/t1-B_Silkscreen.ps"><table class="out-img"><tr><td><img src="images/cat_basic_ps_t1-B_Silkscreen.png" alt="t1-B_Silkscreen.ps" width="362" height="256"></td></tr><tr><td class="td-small">t1-B_Silkscreen.ps</td></tr></table></a></td>
-<td class="out-cell" colspan="4"><a href="../Individual_Layers/PS/t1-F_Silkscreen.ps"><table class="out-img"><tr><td><img src="images/cat_basic_ps_t1-F_Silkscreen.png" alt="t1-F_Silkscreen.ps" width="362" height="256"></td></tr><tr><td class="td-small">t1-F_Silkscreen.ps</td></tr></table></a></td>
-<td class="out-cell" colspan="4"><a href="../Individual_Layers/PS/t1-B_Mask.ps"><table class="out-img"><tr><td><img src="images/cat_basic_ps_t1-B_Mask.png" alt="t1-B_Mask.ps" width="362" height="256"></td></tr><tr><td class="td-small">t1-B_Mask.ps</td></tr></table></a></td>
-</tr>
-<tr>
-<td class="out-cell" colspan="4"><a href="../Individual_Layers/PS/t1-F_Mask.ps"><table class="out-img"><tr><td><img src="images/cat_basic_ps_t1-F_Mask.png" alt="t1-F_Mask.ps" width="362" height="256"></td></tr><tr><td class="td-small">t1-F_Mask.ps</td></tr></table></a></td>
-<td class="out-cell" colspan="4"><a href="../Individual_Layers/PS/t1-User_Drawings.ps"><table class="out-img"><tr><td><img src="images/cat_basic_ps_t1-User_Drawings.png" alt="t1-User_Drawings.ps" width="362" height="256"></td></tr><tr><td class="td-small">t1-User_Drawings.ps</td></tr></table></a></td>
-<td class="out-cell" colspan="4"><a href="../Individual_Layers/PS/t1-User_Comments.ps"><table class="out-img"><tr><td><img src="images/cat_basic_ps_t1-User_Comments.png" alt="t1-User_Comments.ps" width="362" height="256"></td></tr><tr><td class="td-small">t1-User_Comments.ps</td></tr></table></a></td>
-</tr>
-<tr>
-<td class="out-cell" colspan="4"><a href="../Individual_Layers/PS/t1-Edge_Cuts.ps"><table class="out-img"><tr><td><img src="images/cat_basic_ps_t1-Edge_Cuts.png" alt="t1-Edge_Cuts.ps" width="362" height="256"></td></tr><tr><td class="td-small">t1-Edge_Cuts.ps</td></tr></table></a></td>
-<td class="out-cell" colspan="4"><a href="../Individual_Layers/PS/t1-B_Courtyard.ps"><table class="out-img"><tr><td><img src="images/cat_basic_ps_t1-B_Courtyard.png" alt="t1-B_Courtyard.ps" width="362" height="256"></td></tr><tr><td class="td-small">t1-B_Courtyard.ps</td></tr></table></a></td>
-<td class="out-cell" colspan="4"><a href="../Individual_Layers/PS/t1-F_Courtyard.ps"><table class="out-img"><tr><td><img src="images/cat_basic_ps_t1-F_Courtyard.png" alt="t1-F_Courtyard.ps" width="362" height="256"></td></tr><tr><td class="td-small">t1-F_Courtyard.ps</td></tr></table></a></td>
-</tr>
-<tr>
-<td class="out-cell" colspan="4"><a href="../Individual_Layers/PS/t1-B_Fab.ps"><table class="out-img"><tr><td><img src="images/cat_basic_ps_t1-B_Fab.png" alt="t1-B_Fab.ps" width="362" height="256"></td></tr><tr><td class="td-small">t1-B_Fab.ps</td></tr></table></a></td>
-<td class="out-cell" colspan="4"><a href="../Individual_Layers/PS/t1-F_Fab.ps"><table class="out-img"><tr><td><img src="images/cat_basic_ps_t1-F_Fab.png" alt="t1-F_Fab.ps" width="362" height="256"></td></tr><tr><td class="td-small">t1-F_Fab.ps</td></tr></table></a></td>
-<td class="out-cell" colspan="4"></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<table id="report_simple" class="output-table">
-<thead><tr><th colspan="12">Report simple: Simple design report</th></tr></thead>
-<tbody><tr>
-<td class="out-cell" colspan="1"><a href="../t1-report_simple.txt"><table class="out-img"><tr><td><img src="images/file_txt_64.png" alt="t1-report_simple.txt" width="64" height="64"></td></tr><tr><td class="td-small">t1-report_simple.txt</td></tr></table></a></td>
-<td class="out-cell" colspan="4"><a href="../t1-report_simple.pdf"><table class="out-img"><tr><td><img src="images/cat_report_simple_t1-report_simple.png" alt="t1-report_simple.pdf" width="256" height="331"></td></tr><tr><td class="td-small">t1-report_simple.pdf</td></tr></table></a></td>
-<td class="out-cell" colspan="7"></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<table id="report_full" class="output-table">
-<thead><tr><th colspan="12">Report full: Full design report</th></tr></thead>
-<tbody><tr>
-<td class="out-cell" colspan="1"><a href="../t1-report.txt"><table class="out-img"><tr><td><img src="images/file_txt_64.png" alt="t1-report.txt" width="64" height="64"></td></tr><tr><td class="td-small">t1-report.txt</td></tr></table></a></td>
-<td class="out-cell" colspan="4"><a href="../t1-report.pdf"><table class="out-img"><tr><td><img src="images/cat_report_full_t1-report.png" alt="t1-report.pdf" width="256" height="331"></td></tr><tr><td class="td-small">t1-report.pdf</td></tr></table></a></td>
-<td class="out-cell" colspan="7"></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<table id="basic_svg" class="output-table">
-<thead><tr><th colspan="12">Basic svg: Individual layers in SVG format</th></tr></thead>
-<tbody><tr>
-<td class="out-cell" colspan="4"><a href="../Individual_Layers/SVG/t1-F_Cu.svg"><table class="out-img"><tr><td><img src="images/cat_basic_svg_t1-F_Cu.png" alt="t1-F_Cu.svg" width="256" height="182"></td></tr><tr><td class="td-small">t1-F_Cu.svg</td></tr></table></a></td>
-<td class="out-cell" colspan="4"><a href="../Individual_Layers/SVG/t1-GND_Cu.svg"><table class="out-img"><tr><td><img src="images/cat_basic_svg_t1-GND_Cu.png" alt="t1-GND_Cu.svg" width="256" height="182"></td></tr><tr><td class="td-small">t1-GND_Cu.svg</td></tr></table></a></td>
-<td class="out-cell" colspan="4"><a href="../Individual_Layers/SVG/t1-Power_Cu.svg"><table class="out-img"><tr><td><img src="images/cat_basic_svg_t1-Power_Cu.png" alt="t1-Power_Cu.svg" width="256" height="182"></td></tr><tr><td class="td-small">t1-Power_Cu.svg</td></tr></table></a></td>
-</tr>
-<tr>
-<td class="out-cell" colspan="4"><a href="../Individual_Layers/SVG/t1-B_Cu.svg"><table class="out-img"><tr><td><img src="images/cat_basic_svg_t1-B_Cu.png" alt="t1-B_Cu.svg" width="256" height="182"></td></tr><tr><td class="td-small">t1-B_Cu.svg</td></tr></table></a></td>
-<td class="out-cell" colspan="4"><a href="../Individual_Layers/SVG/t1-F_Adhesive.svg"><table class="out-img"><tr><td><img src="images/cat_basic_svg_t1-F_Adhesive.png" alt="t1-F_Adhesive.svg" width="256" height="182"></td></tr><tr><td class="td-small">t1-F_Adhesive.svg</td></tr></table></a></td>
-<td class="out-cell" colspan="4"><a href="../Individual_Layers/SVG/t1-F_Paste.svg"><table class="out-img"><tr><td><img src="images/cat_basic_svg_t1-F_Paste.png" alt="t1-F_Paste.svg" width="256" height="182"></td></tr><tr><td class="td-small">t1-F_Paste.svg</td></tr></table></a></td>
-</tr>
-<tr>
-<td class="out-cell" colspan="4"><a href="../Individual_Layers/SVG/t1-B_Silkscreen.svg"><table class="out-img"><tr><td><img src="images/cat_basic_svg_t1-B_Silkscreen.png" alt="t1-B_Silkscreen.svg" width="256" height="182"></td></tr><tr><td class="td-small">t1-B_Silkscreen.svg</td></tr></table></a></td>
-<td class="out-cell" colspan="4"><a href="../Individual_Layers/SVG/t1-F_Silkscreen.svg"><table class="out-img"><tr><td><img src="images/cat_basic_svg_t1-F_Silkscreen.png" alt="t1-F_Silkscreen.svg" width="256" height="182"></td></tr><tr><td class="td-small">t1-F_Silkscreen.svg</td></tr></table></a></td>
-<td class="out-cell" colspan="4"><a href="../Individual_Layers/SVG/t1-B_Mask.svg"><table class="out-img"><tr><td><img src="images/cat_basic_svg_t1-B_Mask.png" alt="t1-B_Mask.svg" width="256" height="182"></td></tr><tr><td class="td-small">t1-B_Mask.svg</td></tr></table></a></td>
-</tr>
-<tr>
-<td class="out-cell" colspan="4"><a href="../Individual_Layers/SVG/t1-F_Mask.svg"><table class="out-img"><tr><td><img src="images/cat_basic_svg_t1-F_Mask.png" alt="t1-F_Mask.svg" width="256" height="182"></td></tr><tr><td class="td-small">t1-F_Mask.svg</td></tr></table></a></td>
-<td class="out-cell" colspan="4"><a href="../Individual_Layers/SVG/t1-User_Drawings.svg"><table class="out-img"><tr><td><img src="images/cat_basic_svg_t1-User_Drawings.png" alt="t1-User_Drawings.svg" width="256" height="182"></td></tr><tr><td class="td-small">t1-User_Drawings.svg</td></tr></table></a></td>
-<td class="out-cell" colspan="4"><a href="../Individual_Layers/SVG/t1-User_Comments.svg"><table class="out-img"><tr><td><img src="images/cat_basic_svg_t1-User_Comments.png" alt="t1-User_Comments.svg" width="256" height="182"></td></tr><tr><td class="td-small">t1-User_Comments.svg</td></tr></table></a></td>
-</tr>
-<tr>
-<td class="out-cell" colspan="4"><a href="../Individual_Layers/SVG/t1-Edge_Cuts.svg"><table class="out-img"><tr><td><img src="images/cat_basic_svg_t1-Edge_Cuts.png" alt="t1-Edge_Cuts.svg" width="256" height="182"></td></tr><tr><td class="td-small">t1-Edge_Cuts.svg</td></tr></table></a></td>
-<td class="out-cell" colspan="4"><a href="../Individual_Layers/SVG/t1-B_Courtyard.svg"><table class="out-img"><tr><td><img src="images/cat_basic_svg_t1-B_Courtyard.png" alt="t1-B_Courtyard.svg" width="256" height="182"></td></tr><tr><td class="td-small">t1-B_Courtyard.svg</td></tr></table></a></td>
-<td class="out-cell" colspan="4"><a href="../Individual_Layers/SVG/t1-F_Courtyard.svg"><table class="out-img"><tr><td><img src="images/cat_basic_svg_t1-F_Courtyard.png" alt="t1-F_Courtyard.svg" width="256" height="182"></td></tr><tr><td class="td-small">t1-F_Courtyard.svg</td></tr></table></a></td>
-</tr>
-<tr>
-<td class="out-cell" colspan="4"><a href="../Individual_Layers/SVG/t1-B_Fab.svg"><table class="out-img"><tr><td><img src="images/cat_basic_svg_t1-B_Fab.png" alt="t1-B_Fab.svg" width="256" height="182"></td></tr><tr><td class="td-small">t1-B_Fab.svg</td></tr></table></a></td>
-<td class="out-cell" colspan="4"><a href="../Individual_Layers/SVG/t1-F_Fab.svg"><table class="out-img"><tr><td><img src="images/cat_basic_svg_t1-F_Fab.png" alt="t1-F_Fab.svg" width="256" height="182"></td></tr><tr><td class="td-small">t1-F_Fab.svg</td></tr></table></a></td>
-<td class="out-cell" colspan="4"></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<table class="nav-table"> <tr>  <td><a href="t1-navigate_PCB.html"><img src="images/back_64.png" width="64" height="64" alt="go back"></a></td>  <td><a href="t1-navigate.html"><img src="images/home_64.png" width="64" height="64" alt="go home"></a></td> </tr></table><p class="generator">Generated by <a href="https://github.com/INTI-CMNB/KiBot/">KiBot</a> v1.8.2</p>
+<div class="output-virtual-box" id="drc">
+<div class="output-comment">drc</div>
+<div class="items-container">
+
+        <div class="output-box " onclick="location.href='../t1-drc.html'">
+            <img src="images/drc.svg_64.png" alt="t1-drc.html" width="64" height="64">
+            <p class="filename">t1-drc.html</p>
+            <p class="output-name">drc</p>
+        </div>
+
+        <div class="output-box " onclick="location.href='../t1-drc.rpt'">
+            <img src="images/drc.svg_64.png" alt="t1-drc.rpt" width="64" height="64">
+            <p class="filename">t1-drc.rpt</p>
+            <p class="output-name">drc</p>
+        </div>
+
+        <div class="output-box " onclick="location.href='../t1-drc.json'">
+            <img src="images/file_json_64.png" alt="t1-drc.json" width="64" height="64">
+            <p class="filename">t1-drc.json</p>
+            <p class="output-name">drc</p>
+        </div>
+
+        <div class="output-box " onclick="location.href='../t1-drc.csv'">
+            <img src="images/file_csv_64.png" alt="t1-drc.csv" width="64" height="64">
+            <p class="filename">t1-drc.csv</p>
+            <p class="output-name">drc</p>
+        </div>
+</div>
+</div>
+<div class="output-virtual-box" id="_ExportProject_compress">
+<div class="output-comment">ZIP file for the exported project</div>
+<div class="items-container">
+
+        <div class="output-box " onclick="location.href='../ExportedProject/t1-_ExportProject_compress.zip'">
+            <img src="images/file_zip_64.png" alt="t1-_ExportProject_compress.zip" width="64" height="64">
+            <p class="filename">t1-_ExportProject_compress.zip</p>
+            <p class="output-name">_ExportProject_compress</p>
+        </div>
+</div>
+</div>
+<div class="output-virtual-box" id="_PCB2Blender_2_1">
+<div class="output-comment">PCB3D model for pcb2blender plug-in</div>
+<div class="items-container">
+
+        <div class="output-box " onclick="location.href='../t1.pcb3d'">
+            <img src="images/file_pcb3d_64.png" alt="t1.pcb3d" width="64" height="64">
+            <p class="filename">t1.pcb3d</p>
+            <p class="output-name">_PCB2Blender_2_1</p>
+        </div>
+</div>
+</div>
+<div class="output-virtual-box" id="basic_diff_pcb">
+<div class="output-comment">PCB diff between the last two changes</div>
+<div class="items-container">
+
+        <div class="output-box wide" onclick="location.href='../diff/t1-diff_pcb.pdf'">
+            <img src="images/cat_basic_diff_pcb_t1-diff_pcb.png" alt="t1-diff_pcb.pdf" width="512" height="362">
+            <p class="filename">t1-diff_pcb.pdf</p>
+            <p class="output-name">basic_diff_pcb</p>
+        </div>
+</div>
+</div>
+<div class="output-virtual-box" id="basic_hpgl">
+<div class="output-comment">Individual layers in HPGL format</div>
+<div class="items-container">
+
+        <div class="output-box " onclick="location.href='../Individual_Layers/HPGL/t1-F_Cu.plt'">
+            <img src="images/file_plt_64.png" alt="t1-F_Cu.plt" width="64" height="64">
+            <p class="filename">t1-F_Cu.plt</p>
+            <p class="output-name">basic_hpgl</p>
+        </div>
+
+        <div class="output-box " onclick="location.href='../Individual_Layers/HPGL/t1-F_Mask.plt'">
+            <img src="images/file_plt_64.png" alt="t1-F_Mask.plt" width="64" height="64">
+            <p class="filename">t1-F_Mask.plt</p>
+            <p class="output-name">basic_hpgl</p>
+        </div>
+
+        <div class="output-box " onclick="location.href='../Individual_Layers/HPGL/t1-B_Cu.plt'">
+            <img src="images/file_plt_64.png" alt="t1-B_Cu.plt" width="64" height="64">
+            <p class="filename">t1-B_Cu.plt</p>
+            <p class="output-name">basic_hpgl</p>
+        </div>
+
+        <div class="output-box " onclick="location.href='../Individual_Layers/HPGL/t1-B_Mask.plt'">
+            <img src="images/file_plt_64.png" alt="t1-B_Mask.plt" width="64" height="64">
+            <p class="filename">t1-B_Mask.plt</p>
+            <p class="output-name">basic_hpgl</p>
+        </div>
+
+        <div class="output-box " onclick="location.href='../Individual_Layers/HPGL/t1-GND_Cu.plt'">
+            <img src="images/file_plt_64.png" alt="t1-GND_Cu.plt" width="64" height="64">
+            <p class="filename">t1-GND_Cu.plt</p>
+            <p class="output-name">basic_hpgl</p>
+        </div>
+
+        <div class="output-box " onclick="location.href='../Individual_Layers/HPGL/t1-F_Silkscreen.plt'">
+            <img src="images/file_plt_64.png" alt="t1-F_Silkscreen.plt" width="64" height="64">
+            <p class="filename">t1-F_Silkscreen.plt</p>
+            <p class="output-name">basic_hpgl</p>
+        </div>
+
+        <div class="output-box " onclick="location.href='../Individual_Layers/HPGL/t1-Power_Cu.plt'">
+            <img src="images/file_plt_64.png" alt="t1-Power_Cu.plt" width="64" height="64">
+            <p class="filename">t1-Power_Cu.plt</p>
+            <p class="output-name">basic_hpgl</p>
+        </div>
+
+        <div class="output-box " onclick="location.href='../Individual_Layers/HPGL/t1-B_Silkscreen.plt'">
+            <img src="images/file_plt_64.png" alt="t1-B_Silkscreen.plt" width="64" height="64">
+            <p class="filename">t1-B_Silkscreen.plt</p>
+            <p class="output-name">basic_hpgl</p>
+        </div>
+
+        <div class="output-box " onclick="location.href='../Individual_Layers/HPGL/t1-F_Adhesive.plt'">
+            <img src="images/file_plt_64.png" alt="t1-F_Adhesive.plt" width="64" height="64">
+            <p class="filename">t1-F_Adhesive.plt</p>
+            <p class="output-name">basic_hpgl</p>
+        </div>
+
+        <div class="output-box " onclick="location.href='../Individual_Layers/HPGL/t1-F_Paste.plt'">
+            <img src="images/file_plt_64.png" alt="t1-F_Paste.plt" width="64" height="64">
+            <p class="filename">t1-F_Paste.plt</p>
+            <p class="output-name">basic_hpgl</p>
+        </div>
+
+        <div class="output-box " onclick="location.href='../Individual_Layers/HPGL/t1-User_Drawings.plt'">
+            <img src="images/file_plt_64.png" alt="t1-User_Drawings.plt" width="64" height="64">
+            <p class="filename">t1-User_Drawings.plt</p>
+            <p class="output-name">basic_hpgl</p>
+        </div>
+
+        <div class="output-box " onclick="location.href='../Individual_Layers/HPGL/t1-User_Comments.plt'">
+            <img src="images/file_plt_64.png" alt="t1-User_Comments.plt" width="64" height="64">
+            <p class="filename">t1-User_Comments.plt</p>
+            <p class="output-name">basic_hpgl</p>
+        </div>
+
+        <div class="output-box " onclick="location.href='../Individual_Layers/HPGL/t1-Edge_Cuts.plt'">
+            <img src="images/file_plt_64.png" alt="t1-Edge_Cuts.plt" width="64" height="64">
+            <p class="filename">t1-Edge_Cuts.plt</p>
+            <p class="output-name">basic_hpgl</p>
+        </div>
+
+        <div class="output-box " onclick="location.href='../Individual_Layers/HPGL/t1-B_Courtyard.plt'">
+            <img src="images/file_plt_64.png" alt="t1-B_Courtyard.plt" width="64" height="64">
+            <p class="filename">t1-B_Courtyard.plt</p>
+            <p class="output-name">basic_hpgl</p>
+        </div>
+
+        <div class="output-box " onclick="location.href='../Individual_Layers/HPGL/t1-F_Courtyard.plt'">
+            <img src="images/file_plt_64.png" alt="t1-F_Courtyard.plt" width="64" height="64">
+            <p class="filename">t1-F_Courtyard.plt</p>
+            <p class="output-name">basic_hpgl</p>
+        </div>
+
+        <div class="output-box " onclick="location.href='../Individual_Layers/HPGL/t1-B_Fab.plt'">
+            <img src="images/file_plt_64.png" alt="t1-B_Fab.plt" width="64" height="64">
+            <p class="filename">t1-B_Fab.plt</p>
+            <p class="output-name">basic_hpgl</p>
+        </div>
+
+        <div class="output-box " onclick="location.href='../Individual_Layers/HPGL/t1-F_Fab.plt'">
+            <img src="images/file_plt_64.png" alt="t1-F_Fab.plt" width="64" height="64">
+            <p class="filename">t1-F_Fab.plt</p>
+            <p class="output-name">basic_hpgl</p>
+        </div>
+</div>
+</div>
+<div class="output-virtual-box" id="basic_info">
+<div class="output-comment">Information about the run</div>
+<div class="items-container">
+
+        <div class="output-box " onclick="location.href='../t1-info.txt'">
+            <img src="images/file_txt_64.png" alt="t1-info.txt" width="64" height="64">
+            <p class="filename">t1-info.txt</p>
+            <p class="output-name">basic_info</p>
+        </div>
+</div>
+</div>
+<div class="output-virtual-box" id="basic_kicanvas">
+<div class="output-comment">Web page to browse the schematic and/or PCB</div>
+<div class="items-container">
+
+        <div class="output-box " onclick="location.href='t1-kicanvas.html'">
+            <img src="images/kicanvas.svg_64.png" alt="t1-kicanvas.html" width="64" height="64">
+            <p class="filename">t1-kicanvas.html</p>
+            <p class="output-name">basic_kicanvas</p>
+        </div>
+</div>
+</div>
+<div class="output-virtual-box" id="basic_kikit_present">
+<div class="output-comment">Simple project presentation</div>
+<div class="items-container">
+
+        <div class="output-box " onclick="location.href='../Presentation/index.html'">
+            <img src="images/file_html_64.png" alt="index.html" width="64" height="64">
+            <p class="filename">index.html</p>
+            <p class="output-name">basic_kikit_present</p>
+        </div>
+</div>
+</div>
+<div class="output-virtual-box" id="basic_kiri">
+<div class="output-comment">Interactive diff between commits</div>
+<div class="items-container">
+
+        <div class="output-box " onclick="location.href='../diff/index.html'">
+            <img src="images/icon.svg_64.png" alt="index.html" width="64" height="64">
+            <p class="filename">index.html</p>
+            <p class="output-name">basic_kiri</p>
+        </div>
+</div>
+</div>
+<div class="output-virtual-box" id="basic_pcb_print_pdf">
+<div class="output-comment">PCB</div>
+<div class="items-container">
+
+        <div class="output-box wide" onclick="location.href='../PCB/PDF/t1-assembly.pdf'">
+            <img src="images/cat_basic_pcb_print_pdf_t1-assembly.png" alt="t1-assembly.pdf" width="512" height="362">
+            <p class="filename">t1-assembly.pdf</p>
+            <p class="output-name">basic_pcb_print_pdf</p>
+        </div>
+</div>
+</div>
+<div class="output-virtual-box" id="basic_pcb_print_svg">
+<div class="output-comment">PCB</div>
+<div class="items-container">
+
+        <div class="output-box wide" onclick="location.href='../PCB/SVG/t1-assembly_page_01.svg'">
+            <img src="images/cat_basic_pcb_print_svg_t1-assembly_page_01.png" alt="t1-assembly_page_01.svg" width="512" height="363">
+            <p class="filename">t1-assembly_page_01.svg</p>
+            <p class="output-name">basic_pcb_print_svg</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../PCB/SVG/t1-assembly_page_02.svg'">
+            <img src="images/cat_basic_pcb_print_svg_t1-assembly_page_02.png" alt="t1-assembly_page_02.svg" width="512" height="363">
+            <p class="filename">t1-assembly_page_02.svg</p>
+            <p class="output-name">basic_pcb_print_svg</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../PCB/SVG/t1-assembly_page_03.svg'">
+            <img src="images/cat_basic_pcb_print_svg_t1-assembly_page_03.png" alt="t1-assembly_page_03.svg" width="512" height="363">
+            <p class="filename">t1-assembly_page_03.svg</p>
+            <p class="output-name">basic_pcb_print_svg</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../PCB/SVG/t1-assembly_page_04.svg'">
+            <img src="images/cat_basic_pcb_print_svg_t1-assembly_page_04.png" alt="t1-assembly_page_04.svg" width="512" height="363">
+            <p class="filename">t1-assembly_page_04.svg</p>
+            <p class="output-name">basic_pcb_print_svg</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../PCB/SVG/t1-assembly_page_05.svg'">
+            <img src="images/cat_basic_pcb_print_svg_t1-assembly_page_05.png" alt="t1-assembly_page_05.svg" width="512" height="363">
+            <p class="filename">t1-assembly_page_05.svg</p>
+            <p class="output-name">basic_pcb_print_svg</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../PCB/SVG/t1-assembly_page_06.svg'">
+            <img src="images/cat_basic_pcb_print_svg_t1-assembly_page_06.png" alt="t1-assembly_page_06.svg" width="512" height="363">
+            <p class="filename">t1-assembly_page_06.svg</p>
+            <p class="output-name">basic_pcb_print_svg</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../PCB/SVG/t1-assembly_page_07.svg'">
+            <img src="images/cat_basic_pcb_print_svg_t1-assembly_page_07.png" alt="t1-assembly_page_07.svg" width="512" height="363">
+            <p class="filename">t1-assembly_page_07.svg</p>
+            <p class="output-name">basic_pcb_print_svg</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../PCB/SVG/t1-assembly_page_08.svg'">
+            <img src="images/cat_basic_pcb_print_svg_t1-assembly_page_08.png" alt="t1-assembly_page_08.svg" width="512" height="363">
+            <p class="filename">t1-assembly_page_08.svg</p>
+            <p class="output-name">basic_pcb_print_svg</p>
+        </div>
+</div>
+</div>
+<div class="output-virtual-box" id="basic_pcb_print_png">
+<div class="output-comment">PCB</div>
+<div class="items-container">
+
+        <div class="output-box wide" onclick="location.href='../PCB/PNG/t1-assembly_page_01.png'">
+            <img src="images/cat_basic_pcb_print_png_t1-assembly_page_01.png" alt="t1-assembly_page_01.png" width="512" height="362">
+            <p class="filename">t1-assembly_page_01.png</p>
+            <p class="output-name">basic_pcb_print_png</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../PCB/PNG/t1-assembly_page_02.png'">
+            <img src="images/cat_basic_pcb_print_png_t1-assembly_page_02.png" alt="t1-assembly_page_02.png" width="512" height="362">
+            <p class="filename">t1-assembly_page_02.png</p>
+            <p class="output-name">basic_pcb_print_png</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../PCB/PNG/t1-assembly_page_03.png'">
+            <img src="images/cat_basic_pcb_print_png_t1-assembly_page_03.png" alt="t1-assembly_page_03.png" width="512" height="362">
+            <p class="filename">t1-assembly_page_03.png</p>
+            <p class="output-name">basic_pcb_print_png</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../PCB/PNG/t1-assembly_page_04.png'">
+            <img src="images/cat_basic_pcb_print_png_t1-assembly_page_04.png" alt="t1-assembly_page_04.png" width="512" height="362">
+            <p class="filename">t1-assembly_page_04.png</p>
+            <p class="output-name">basic_pcb_print_png</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../PCB/PNG/t1-assembly_page_05.png'">
+            <img src="images/cat_basic_pcb_print_png_t1-assembly_page_05.png" alt="t1-assembly_page_05.png" width="512" height="362">
+            <p class="filename">t1-assembly_page_05.png</p>
+            <p class="output-name">basic_pcb_print_png</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../PCB/PNG/t1-assembly_page_06.png'">
+            <img src="images/cat_basic_pcb_print_png_t1-assembly_page_06.png" alt="t1-assembly_page_06.png" width="512" height="362">
+            <p class="filename">t1-assembly_page_06.png</p>
+            <p class="output-name">basic_pcb_print_png</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../PCB/PNG/t1-assembly_page_07.png'">
+            <img src="images/cat_basic_pcb_print_png_t1-assembly_page_07.png" alt="t1-assembly_page_07.png" width="512" height="362">
+            <p class="filename">t1-assembly_page_07.png</p>
+            <p class="output-name">basic_pcb_print_png</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../PCB/PNG/t1-assembly_page_08.png'">
+            <img src="images/cat_basic_pcb_print_png_t1-assembly_page_08.png" alt="t1-assembly_page_08.png" width="512" height="362">
+            <p class="filename">t1-assembly_page_08.png</p>
+            <p class="output-name">basic_pcb_print_png</p>
+        </div>
+</div>
+</div>
+<div class="output-virtual-box" id="basic_pcb_print_eps">
+<div class="output-comment">PCB</div>
+<div class="items-container">
+
+        <div class="output-box wide" onclick="location.href='../PCB/EPS/t1-assembly_page_01.eps'">
+            <img src="images/cat_basic_pcb_print_eps_t1-assembly_page_01.png" alt="t1-assembly_page_01.eps" width="512" height="362">
+            <p class="filename">t1-assembly_page_01.eps</p>
+            <p class="output-name">basic_pcb_print_eps</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../PCB/EPS/t1-assembly_page_02.eps'">
+            <img src="images/cat_basic_pcb_print_eps_t1-assembly_page_02.png" alt="t1-assembly_page_02.eps" width="512" height="362">
+            <p class="filename">t1-assembly_page_02.eps</p>
+            <p class="output-name">basic_pcb_print_eps</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../PCB/EPS/t1-assembly_page_03.eps'">
+            <img src="images/cat_basic_pcb_print_eps_t1-assembly_page_03.png" alt="t1-assembly_page_03.eps" width="512" height="362">
+            <p class="filename">t1-assembly_page_03.eps</p>
+            <p class="output-name">basic_pcb_print_eps</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../PCB/EPS/t1-assembly_page_04.eps'">
+            <img src="images/cat_basic_pcb_print_eps_t1-assembly_page_04.png" alt="t1-assembly_page_04.eps" width="512" height="351">
+            <p class="filename">t1-assembly_page_04.eps</p>
+            <p class="output-name">basic_pcb_print_eps</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../PCB/EPS/t1-assembly_page_05.eps'">
+            <img src="images/cat_basic_pcb_print_eps_t1-assembly_page_05.png" alt="t1-assembly_page_05.eps" width="512" height="351">
+            <p class="filename">t1-assembly_page_05.eps</p>
+            <p class="output-name">basic_pcb_print_eps</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../PCB/EPS/t1-assembly_page_06.eps'">
+            <img src="images/cat_basic_pcb_print_eps_t1-assembly_page_06.png" alt="t1-assembly_page_06.eps" width="512" height="351">
+            <p class="filename">t1-assembly_page_06.eps</p>
+            <p class="output-name">basic_pcb_print_eps</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../PCB/EPS/t1-assembly_page_07.eps'">
+            <img src="images/cat_basic_pcb_print_eps_t1-assembly_page_07.png" alt="t1-assembly_page_07.eps" width="512" height="351">
+            <p class="filename">t1-assembly_page_07.eps</p>
+            <p class="output-name">basic_pcb_print_eps</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../PCB/EPS/t1-assembly_page_08.eps'">
+            <img src="images/cat_basic_pcb_print_eps_t1-assembly_page_08.png" alt="t1-assembly_page_08.eps" width="512" height="351">
+            <p class="filename">t1-assembly_page_08.eps</p>
+            <p class="output-name">basic_pcb_print_eps</p>
+        </div>
+</div>
+</div>
+<div class="output-virtual-box" id="basic_pcb_print_ps">
+<div class="output-comment">PCB</div>
+<div class="items-container">
+
+        <div class="output-box wide" onclick="location.href='../PCB/PS/t1-assembly.ps'">
+            <img src="images/cat_basic_pcb_print_ps_t1-assembly.png" alt="t1-assembly.ps" width="362" height="512">
+            <p class="filename">t1-assembly.ps</p>
+            <p class="output-name">basic_pcb_print_ps</p>
+        </div>
+</div>
+</div>
+<div class="output-virtual-box" id="basic_pcbdraw_svg_jlcpcb_green_enig_top">
+<div class="output-comment">PCB 2D render in SVG format, using jlcpcb-green-enig style</div>
+<div class="items-container">
+
+        <div class="output-box wide" onclick="location.href='../PCB/2D_render/jlcpcb_green_enig/t1-top.svg'">
+            <img src="images/cat_basic_pcbdraw_svg_jlcpcb_green_enig_top_t1-top.png" alt="t1-top.svg" width="512" height="290">
+            <p class="filename">t1-top.svg</p>
+            <p class="output-name">basic_pcbdraw_svg_jlcpcb_green_enig_top</p>
+        </div>
+</div>
+</div>
+<div class="output-virtual-box" id="basic_pcbdraw_png_jlcpcb_green_enig_top">
+<div class="output-comment">PCB 2D render in PNG format, using jlcpcb-green-enig style</div>
+<div class="items-container">
+
+        <div class="output-box wide" onclick="location.href='../PCB/2D_render/jlcpcb_green_enig/t1-top.png'">
+            <img src="images/cat_basic_pcbdraw_png_jlcpcb_green_enig_top_t1-top.png" alt="t1-top.png" width="512" height="290">
+            <p class="filename">t1-top.png</p>
+            <p class="output-name">basic_pcbdraw_png_jlcpcb_green_enig_top</p>
+        </div>
+</div>
+</div>
+<div class="output-virtual-box" id="basic_pcbdraw_jpg_jlcpcb_green_enig_top">
+<div class="output-comment">PCB 2D render in JPG format, using jlcpcb-green-enig style</div>
+<div class="items-container">
+
+        <div class="output-box wide" onclick="location.href='../PCB/2D_render/jlcpcb_green_enig/t1-top.jpg'">
+            <img src="images/cat_basic_pcbdraw_jpg_jlcpcb_green_enig_top_t1-top.png" alt="t1-top.jpg" width="512" height="290">
+            <p class="filename">t1-top.jpg</p>
+            <p class="output-name">basic_pcbdraw_jpg_jlcpcb_green_enig_top</p>
+        </div>
+</div>
+</div>
+<div class="output-virtual-box" id="basic_pcbdraw_svg_set_blue_enig_top">
+<div class="output-comment">PCB 2D render in SVG format, using set-blue-enig style</div>
+<div class="items-container">
+
+        <div class="output-box wide" onclick="location.href='../PCB/2D_render/set_blue_enig/t1-top.svg'">
+            <img src="images/cat_basic_pcbdraw_svg_set_blue_enig_top_t1-top.png" alt="t1-top.svg" width="512" height="290">
+            <p class="filename">t1-top.svg</p>
+            <p class="output-name">basic_pcbdraw_svg_set_blue_enig_top</p>
+        </div>
+</div>
+</div>
+<div class="output-virtual-box" id="basic_pcbdraw_png_set_blue_enig_top">
+<div class="output-comment">PCB 2D render in PNG format, using set-blue-enig style</div>
+<div class="items-container">
+
+        <div class="output-box wide" onclick="location.href='../PCB/2D_render/set_blue_enig/t1-top.png'">
+            <img src="images/cat_basic_pcbdraw_png_set_blue_enig_top_t1-top.png" alt="t1-top.png" width="512" height="290">
+            <p class="filename">t1-top.png</p>
+            <p class="output-name">basic_pcbdraw_png_set_blue_enig_top</p>
+        </div>
+</div>
+</div>
+<div class="output-virtual-box" id="basic_pcbdraw_jpg_set_blue_enig_top">
+<div class="output-comment">PCB 2D render in JPG format, using set-blue-enig style</div>
+<div class="items-container">
+
+        <div class="output-box wide" onclick="location.href='../PCB/2D_render/set_blue_enig/t1-top.jpg'">
+            <img src="images/cat_basic_pcbdraw_jpg_set_blue_enig_top_t1-top.png" alt="t1-top.jpg" width="512" height="290">
+            <p class="filename">t1-top.jpg</p>
+            <p class="output-name">basic_pcbdraw_jpg_set_blue_enig_top</p>
+        </div>
+</div>
+</div>
+<div class="output-virtual-box" id="basic_pcbdraw_svg_set_red_hasl_top">
+<div class="output-comment">PCB 2D render in SVG format, using set-red-hasl style</div>
+<div class="items-container">
+
+        <div class="output-box wide" onclick="location.href='../PCB/2D_render/set_red_hasl/t1-top.svg'">
+            <img src="images/cat_basic_pcbdraw_svg_set_red_hasl_top_t1-top.png" alt="t1-top.svg" width="512" height="290">
+            <p class="filename">t1-top.svg</p>
+            <p class="output-name">basic_pcbdraw_svg_set_red_hasl_top</p>
+        </div>
+</div>
+</div>
+<div class="output-virtual-box" id="basic_pcbdraw_png_set_red_hasl_top">
+<div class="output-comment">PCB 2D render in PNG format, using set-red-hasl style</div>
+<div class="items-container">
+
+        <div class="output-box wide" onclick="location.href='../PCB/2D_render/set_red_hasl/t1-top.png'">
+            <img src="images/cat_basic_pcbdraw_png_set_red_hasl_top_t1-top.png" alt="t1-top.png" width="512" height="290">
+            <p class="filename">t1-top.png</p>
+            <p class="output-name">basic_pcbdraw_png_set_red_hasl_top</p>
+        </div>
+</div>
+</div>
+<div class="output-virtual-box" id="basic_pcbdraw_jpg_set_red_hasl_top">
+<div class="output-comment">PCB 2D render in JPG format, using set-red-hasl style</div>
+<div class="items-container">
+
+        <div class="output-box wide" onclick="location.href='../PCB/2D_render/set_red_hasl/t1-top.jpg'">
+            <img src="images/cat_basic_pcbdraw_jpg_set_red_hasl_top_t1-top.png" alt="t1-top.jpg" width="512" height="290">
+            <p class="filename">t1-top.jpg</p>
+            <p class="output-name">basic_pcbdraw_jpg_set_red_hasl_top</p>
+        </div>
+</div>
+</div>
+<div class="output-virtual-box" id="basic_pcbdraw_svg_jlcpcb_green_enig_bottom">
+<div class="output-comment">PCB 2D render in SVG format, using jlcpcb-green-enig style</div>
+<div class="items-container">
+
+        <div class="output-box wide" onclick="location.href='../PCB/2D_render/jlcpcb_green_enig/t1-bottom.svg'">
+            <img src="images/cat_basic_pcbdraw_svg_jlcpcb_green_enig_bottom_t1-bottom.png" alt="t1-bottom.svg" width="512" height="290">
+            <p class="filename">t1-bottom.svg</p>
+            <p class="output-name">basic_pcbdraw_svg_jlcpcb_green_enig_bottom</p>
+        </div>
+</div>
+</div>
+<div class="output-virtual-box" id="basic_pcbdraw_png_jlcpcb_green_enig_bottom">
+<div class="output-comment">PCB 2D render in PNG format, using jlcpcb-green-enig style</div>
+<div class="items-container">
+
+        <div class="output-box wide" onclick="location.href='../PCB/2D_render/jlcpcb_green_enig/t1-bottom.png'">
+            <img src="images/cat_basic_pcbdraw_png_jlcpcb_green_enig_bottom_t1-bottom.png" alt="t1-bottom.png" width="512" height="290">
+            <p class="filename">t1-bottom.png</p>
+            <p class="output-name">basic_pcbdraw_png_jlcpcb_green_enig_bottom</p>
+        </div>
+</div>
+</div>
+<div class="output-virtual-box" id="basic_pcbdraw_jpg_jlcpcb_green_enig_bottom">
+<div class="output-comment">PCB 2D render in JPG format, using jlcpcb-green-enig style</div>
+<div class="items-container">
+
+        <div class="output-box wide" onclick="location.href='../PCB/2D_render/jlcpcb_green_enig/t1-bottom.jpg'">
+            <img src="images/cat_basic_pcbdraw_jpg_jlcpcb_green_enig_bottom_t1-bottom.png" alt="t1-bottom.jpg" width="512" height="290">
+            <p class="filename">t1-bottom.jpg</p>
+            <p class="output-name">basic_pcbdraw_jpg_jlcpcb_green_enig_bottom</p>
+        </div>
+</div>
+</div>
+<div class="output-virtual-box" id="basic_pcbdraw_svg_set_blue_enig_bottom">
+<div class="output-comment">PCB 2D render in SVG format, using set-blue-enig style</div>
+<div class="items-container">
+
+        <div class="output-box wide" onclick="location.href='../PCB/2D_render/set_blue_enig/t1-bottom.svg'">
+            <img src="images/cat_basic_pcbdraw_svg_set_blue_enig_bottom_t1-bottom.png" alt="t1-bottom.svg" width="512" height="290">
+            <p class="filename">t1-bottom.svg</p>
+            <p class="output-name">basic_pcbdraw_svg_set_blue_enig_bottom</p>
+        </div>
+</div>
+</div>
+<div class="output-virtual-box" id="basic_pcbdraw_png_set_blue_enig_bottom">
+<div class="output-comment">PCB 2D render in PNG format, using set-blue-enig style</div>
+<div class="items-container">
+
+        <div class="output-box wide" onclick="location.href='../PCB/2D_render/set_blue_enig/t1-bottom.png'">
+            <img src="images/cat_basic_pcbdraw_png_set_blue_enig_bottom_t1-bottom.png" alt="t1-bottom.png" width="512" height="290">
+            <p class="filename">t1-bottom.png</p>
+            <p class="output-name">basic_pcbdraw_png_set_blue_enig_bottom</p>
+        </div>
+</div>
+</div>
+<div class="output-virtual-box" id="basic_pcbdraw_jpg_set_blue_enig_bottom">
+<div class="output-comment">PCB 2D render in JPG format, using set-blue-enig style</div>
+<div class="items-container">
+
+        <div class="output-box wide" onclick="location.href='../PCB/2D_render/set_blue_enig/t1-bottom.jpg'">
+            <img src="images/cat_basic_pcbdraw_jpg_set_blue_enig_bottom_t1-bottom.png" alt="t1-bottom.jpg" width="512" height="290">
+            <p class="filename">t1-bottom.jpg</p>
+            <p class="output-name">basic_pcbdraw_jpg_set_blue_enig_bottom</p>
+        </div>
+</div>
+</div>
+<div class="output-virtual-box" id="basic_pcbdraw_svg_set_red_hasl_bottom">
+<div class="output-comment">PCB 2D render in SVG format, using set-red-hasl style</div>
+<div class="items-container">
+
+        <div class="output-box wide" onclick="location.href='../PCB/2D_render/set_red_hasl/t1-bottom.svg'">
+            <img src="images/cat_basic_pcbdraw_svg_set_red_hasl_bottom_t1-bottom.png" alt="t1-bottom.svg" width="512" height="290">
+            <p class="filename">t1-bottom.svg</p>
+            <p class="output-name">basic_pcbdraw_svg_set_red_hasl_bottom</p>
+        </div>
+</div>
+</div>
+<div class="output-virtual-box" id="basic_pcbdraw_png_set_red_hasl_bottom">
+<div class="output-comment">PCB 2D render in PNG format, using set-red-hasl style</div>
+<div class="items-container">
+
+        <div class="output-box wide" onclick="location.href='../PCB/2D_render/set_red_hasl/t1-bottom.png'">
+            <img src="images/cat_basic_pcbdraw_png_set_red_hasl_bottom_t1-bottom.png" alt="t1-bottom.png" width="512" height="290">
+            <p class="filename">t1-bottom.png</p>
+            <p class="output-name">basic_pcbdraw_png_set_red_hasl_bottom</p>
+        </div>
+</div>
+</div>
+<div class="output-virtual-box" id="basic_pcbdraw_jpg_set_red_hasl_bottom">
+<div class="output-comment">PCB 2D render in JPG format, using set-red-hasl style</div>
+<div class="items-container">
+
+        <div class="output-box wide" onclick="location.href='../PCB/2D_render/set_red_hasl/t1-bottom.jpg'">
+            <img src="images/cat_basic_pcbdraw_jpg_set_red_hasl_bottom_t1-bottom.png" alt="t1-bottom.jpg" width="512" height="290">
+            <p class="filename">t1-bottom.jpg</p>
+            <p class="output-name">basic_pcbdraw_jpg_set_red_hasl_bottom</p>
+        </div>
+</div>
+</div>
+<div class="output-virtual-box" id="basic_pdf">
+<div class="output-comment">Individual layers in PDF format</div>
+<div class="items-container">
+
+        <div class="output-box wide" onclick="location.href='../Individual_Layers/PDF/t1-F_Cu.pdf'">
+            <img src="images/cat_basic_pdf_t1-F_Cu.png" alt="t1-F_Cu.pdf" width="512" height="362">
+            <p class="filename">t1-F_Cu.pdf</p>
+            <p class="output-name">basic_pdf</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../Individual_Layers/PDF/t1-F_Mask.pdf'">
+            <img src="images/cat_basic_pdf_t1-F_Mask.png" alt="t1-F_Mask.pdf" width="512" height="362">
+            <p class="filename">t1-F_Mask.pdf</p>
+            <p class="output-name">basic_pdf</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../Individual_Layers/PDF/t1-B_Cu.pdf'">
+            <img src="images/cat_basic_pdf_t1-B_Cu.png" alt="t1-B_Cu.pdf" width="512" height="362">
+            <p class="filename">t1-B_Cu.pdf</p>
+            <p class="output-name">basic_pdf</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../Individual_Layers/PDF/t1-B_Mask.pdf'">
+            <img src="images/cat_basic_pdf_t1-B_Mask.png" alt="t1-B_Mask.pdf" width="512" height="362">
+            <p class="filename">t1-B_Mask.pdf</p>
+            <p class="output-name">basic_pdf</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../Individual_Layers/PDF/t1-GND_Cu.pdf'">
+            <img src="images/cat_basic_pdf_t1-GND_Cu.png" alt="t1-GND_Cu.pdf" width="512" height="362">
+            <p class="filename">t1-GND_Cu.pdf</p>
+            <p class="output-name">basic_pdf</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../Individual_Layers/PDF/t1-F_Silkscreen.pdf'">
+            <img src="images/cat_basic_pdf_t1-F_Silkscreen.png" alt="t1-F_Silkscreen.pdf" width="512" height="362">
+            <p class="filename">t1-F_Silkscreen.pdf</p>
+            <p class="output-name">basic_pdf</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../Individual_Layers/PDF/t1-Power_Cu.pdf'">
+            <img src="images/cat_basic_pdf_t1-Power_Cu.png" alt="t1-Power_Cu.pdf" width="512" height="362">
+            <p class="filename">t1-Power_Cu.pdf</p>
+            <p class="output-name">basic_pdf</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../Individual_Layers/PDF/t1-B_Silkscreen.pdf'">
+            <img src="images/cat_basic_pdf_t1-B_Silkscreen.png" alt="t1-B_Silkscreen.pdf" width="512" height="362">
+            <p class="filename">t1-B_Silkscreen.pdf</p>
+            <p class="output-name">basic_pdf</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../Individual_Layers/PDF/t1-F_Adhesive.pdf'">
+            <img src="images/cat_basic_pdf_t1-F_Adhesive.png" alt="t1-F_Adhesive.pdf" width="512" height="362">
+            <p class="filename">t1-F_Adhesive.pdf</p>
+            <p class="output-name">basic_pdf</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../Individual_Layers/PDF/t1-F_Paste.pdf'">
+            <img src="images/cat_basic_pdf_t1-F_Paste.png" alt="t1-F_Paste.pdf" width="512" height="362">
+            <p class="filename">t1-F_Paste.pdf</p>
+            <p class="output-name">basic_pdf</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../Individual_Layers/PDF/t1-User_Drawings.pdf'">
+            <img src="images/cat_basic_pdf_t1-User_Drawings.png" alt="t1-User_Drawings.pdf" width="512" height="362">
+            <p class="filename">t1-User_Drawings.pdf</p>
+            <p class="output-name">basic_pdf</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../Individual_Layers/PDF/t1-User_Comments.pdf'">
+            <img src="images/cat_basic_pdf_t1-User_Comments.png" alt="t1-User_Comments.pdf" width="512" height="362">
+            <p class="filename">t1-User_Comments.pdf</p>
+            <p class="output-name">basic_pdf</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../Individual_Layers/PDF/t1-Edge_Cuts.pdf'">
+            <img src="images/cat_basic_pdf_t1-Edge_Cuts.png" alt="t1-Edge_Cuts.pdf" width="512" height="362">
+            <p class="filename">t1-Edge_Cuts.pdf</p>
+            <p class="output-name">basic_pdf</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../Individual_Layers/PDF/t1-B_Courtyard.pdf'">
+            <img src="images/cat_basic_pdf_t1-B_Courtyard.png" alt="t1-B_Courtyard.pdf" width="512" height="362">
+            <p class="filename">t1-B_Courtyard.pdf</p>
+            <p class="output-name">basic_pdf</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../Individual_Layers/PDF/t1-F_Courtyard.pdf'">
+            <img src="images/cat_basic_pdf_t1-F_Courtyard.png" alt="t1-F_Courtyard.pdf" width="512" height="362">
+            <p class="filename">t1-F_Courtyard.pdf</p>
+            <p class="output-name">basic_pdf</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../Individual_Layers/PDF/t1-B_Fab.pdf'">
+            <img src="images/cat_basic_pdf_t1-B_Fab.png" alt="t1-B_Fab.pdf" width="512" height="362">
+            <p class="filename">t1-B_Fab.pdf</p>
+            <p class="output-name">basic_pdf</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../Individual_Layers/PDF/t1-F_Fab.pdf'">
+            <img src="images/cat_basic_pdf_t1-F_Fab.png" alt="t1-F_Fab.pdf" width="512" height="362">
+            <p class="filename">t1-F_Fab.pdf</p>
+            <p class="output-name">basic_pdf</p>
+        </div>
+</div>
+</div>
+<div class="output-virtual-box" id="basic_ps">
+<div class="output-comment">Individual layers in PS format</div>
+<div class="items-container">
+
+        <div class="output-box wide" onclick="location.href='../Individual_Layers/PS/t1-F_Cu.ps'">
+            <img src="images/cat_basic_ps_t1-F_Cu.png" alt="t1-F_Cu.ps" width="723" height="512">
+            <p class="filename">t1-F_Cu.ps</p>
+            <p class="output-name">basic_ps</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../Individual_Layers/PS/t1-F_Mask.ps'">
+            <img src="images/cat_basic_ps_t1-F_Mask.png" alt="t1-F_Mask.ps" width="723" height="512">
+            <p class="filename">t1-F_Mask.ps</p>
+            <p class="output-name">basic_ps</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../Individual_Layers/PS/t1-B_Cu.ps'">
+            <img src="images/cat_basic_ps_t1-B_Cu.png" alt="t1-B_Cu.ps" width="723" height="512">
+            <p class="filename">t1-B_Cu.ps</p>
+            <p class="output-name">basic_ps</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../Individual_Layers/PS/t1-B_Mask.ps'">
+            <img src="images/cat_basic_ps_t1-B_Mask.png" alt="t1-B_Mask.ps" width="723" height="512">
+            <p class="filename">t1-B_Mask.ps</p>
+            <p class="output-name">basic_ps</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../Individual_Layers/PS/t1-GND_Cu.ps'">
+            <img src="images/cat_basic_ps_t1-GND_Cu.png" alt="t1-GND_Cu.ps" width="723" height="512">
+            <p class="filename">t1-GND_Cu.ps</p>
+            <p class="output-name">basic_ps</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../Individual_Layers/PS/t1-F_Silkscreen.ps'">
+            <img src="images/cat_basic_ps_t1-F_Silkscreen.png" alt="t1-F_Silkscreen.ps" width="723" height="512">
+            <p class="filename">t1-F_Silkscreen.ps</p>
+            <p class="output-name">basic_ps</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../Individual_Layers/PS/t1-Power_Cu.ps'">
+            <img src="images/cat_basic_ps_t1-Power_Cu.png" alt="t1-Power_Cu.ps" width="723" height="512">
+            <p class="filename">t1-Power_Cu.ps</p>
+            <p class="output-name">basic_ps</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../Individual_Layers/PS/t1-B_Silkscreen.ps'">
+            <img src="images/cat_basic_ps_t1-B_Silkscreen.png" alt="t1-B_Silkscreen.ps" width="723" height="512">
+            <p class="filename">t1-B_Silkscreen.ps</p>
+            <p class="output-name">basic_ps</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../Individual_Layers/PS/t1-F_Adhesive.ps'">
+            <img src="images/cat_basic_ps_t1-F_Adhesive.png" alt="t1-F_Adhesive.ps" width="723" height="512">
+            <p class="filename">t1-F_Adhesive.ps</p>
+            <p class="output-name">basic_ps</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../Individual_Layers/PS/t1-F_Paste.ps'">
+            <img src="images/cat_basic_ps_t1-F_Paste.png" alt="t1-F_Paste.ps" width="723" height="512">
+            <p class="filename">t1-F_Paste.ps</p>
+            <p class="output-name">basic_ps</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../Individual_Layers/PS/t1-User_Drawings.ps'">
+            <img src="images/cat_basic_ps_t1-User_Drawings.png" alt="t1-User_Drawings.ps" width="723" height="512">
+            <p class="filename">t1-User_Drawings.ps</p>
+            <p class="output-name">basic_ps</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../Individual_Layers/PS/t1-User_Comments.ps'">
+            <img src="images/cat_basic_ps_t1-User_Comments.png" alt="t1-User_Comments.ps" width="723" height="512">
+            <p class="filename">t1-User_Comments.ps</p>
+            <p class="output-name">basic_ps</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../Individual_Layers/PS/t1-Edge_Cuts.ps'">
+            <img src="images/cat_basic_ps_t1-Edge_Cuts.png" alt="t1-Edge_Cuts.ps" width="723" height="512">
+            <p class="filename">t1-Edge_Cuts.ps</p>
+            <p class="output-name">basic_ps</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../Individual_Layers/PS/t1-B_Courtyard.ps'">
+            <img src="images/cat_basic_ps_t1-B_Courtyard.png" alt="t1-B_Courtyard.ps" width="723" height="512">
+            <p class="filename">t1-B_Courtyard.ps</p>
+            <p class="output-name">basic_ps</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../Individual_Layers/PS/t1-F_Courtyard.ps'">
+            <img src="images/cat_basic_ps_t1-F_Courtyard.png" alt="t1-F_Courtyard.ps" width="723" height="512">
+            <p class="filename">t1-F_Courtyard.ps</p>
+            <p class="output-name">basic_ps</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../Individual_Layers/PS/t1-B_Fab.ps'">
+            <img src="images/cat_basic_ps_t1-B_Fab.png" alt="t1-B_Fab.ps" width="723" height="512">
+            <p class="filename">t1-B_Fab.ps</p>
+            <p class="output-name">basic_ps</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../Individual_Layers/PS/t1-F_Fab.ps'">
+            <img src="images/cat_basic_ps_t1-F_Fab.png" alt="t1-F_Fab.ps" width="723" height="512">
+            <p class="filename">t1-F_Fab.ps</p>
+            <p class="output-name">basic_ps</p>
+        </div>
+</div>
+</div>
+<div class="output-virtual-box" id="report_simple">
+<div class="output-comment">Simple design report</div>
+<div class="items-container">
+
+        <div class="output-box " onclick="location.href='../t1-report_simple.txt'">
+            <img src="images/file_txt_64.png" alt="t1-report_simple.txt" width="64" height="64">
+            <p class="filename">t1-report_simple.txt</p>
+            <p class="output-name">report_simple</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../t1-report_simple.pdf'">
+            <img src="images/cat_report_simple_t1-report_simple.png" alt="t1-report_simple.pdf" width="512" height="663">
+            <p class="filename">t1-report_simple.pdf</p>
+            <p class="output-name">report_simple</p>
+        </div>
+</div>
+</div>
+<div class="output-virtual-box" id="report_full">
+<div class="output-comment">Full design report</div>
+<div class="items-container">
+
+        <div class="output-box " onclick="location.href='../t1-report.txt'">
+            <img src="images/file_txt_64.png" alt="t1-report.txt" width="64" height="64">
+            <p class="filename">t1-report.txt</p>
+            <p class="output-name">report_full</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../t1-report.pdf'">
+            <img src="images/cat_report_full_t1-report.png" alt="t1-report.pdf" width="512" height="663">
+            <p class="filename">t1-report.pdf</p>
+            <p class="output-name">report_full</p>
+        </div>
+</div>
+</div>
+<div class="output-virtual-box" id="basic_svg">
+<div class="output-comment">Individual layers in SVG format</div>
+<div class="items-container">
+
+        <div class="output-box wide" onclick="location.href='../Individual_Layers/SVG/t1-F_Cu.svg'">
+            <img src="images/cat_basic_svg_t1-F_Cu.png" alt="t1-F_Cu.svg" width="512" height="363">
+            <p class="filename">t1-F_Cu.svg</p>
+            <p class="output-name">basic_svg</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../Individual_Layers/SVG/t1-F_Mask.svg'">
+            <img src="images/cat_basic_svg_t1-F_Mask.png" alt="t1-F_Mask.svg" width="512" height="363">
+            <p class="filename">t1-F_Mask.svg</p>
+            <p class="output-name">basic_svg</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../Individual_Layers/SVG/t1-B_Cu.svg'">
+            <img src="images/cat_basic_svg_t1-B_Cu.png" alt="t1-B_Cu.svg" width="512" height="363">
+            <p class="filename">t1-B_Cu.svg</p>
+            <p class="output-name">basic_svg</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../Individual_Layers/SVG/t1-B_Mask.svg'">
+            <img src="images/cat_basic_svg_t1-B_Mask.png" alt="t1-B_Mask.svg" width="512" height="363">
+            <p class="filename">t1-B_Mask.svg</p>
+            <p class="output-name">basic_svg</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../Individual_Layers/SVG/t1-GND_Cu.svg'">
+            <img src="images/cat_basic_svg_t1-GND_Cu.png" alt="t1-GND_Cu.svg" width="512" height="363">
+            <p class="filename">t1-GND_Cu.svg</p>
+            <p class="output-name">basic_svg</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../Individual_Layers/SVG/t1-F_Silkscreen.svg'">
+            <img src="images/cat_basic_svg_t1-F_Silkscreen.png" alt="t1-F_Silkscreen.svg" width="512" height="363">
+            <p class="filename">t1-F_Silkscreen.svg</p>
+            <p class="output-name">basic_svg</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../Individual_Layers/SVG/t1-Power_Cu.svg'">
+            <img src="images/cat_basic_svg_t1-Power_Cu.png" alt="t1-Power_Cu.svg" width="512" height="363">
+            <p class="filename">t1-Power_Cu.svg</p>
+            <p class="output-name">basic_svg</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../Individual_Layers/SVG/t1-B_Silkscreen.svg'">
+            <img src="images/cat_basic_svg_t1-B_Silkscreen.png" alt="t1-B_Silkscreen.svg" width="512" height="363">
+            <p class="filename">t1-B_Silkscreen.svg</p>
+            <p class="output-name">basic_svg</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../Individual_Layers/SVG/t1-F_Adhesive.svg'">
+            <img src="images/cat_basic_svg_t1-F_Adhesive.png" alt="t1-F_Adhesive.svg" width="512" height="363">
+            <p class="filename">t1-F_Adhesive.svg</p>
+            <p class="output-name">basic_svg</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../Individual_Layers/SVG/t1-F_Paste.svg'">
+            <img src="images/cat_basic_svg_t1-F_Paste.png" alt="t1-F_Paste.svg" width="512" height="363">
+            <p class="filename">t1-F_Paste.svg</p>
+            <p class="output-name">basic_svg</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../Individual_Layers/SVG/t1-User_Drawings.svg'">
+            <img src="images/cat_basic_svg_t1-User_Drawings.png" alt="t1-User_Drawings.svg" width="512" height="363">
+            <p class="filename">t1-User_Drawings.svg</p>
+            <p class="output-name">basic_svg</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../Individual_Layers/SVG/t1-User_Comments.svg'">
+            <img src="images/cat_basic_svg_t1-User_Comments.png" alt="t1-User_Comments.svg" width="512" height="363">
+            <p class="filename">t1-User_Comments.svg</p>
+            <p class="output-name">basic_svg</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../Individual_Layers/SVG/t1-Edge_Cuts.svg'">
+            <img src="images/cat_basic_svg_t1-Edge_Cuts.png" alt="t1-Edge_Cuts.svg" width="512" height="363">
+            <p class="filename">t1-Edge_Cuts.svg</p>
+            <p class="output-name">basic_svg</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../Individual_Layers/SVG/t1-B_Courtyard.svg'">
+            <img src="images/cat_basic_svg_t1-B_Courtyard.png" alt="t1-B_Courtyard.svg" width="512" height="363">
+            <p class="filename">t1-B_Courtyard.svg</p>
+            <p class="output-name">basic_svg</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../Individual_Layers/SVG/t1-F_Courtyard.svg'">
+            <img src="images/cat_basic_svg_t1-F_Courtyard.png" alt="t1-F_Courtyard.svg" width="512" height="363">
+            <p class="filename">t1-F_Courtyard.svg</p>
+            <p class="output-name">basic_svg</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../Individual_Layers/SVG/t1-B_Fab.svg'">
+            <img src="images/cat_basic_svg_t1-B_Fab.png" alt="t1-B_Fab.svg" width="512" height="363">
+            <p class="filename">t1-B_Fab.svg</p>
+            <p class="output-name">basic_svg</p>
+        </div>
+
+        <div class="output-box wide" onclick="location.href='../Individual_Layers/SVG/t1-F_Fab.svg'">
+            <img src="images/cat_basic_svg_t1-F_Fab.png" alt="t1-F_Fab.svg" width="512" height="363">
+            <p class="filename">t1-F_Fab.svg</p>
+            <p class="output-name">basic_svg</p>
+        </div>
+</div>
 </div>
 
 <script>
+
+// Side Navigation functions ===================================================
+
 function openNav() {
-  document.getElementById("theSideNav").style.width = "360px";
-  document.getElementById("main").style.marginLeft = "360px";
-  document.getElementById("theTopMenu").style.marginLeft = "360px";
-  document.getElementById("bmenu").style.display = "none";
+    const navbar = document.getElementById("theSideNav");
+    const main = document.getElementById("main");
+
+    navbar.style.width = "360px";
+    navbar.style.paddingLeft = "20px";
+    main.style.marginLeft = "360px";
+    document.getElementById("open-navbar").style.display = "none";
+    document.getElementById("close-navbar").style.display = "inline-block";
 }
 
 function closeNav() {
-  document.getElementById("theSideNav").style.width = "0";
-  document.getElementById("main").style.marginLeft= "0";
-  document.getElementById("theTopMenu").style.marginLeft = "0";
-  document.getElementById("bmenu").style.display = "block";
+    const navbar = document.getElementById("theSideNav");
+    const main = document.getElementById("main");
+
+    navbar.style.width = "0"; // Close the navbar
+    navbar.style.paddingLeft = "0"; // Reset padding
+    main.style.marginLeft = "0"; // Reset page content position
+    document.getElementById("open-navbar").style.display = "inline-block";
+    document.getElementById("close-navbar").style.display = "none";
 }
 
-function ScrollUp() {
-  /* When we come here from the navbar we must scroll to avoid the top menu */
-  var p = document.getElementById("main");
-  var style = p.currentStyle || window.getComputedStyle(p);
-  var m_top = parseInt(style.marginTop)
+function toggleFolder(folderHeader) {
+    const folder = folderHeader.parentElement;
+    const folderContents = folderHeader.nextElementSibling;
 
-  window.scrollBy(0, -(m_top + 5));
+    if (folder.classList.contains("open")) {
+        folder.classList.remove("open");
+        folderContents.style.display = "none";
+    } else {
+        folder.classList.add("open");
+        folderContents.style.display = "block";
+    }
+
+    // Save the updated state
+    saveSideNavState();
 }
 
-window.onload = ScrollUp;
+function saveSideNavState() {
+    const navbar = document.getElementById("theSideNav");
+    const isOpen = navbar.style.width !== "0px"; // Check if navbar is open
+
+    // Save the state of each folder
+    const folderStates = Array.from(document.querySelectorAll(".folder")).map(folder => ({
+        id: folder.querySelector("span").textContent.trim(), // Use folder name as identifier
+        isOpen: folder.classList.contains("open") // Check if folder is open
+    }));
+
+    // Save the navbar and folder states to localStorage
+    localStorage.setItem("navbarState", JSON.stringify({ isOpen, folderStates }));
+}
+
+function restorenavbarState() {
+    const savedState = localStorage.getItem("navbarState");
+    if (savedState) {
+        const { isOpen, folderStates } = JSON.parse(savedState);
+        const navbar = document.getElementById("theSideNav");
+        const main = document.getElementById("main");
+
+        // Temporarily disable animations on page load so elements don't move
+        navbar.style.transition = "none";
+        main.style.transition = "none";
+        const chevrons = document.querySelectorAll(".chevron");
+        chevrons.forEach(chevron => {
+            chevron.style.transition = "none";
+        });
+
+        // Restore side navigation state
+        if (isOpen) {
+            openNav()
+        } else {
+            closeNav()
+        }
+
+        // Restore folder open/closed states
+        folderStates.forEach(({ id, isOpen }) => {
+            const folder = Array.from(document.querySelectorAll(".folder"))
+                .find(folder => folder.querySelector("span").textContent.trim() === id);
+
+            if (folder) {
+                const folderContents = folder.querySelector(".folder-contents");
+                if (isOpen) {
+                    folder.classList.add("open");
+                    folderContents.style.display = "block";
+                } else {
+                    folder.classList.remove("open");
+                    folderContents.style.display = "none";
+                }
+            }
+        });
+
+        // Re-enable animation
+        setTimeout(() => {
+            navbar.style.transition = "";
+            main.style.transition = "";
+            chevrons.forEach(chevron => {
+                chevron.style.transition = "";
+            });
+        }, 100);
+    }
+}
+
+function saveSidenavScrollPosition() {
+    const navbar = document.getElementById("theSideNav");
+    const scrollPosition = navbar.scrollTop;
+    localStorage.setItem("navbarScrollPosition", scrollPosition);
+}
+
+function restoreSidenavScrollPosition() {
+    const navbar = document.getElementById("theSideNav");
+    const savedPosition = localStorage.getItem("navbarScrollPosition");
+    if (savedPosition !== null) {
+        navbar.scrollTop = parseInt(savedPosition, 10);
+    }
+}
+
+function adjustSidenavOffset() {
+    const topMenu = document.getElementById("topmenu");
+    const navbar = document.getElementById("theSideNav");
+
+    if (topMenu) {
+        const topMenuHeight = topMenu.offsetHeight;
+        document.documentElement.style.setProperty('--top-menu-height', `${topMenuHeight}px`);
+    }
+}
+
+adjustSidenavOffset();
+window.addEventListener("resize", adjustSidenavOffset);
+
+/* This is the scrolling offset when we click on an output in the side navigation bar
+   It should take into account the top menu height */
+function adjustOutputOffset() {
+    const topMenu = document.getElementById("topmenu"); // Replace with your top menu's ID
+    if (topMenu) {
+        const topMenuHeight = topMenu.offsetHeight; // Dynamically get the top menu height
+        document.documentElement.style.setProperty('--top-menu-height', `${topMenuHeight}px`);
+    }
+}
+
+window.addEventListener("DOMContentLoaded", adjustOutputOffset);
+window.addEventListener("resize", adjustOutputOffset);
+
+// Prevent flickering on page navigation
+window.addEventListener("beforeunload", () => {
+    saveSideNavState();
+    saveSidenavScrollPosition();
+});
+
+window.addEventListener("load", restoreSidenavScrollPosition);
+document.addEventListener("DOMContentLoaded", restorenavbarState);
+
+function initializeSearchBar(searchContainerId, outputSelector) {
+    const searchContainer = document.getElementById(searchContainerId);
+    if (!searchContainer) return; // Exit if container is not found
+
+    const searchBar = searchContainer.querySelector('#search-bar');
+    const autocompleteList = searchContainer.querySelector('#autocomplete-list');
+    const outputLinks = document.querySelectorAll(outputSelector);
+
+    // Collect output names and their hrefs
+    const outputs = Array.from(outputLinks).map(link => ({
+        name: link.textContent.trim(),
+        href: link.getAttribute("href"),
+    }));
+
+    let highlightedIndex = -1; // Index of the currently highlighted item
+
+    function adjustAutocompleteWidth() {
+        const searchBarWidth = searchBar.offsetWidth;
+        autocompleteList.style.width = `${searchBarWidth}px`;
+    }
+
+    function updateAutocomplete(query) {
+        autocompleteList.innerHTML = ""; // Clear suggestions
+        highlightedIndex = -1; // Reset highlighting
+
+        const matches = outputs.filter(output =>
+            output.name.toLowerCase().includes(query.toLowerCase())
+        );
+
+        matches.forEach(match => {
+            const listItem = document.createElement("li");
+            listItem.textContent = match.name;
+            listItem.addEventListener("click", () => {
+                window.location.href = match.href;
+            });
+            autocompleteList.appendChild(listItem);
+        });
+
+        autocompleteList.style.display = matches.length ? "block" : "none";
+    }
+
+    function highlightItem(index) {
+        const items = autocompleteList.querySelectorAll("li");
+        items.forEach((item, i) => {
+            if (i === index) {
+                item.classList.add("highlighted");
+                item.scrollIntoView({ block: "nearest" });
+            } else {
+                item.classList.remove("highlighted");
+            }
+        });
+    }
+
+    // Add event listeners for search bar input and keydown
+    searchBar.addEventListener("input", () => {
+        const query = searchBar.value.trim();
+        if (query) updateAutocomplete(query);
+        else {
+            autocompleteList.innerHTML = "";
+            autocompleteList.style.display = "none";
+        }
+    });
+
+    searchBar.addEventListener("keydown", (event) => {
+        const items = autocompleteList.querySelectorAll("li");
+        if (!items.length) return;
+
+        if (event.key === "ArrowDown") {
+            event.preventDefault();
+            highlightedIndex = (highlightedIndex + 1) % items.length;
+            highlightItem(highlightedIndex);
+        } else if (event.key === "ArrowUp") {
+            event.preventDefault();
+            highlightedIndex = (highlightedIndex - 1 + items.length) % items.length;
+            highlightItem(highlightedIndex);
+        } else if (event.key === "Enter" && highlightedIndex >= 0) {
+            event.preventDefault();
+            items[highlightedIndex].click();
+        }
+    });
+
+    // Hide suggestions when clicking outside
+    document.addEventListener("click", (event) => {
+        if (!searchBar.contains(event.target) && !autocompleteList.contains(event.target)) {
+            autocompleteList.style.display = "none";
+        }
+    });
+
+    // Adjust width on window resize
+    adjustAutocompleteWidth();
+    window.addEventListener("resize", adjustAutocompleteWidth);
+}
+
+// Initialize search functionality
+document.addEventListener("DOMContentLoaded", () => {
+    initializeSearchBar("search-container", ".navbar-output");
+});
+
 </script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const md = window.markdownit({
+        html: true,
+        linkify: true,
+        typographer: true
+    });
+
+    // Find all markdown containers and render them
+    document.querySelectorAll('.markdown-content').forEach(container => {
+        const rawMarkdown = container.innerHTML;
+        container.style.display = 'block';
+        container.innerHTML = md.render(rawMarkdown);
+    });
+});
+</script>
+
+<script>
+// Theme toggle ================================================================
+
+function toggleTheme() {
+    const body = document.body;
+
+    // Check if the current theme is dark
+    const isDark = body.classList.contains('dark-mode');
+
+    // Toggle between dark and light themes
+    if (isDark) {
+        body.classList.remove('dark-mode');
+        body.classList.add('light-mode');
+    } else {
+        body.classList.remove('light-mode');
+        body.classList.add('dark-mode');
+    }
+
+    // Save the selected theme to localStorage
+    localStorage.setItem('theme', isDark ? 'light' : 'dark');
+}
+
+// Do not animate theme toggle on page load
+document.addEventListener("DOMContentLoaded", () => {
+    const themeToggle = document.getElementById('themeToggle');
+    const toggleSpan = themeToggle.nextElementSibling; // The <span> element
+
+    // Prevent animation on page load
+    const savedTheme = localStorage.getItem('theme') || 'dark';
+    document.body.classList.add(savedTheme === 'dark' ? 'dark-mode' : 'light-mode');
+    themeToggle.checked = savedTheme === 'dark';
+
+    // Add the "animate" class on user interaction
+    themeToggle.addEventListener('change', () => {
+        toggleSpan.classList.add('animate');
+        setTimeout(() => {
+            toggleSpan.classList.remove('animate'); // Remove the animation class after completion
+        }, 400); // Match the CSS transition duration (0.4s)
+    });
+});
+
+// Avoid flickering of theme toggle on page load
+document.addEventListener("DOMContentLoaded", () => {
+    const body = document.body;
+
+    // Temporarily disable transitions during page load
+    body.classList.add('no-transition');
+
+    // Remove the no-transition class after the page is fully loaded
+    setTimeout(() => {
+        body.classList.remove('no-transition');
+    }, 50); // Allow rendering to complete before enabling transitions
+});
+
+function adjustMainBodyOffset() {
+    const topMenu = document.getElementById("topmenu");
+    const mainBody = document.getElementById("main");
+
+    if (topMenu && mainBody) {
+        const topMenuHeight = topMenu.offsetHeight;
+        mainBody.style.marginTop = `${topMenuHeight}px`;
+    }
+}
+
+// Apply the adjustment on page load and window resize
+window.addEventListener("DOMContentLoaded", adjustMainBodyOffset);
+window.addEventListener("resize", adjustMainBodyOffset);
+</script>
+<p class="generator">Generated by <a href="https://github.com/INTI-CMNB/KiBot/">KiBot</a> v1.8.3</p>
 </body>
 </html>

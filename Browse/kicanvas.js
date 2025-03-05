@@ -697,13 +697,27 @@ var ps=Object.defineProperty;var on=Object.getOwnPropertyDescriptor;var l=(s,t)=
                 border-radius: 0.5em;
                 background: var(--input-range-bg);
             }
+            input[type="range"]::-moz-range-track {
+                box-sizing: border-box;
+                height: 0.5em;
+                border: 1px solid transparent;
+                border-radius: 0.5em;
+                background: var(--input-range-bg);
+            }
 
             input[type="range"]:hover::-webkit-slider-runnable-track,
             input[type="range"]:focus::-webkit-slider-runnable-track {
                 border: 1px solid var(--input-range-hover-bg);
             }
+            input[type="range"]:hover::-moz-range-track,
+            input[type="range"]:focus::-moz-range-track {
+                border: 1px solid var(--input-range-hover-bg);
+            }
 
             input[type="range"]:disabled::-webkit-slider-runnable-track {
+                background: var(--input-range-disabled-bg);
+            }
+            input[type="range"]:disabled::-moz-range-track {
                 background: var(--input-range-disabled-bg);
             }
 
@@ -716,8 +730,19 @@ var ps=Object.defineProperty;var on=Object.getOwnPropertyDescriptor;var l=(s,t)=
                 margin-top: -0.3em;
                 background: var(--input-range-fg);
             }
+            input[type="range"]::-moz-range-thumb {
+                border: none;
+                height: 1em;
+                width: 1em;
+                border-radius: 100%;
+                margin-top: -0.3em;
+                background: var(--input-range-fg);
+            }
 
             input[type="range"]:focus::-webkit-slider-thumb {
+                box-shadow: var(--input-range-handle-shadow);
+            }
+            input[type="range"]:focus::-moz-range-thumb {
                 box-shadow: var(--input-range-handle-shadow);
             }
         `]}static get observedAttributes(){return["disabled","min","max","step","value"]}get value(){return this.input.value}set value(e){this.input.value=e}get valueAsNumber(){return this.input.valueAsNumber}attributeChangedCallback(e,r,i){if(this.input)switch(e){case"disabled":this.input.disabled=i!=null;break;case"min":this.input.min=i??"";break;case"max":this.input.max=i??"";break;case"step":this.input.step=i??"";break;case"value":this.value=i??"";break}}initialContentCallback(){this.input.disabled=this.disabled,this.input.addEventListener("input",e=>{e.stopPropagation(),this.dispatchEvent(new CustomEvent("kc-ui-range:input",{composed:!0,bubbles:!0}))})}render(){return _`<input

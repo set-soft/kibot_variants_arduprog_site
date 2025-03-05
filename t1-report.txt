@@ -120,17 +120,17 @@ Note: this is just an approximation to the theoretical value. Margins of the sol
 
 ![PCB Front copper](PCB/SVG/t1-assembly_page_01.svg){ width=16.5cm height=11.7cm }
 
-![PCB No description](PCB/SVG/t1-assembly_page_02.svg){ width=16.5cm height=11.7cm }
+![PCB Front soldermask (negative)](PCB/SVG/t1-assembly_page_02.svg){ width=16.5cm height=11.7cm }
 
-![PCB No description](PCB/SVG/t1-assembly_page_03.svg){ width=16.5cm height=11.7cm }
+![PCB Bottom copper](PCB/SVG/t1-assembly_page_03.svg){ width=16.5cm height=11.7cm }
 
-![PCB Bottom copper](PCB/SVG/t1-assembly_page_04.svg){ width=16.5cm height=11.7cm }
+![PCB Bottom courtyard area](PCB/SVG/t1-assembly_page_04.svg){ width=16.5cm height=11.7cm }
 
-![PCB Bottom courtyard area](PCB/SVG/t1-assembly_page_05.svg){ width=16.5cm height=11.7cm }
+![PCB Front courtyard area](PCB/SVG/t1-assembly_page_05.svg){ width=16.5cm height=11.7cm }
 
-![PCB Front courtyard area](PCB/SVG/t1-assembly_page_06.svg){ width=16.5cm height=11.7cm }
+![PCB Bottom documentation](PCB/SVG/t1-assembly_page_06.svg){ width=16.5cm height=11.7cm }
 
-![PCB Bottom documentation](PCB/SVG/t1-assembly_page_07.svg){ width=16.5cm height=11.7cm }
+![PCB Front documentation](PCB/SVG/t1-assembly_page_07.svg){ width=16.5cm height=11.7cm }
 
-![PCB Front documentation](PCB/SVG/t1-assembly_page_08.svg){ width=16.5cm height=11.7cm }
+![PCB Assembly](PCB/SVG/t1-assembly_page_08.svg){ width=16.5cm height=11.7cm }
 

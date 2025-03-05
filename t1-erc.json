@@ -1,29 +1,13 @@
 {
     "$schema": "https://schemas.kicad.org/erc.v1.json",
     "coordinate_units": "mm",
-    "date": "2024-10-29T10:43:31+0000",
-    "kicad_version": "8.0.5",
+    "date": "2025-03-05T13:51:06+0000",
+    "kicad_version": "9.0.0",
     "sheets": [
         {
             "path": "/",
             "uuid_path": "/4f66b314-0f62-4fb6-8c3c-f9c6a75cd3ec",
-            "violations": [
-                {
-                    "description": "Symbol 'USB_B' has been modified in library 'Connector'",
-                    "items": [
-                        {
-                            "description": "Symbol J2 [USB_B]",
-                            "pos": {
-                                "x": 0.7239,
-                                "y": 1.0795
-                            },
-                            "uuid": "00000000-0000-0000-0000-00005f5a1098"
-                        }
-                    ],
-                    "severity": "warning",
-                    "type": "lib_symbol_issues"
-                }
-            ],
+            "violations": [],
             "file_name": "t1.kicad_sch"
         }
     ],
