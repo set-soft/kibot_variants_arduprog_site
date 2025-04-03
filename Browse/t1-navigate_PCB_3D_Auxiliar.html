@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- <title>/PCB/export</title>
+ <title>/PCB/3D/Auxiliar</title>
  <meta charset="UTF-8">
  <link rel="stylesheet" href="styles.css">
  <link rel="icon" href="favicon.ico">
@@ -210,7 +210,7 @@
 <span id="close-navbar" style="font-size:30px;cursor:pointer;display:none;" onclick="closeNav()">⨉</span>
 <button id="back-button" onclick="history.back()" style="font-size:30px;">↩</button>
 <button id="forward-button" onclick="history.forward()" style="font-size:30px;">↪</button>
-<button id="up-button" onclick="location.href='t1-navigate_PCB.html'" style="font-size:44px; position: relative; top: -3px;">⌅</button>
+<button id="up-button" onclick="location.href='t1-navigate_PCB_3D.html'" style="font-size:44px; position: relative; top: -3px;">⌅</button>
 <button id="home-button" onclick="location.href='t1-navigate.html'" style="font-size:25px; position: relative; top: -2px;">🏠︎</button>
 
             <span style="
@@ -221,7 +221,7 @@
                 text-overflow: ellipsis;
                 flex: 1;
             ">
-                <a href="t1-navigate_PCB.html" style="text-decoration:none;color:inherit;">PCB</a>/<wbr><a href="t1-navigate_PCB_export.html" style="text-decoration:none;color:inherit;">export</a>
+                <a href="t1-navigate_PCB.html" style="text-decoration:none;color:inherit;">PCB</a>/<wbr><a href="t1-navigate_PCB_3D.html" style="text-decoration:none;color:inherit;">3D</a>/<wbr><a href="t1-navigate_PCB_3D_Auxiliar.html" style="text-decoration:none;color:inherit;">Auxiliar</a>
             </span>
 </div>
 <div style="text-align: center; flex: 1; min-width: 200px;">
@@ -261,143 +261,14 @@
         </div>
 </div>
 <div id="main">
-<div class="output-virtual-box" id="basic_dxf">
-<div class="output-comment">Individual layers in DXF format</div>
+<div class="output-virtual-box" id="_PCB2Blender_2_1">
+<div class="output-comment">PCB3D model for pcb2blender plug-in</div>
 <div class="items-container">
 
-        <div class="output-box " onclick="location.href='../Individual_Layers/DXF/t1-F_Cu.dxf'">
-            <img src="images/file_dxf_64.png" alt="t1-F_Cu.dxf" width="64" height="64">
-            <p class="filename">t1-F_Cu.dxf</p>
-            <p class="output-name">basic_dxf</p>
-        </div>
-
-        <div class="output-box " onclick="location.href='../Individual_Layers/DXF/t1-F_Mask.dxf'">
-            <img src="images/file_dxf_64.png" alt="t1-F_Mask.dxf" width="64" height="64">
-            <p class="filename">t1-F_Mask.dxf</p>
-            <p class="output-name">basic_dxf</p>
-        </div>
-
-        <div class="output-box " onclick="location.href='../Individual_Layers/DXF/t1-B_Cu.dxf'">
-            <img src="images/file_dxf_64.png" alt="t1-B_Cu.dxf" width="64" height="64">
-            <p class="filename">t1-B_Cu.dxf</p>
-            <p class="output-name">basic_dxf</p>
-        </div>
-
-        <div class="output-box " onclick="location.href='../Individual_Layers/DXF/t1-B_Mask.dxf'">
-            <img src="images/file_dxf_64.png" alt="t1-B_Mask.dxf" width="64" height="64">
-            <p class="filename">t1-B_Mask.dxf</p>
-            <p class="output-name">basic_dxf</p>
-        </div>
-
-        <div class="output-box " onclick="location.href='../Individual_Layers/DXF/t1-GND_Cu.dxf'">
-            <img src="images/file_dxf_64.png" alt="t1-GND_Cu.dxf" width="64" height="64">
-            <p class="filename">t1-GND_Cu.dxf</p>
-            <p class="output-name">basic_dxf</p>
-        </div>
-
-        <div class="output-box " onclick="location.href='../Individual_Layers/DXF/t1-F_Silkscreen.dxf'">
-            <img src="images/file_dxf_64.png" alt="t1-F_Silkscreen.dxf" width="64" height="64">
-            <p class="filename">t1-F_Silkscreen.dxf</p>
-            <p class="output-name">basic_dxf</p>
-        </div>
-
-        <div class="output-box " onclick="location.href='../Individual_Layers/DXF/t1-Power_Cu.dxf'">
-            <img src="images/file_dxf_64.png" alt="t1-Power_Cu.dxf" width="64" height="64">
-            <p class="filename">t1-Power_Cu.dxf</p>
-            <p class="output-name">basic_dxf</p>
-        </div>
-
-        <div class="output-box " onclick="location.href='../Individual_Layers/DXF/t1-B_Silkscreen.dxf'">
-            <img src="images/file_dxf_64.png" alt="t1-B_Silkscreen.dxf" width="64" height="64">
-            <p class="filename">t1-B_Silkscreen.dxf</p>
-            <p class="output-name">basic_dxf</p>
-        </div>
-
-        <div class="output-box " onclick="location.href='../Individual_Layers/DXF/t1-F_Adhesive.dxf'">
-            <img src="images/file_dxf_64.png" alt="t1-F_Adhesive.dxf" width="64" height="64">
-            <p class="filename">t1-F_Adhesive.dxf</p>
-            <p class="output-name">basic_dxf</p>
-        </div>
-
-        <div class="output-box " onclick="location.href='../Individual_Layers/DXF/t1-F_Paste.dxf'">
-            <img src="images/file_dxf_64.png" alt="t1-F_Paste.dxf" width="64" height="64">
-            <p class="filename">t1-F_Paste.dxf</p>
-            <p class="output-name">basic_dxf</p>
-        </div>
-
-        <div class="output-box " onclick="location.href='../Individual_Layers/DXF/t1-User_Drawings.dxf'">
-            <img src="images/file_dxf_64.png" alt="t1-User_Drawings.dxf" width="64" height="64">
-            <p class="filename">t1-User_Drawings.dxf</p>
-            <p class="output-name">basic_dxf</p>
-        </div>
-
-        <div class="output-box " onclick="location.href='../Individual_Layers/DXF/t1-User_Comments.dxf'">
-            <img src="images/file_dxf_64.png" alt="t1-User_Comments.dxf" width="64" height="64">
-            <p class="filename">t1-User_Comments.dxf</p>
-            <p class="output-name">basic_dxf</p>
-        </div>
-
-        <div class="output-box " onclick="location.href='../Individual_Layers/DXF/t1-Edge_Cuts.dxf'">
-            <img src="images/file_dxf_64.png" alt="t1-Edge_Cuts.dxf" width="64" height="64">
-            <p class="filename">t1-Edge_Cuts.dxf</p>
-            <p class="output-name">basic_dxf</p>
-        </div>
-
-        <div class="output-box " onclick="location.href='../Individual_Layers/DXF/t1-B_Courtyard.dxf'">
-            <img src="images/file_dxf_64.png" alt="t1-B_Courtyard.dxf" width="64" height="64">
-            <p class="filename">t1-B_Courtyard.dxf</p>
-            <p class="output-name">basic_dxf</p>
-        </div>
-
-        <div class="output-box " onclick="location.href='../Individual_Layers/DXF/t1-F_Courtyard.dxf'">
-            <img src="images/file_dxf_64.png" alt="t1-F_Courtyard.dxf" width="64" height="64">
-            <p class="filename">t1-F_Courtyard.dxf</p>
-            <p class="output-name">basic_dxf</p>
-        </div>
-
-        <div class="output-box " onclick="location.href='../Individual_Layers/DXF/t1-B_Fab.dxf'">
-            <img src="images/file_dxf_64.png" alt="t1-B_Fab.dxf" width="64" height="64">
-            <p class="filename">t1-B_Fab.dxf</p>
-            <p class="output-name">basic_dxf</p>
-        </div>
-
-        <div class="output-box " onclick="location.href='../Individual_Layers/DXF/t1-F_Fab.dxf'">
-            <img src="images/file_dxf_64.png" alt="t1-F_Fab.dxf" width="64" height="64">
-            <p class="filename">t1-F_Fab.dxf</p>
-            <p class="output-name">basic_dxf</p>
-        </div>
-</div>
-</div>
-<div class="output-virtual-box" id="basic_gencad">
-<div class="output-comment">PCB in GenCAD format</div>
-<div class="items-container">
-
-        <div class="output-box " onclick="location.href='../Export/t1-gencad.cad'">
-            <img src="images/file_cad_64.png" alt="t1-gencad.cad" width="64" height="64">
-            <p class="filename">t1-gencad.cad</p>
-            <p class="output-name">basic_gencad</p>
-        </div>
-</div>
-</div>
-<div class="output-virtual-box" id="basic_ipc2581">
-<div class="output-comment">PCB in IPC-2581 format</div>
-<div class="items-container">
-
-        <div class="output-box " onclick="location.href='../Export/t1-IPC-2581.zip'">
-            <img src="images/file_zip_64.png" alt="t1-IPC-2581.zip" width="64" height="64">
-            <p class="filename">t1-IPC-2581.zip</p>
-            <p class="output-name">basic_ipc2581</p>
-        </div>
-</div>
-</div>
-<div class="output-virtual-box" id="basic_odb">
-<div class="output-comment">PCB in ODB++ format</div>
-<div class="items-container">
-
-        <div class="output-box " onclick="location.href='../Export/t1-odb.zip'">
-            <img src="images/file_zip_64.png" alt="t1-odb.zip" width="64" height="64">
-            <p class="filename">t1-odb.zip</p>
-            <p class="output-name">basic_odb</p>
+        <div class="output-box " onclick="location.href='../t1.pcb3d'">
+            <img src="images/file_pcb3d_64.png" alt="t1.pcb3d" width="64" height="64">
+            <p class="filename">t1.pcb3d</p>
+            <p class="output-name">_PCB2Blender_2_1</p>
         </div>
 </div>
 </div>
