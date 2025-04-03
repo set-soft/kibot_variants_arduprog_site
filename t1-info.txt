@@ -1,15 +1,15 @@
 KiBot installation checker
 
 Core:
-Linux: 6.8.0.1021 (Linux c6863bea0e52 6.8.0-1021-azure #25-Ubuntu SMP Wed Jan 15 20:45:09 UTC 2025 x86_64 GNU/Linux)
+Linux: 6.8.0.1021 (Linux 6e0d5c63649f 6.8.0-1021-azure #25-Ubuntu SMP Wed Jan 15 20:45:09 UTC 2025 x86_64 GNU/Linux)
   /usr/bin/uname
 Python: 3.11.2 (main, Nov 30 2024, 21:22:50) [GCC 12.2.0]
   /usr/lib/python3.11/os.py
   /usr/bin/python3
-KiCad: 9.0.0
+KiCad: 9.0.1
   /usr/lib/python3/dist-packages/pcbnew.py
   /usr/bin/kicad
-Kibot: 1.8.3
+Kibot: 1.8.4
   /usr/local/lib/python3.11/dist-packages/kibot/__main__.py
   /usr/local/bin/kibot
 
@@ -50,13 +50,13 @@ Interactive HTML BoM: 2.9.0 (v2.9.0)
   /usr/bin/python3
 KiBoM: 1.9.1 (KiBOM Version: 1.9.1)
   /usr/bin/KiBOM_CLI.py
-KiCad Automation tools (kiauto): 2.3.4 (pcbnew_do 2.3.4 - Copyright 2018-2024, INTI/Productize SPRL - License: Apache)
+KiCad Automation tools (kiauto): 2.3.5 (pcbnew_do 2.3.5 - Copyright 2018-2024, INTI/Productize SPRL - License: Apache)
   /usr/local/bin/pcbnew_do
-KiCad PCB/SCH Diff (kidiff): 2.5.7 (kicad-diff.py 2.5.7 - Copyright 2020-2025, INTI/Salvador E. Tropea - License:)
+KiCad PCB/SCH Diff (kidiff): 2.5.8 (kicad-diff.py 2.5.8 - Copyright 2020-2025, INTI/Salvador E. Tropea - License:)
   /usr/local/bin/kicad-diff.py
-KiCost: 1.1.19 (KiCost v1.1.19)
+KiCost: 1.1.20 (KiCost v1.1.20)
   /usr/bin/kicost
-KiKit: 1.7.1.1 (kikit, version 1.7.1-1)
+KiKit: 1.7.2.1 (kikit, version 1.7.2-1)
   /usr/bin/kikit
 OpenSCAD: 2021.1.0 (OpenSCAD version 2021.01)
   /usr/bin/openscad
@@ -114,29 +114,24 @@ HOSTNAME
 INTERACTIVE_HTML_BOM_NO_DISPLAY
 KIBOT_ITERATION
 KIBOT_REPO_HASH
-KICAD6_3DMODEL_DIR
 KICAD6_3RD_PARTY
 KICAD6_FOOTPRINT_DIR
 KICAD6_SYMBOL_DIR
 KICAD6_TEMPLATE_DIR
-KICAD7_3DMODEL_DIR
 KICAD7_3RD_PARTY
 KICAD7_FOOTPRINT_DIR
 KICAD7_SYMBOL_DIR
 KICAD7_TEMPLATE_DIR
-KICAD8_3DMODEL_DIR
 KICAD8_3RD_PARTY
 KICAD8_FOOTPRINT_DIR
 KICAD8_SYMBOL_DIR
 KICAD8_TEMPLATE_DIR
-KICAD9_3DMODEL_DIR
 KICAD9_3RD_PARTY
 KICAD9_FOOTPRINT_DIR
 KICAD9_SYMBOL_DIR
 KICAD9_TEMPLATE_DIR
 KICAD_AUTO_FULL
 KIPRJMOD
-KISYS3DMOD
 KISYSMOD
 LC_CTYPE
 PATH
@@ -151,12 +146,12 @@ RUNNER_WORKSPACE
 TZ
 
 KiAuto:
-This is KiAuto v2.3.4
+This is KiAuto v2.3.5
 Installed at: /usr/local/bin/pcbnew_do
 Using kiauto module from: /usr/local/lib/python3.11/dist-packages/kiauto
 Interpreted by Python: /usr/bin/python3 (v3.11.2 (main, Nov 30 2024, 21:22:50) [GCC 12.2.0])
 Tools:
-- kicad: /usr/bin/kicad (v9.0.0)
+- kicad: /usr/bin/kicad (v9.0.1)
 - xdotool: /usr/bin/xdotool
 - recordmydesktop: /usr/bin/recordmydesktop
 - xsltproc: /usr/bin/xsltproc

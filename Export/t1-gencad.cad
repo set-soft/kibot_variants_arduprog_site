@@ -1,6 +1,6 @@
 $HEADER
 GENCAD 1.4
-USER "KiCad 9.0.0"
+USER "KiCad 9.0.1"
 DRAWING "/__w/kibot_variants_arduprog_test/kibot_variants_arduprog_test/t1.kicad_pcb"
 REVISION "${git_hash} "
 UNITS INCH

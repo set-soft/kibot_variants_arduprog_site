@@ -1,13 +1,44 @@
 {
     "$schema": "https://schemas.kicad.org/erc.v1.json",
     "coordinate_units": "mm",
-    "date": "2025-03-18T13:37:15+0000",
-    "kicad_version": "9.0.0",
+    "date": "2025-04-03T14:05:47+0000",
+    "kicad_version": "9.0.1",
     "sheets": [
         {
             "path": "/",
             "uuid_path": "/4f66b314-0f62-4fb6-8c3c-f9c6a75cd3ec",
-            "violations": [],
+            "violations": [
+                {
+                    "description": "Symbol 'Varistor' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol VR1 [Varistor]",
+                            "pos": {
+                                "x": 0.9144,
+                                "y": 1.1938
+                            },
+                            "uuid": "00000000-0000-0000-0000-00005f5a461f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'Varistor' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol VR2 [Varistor]",
+                            "pos": {
+                                "x": 1.0033,
+                                "y": 1.1938
+                            },
+                            "uuid": "00000000-0000-0000-0000-00005f596a91"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                }
+            ],
             "file_name": "t1.kicad_sch"
         }
     ],
