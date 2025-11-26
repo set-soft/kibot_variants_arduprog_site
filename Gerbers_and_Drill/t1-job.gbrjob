@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "9.0.1"
+      "Version": "9.0.6+1"
     },
-    "CreationDate": "2025-04-03T15:50:51+00:00"
+    "CreationDate": "2025-11-26T13:17:52+00:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -62,7 +62,7 @@
     },
     {
       "Path": "t1-GND_Cu.gbr",
-      "FileFunction": "Copper,L5,Inr",
+      "FileFunction": "Copper,L2,Inr",
       "FilePolarity": "Positive"
     },
     {
@@ -72,7 +72,7 @@
     },
     {
       "Path": "t1-Power_Cu.gbr",
-      "FileFunction": "Copper,L7,Inr",
+      "FileFunction": "Copper,L3,Inr",
       "FilePolarity": "Positive"
     },
     {

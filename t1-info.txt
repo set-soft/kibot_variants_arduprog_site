@@ -1,56 +1,56 @@
 KiBot installation checker
 
 Core:
-Linux: 6.8.0.1021 (Linux 86bf67bddd19 6.8.0-1021-azure #25-Ubuntu SMP Wed Jan 15 20:45:09 UTC 2025 x86_64 GNU/Linux)
+Linux: 6.11.0.1018 (Linux 99ee90382c80 6.11.0-1018-azure #18~24.04.1-Ubuntu SMP Sat Jun 28 04:46:03 UTC 2025 x86_64 GNU/Linux)
   /usr/bin/uname
-Python: 3.11.2 (main, Nov 30 2024, 21:22:50) [GCC 12.2.0]
-  /usr/lib/python3.11/os.py
+Python: 3.13.5 (main, Jun 25 2025, 18:55:22) [GCC 14.2.0]
+  /usr/lib/python3.13/os.py
   /usr/bin/python3
-KiCad: 9.0.1
+KiCad: 9.0.6+1
   /usr/lib/python3/dist-packages/pcbnew.py
   /usr/bin/kicad
-Kibot: 1.8.4
-  /usr/local/lib/python3.11/dist-packages/kibot/__main__.py
+Kibot: 1.8.5
+  /usr/local/lib/python3.13/dist-packages/kibot/__main__.py
   /usr/local/bin/kibot
 
 Modules:
 Colorama: 0.4.6
   /usr/lib/python3/dist-packages/colorama/__init__.py
-LXML: 4.9.2
+LXML: 5.4.0
   /usr/lib/python3/dist-packages/lxml/__init__.py
-Lark: 1.1.5
+Lark: 1.2.2
   /usr/lib/python3/dist-packages/lark/__init__.py
-PyYAML: 6.0.0 (6.0)
+PyYAML: 6.0.2
   /usr/lib/python3/dist-packages/yaml/__init__.py
 QRCodeGen: Ok
   /usr/lib/python3/dist-packages/qrcodegen.py
-Requests: 2.28.1
+Requests: 2.32.3
   /usr/lib/python3/dist-packages/requests/__init__.py
-XLSXWriter: 3.0.2
+XLSXWriter: 3.1.9
   /usr/lib/python3/dist-packages/xlsxwriter/__init__.py
 Xvfbwrapper: Ok
   /usr/lib/python3/dist-packages/xvfbwrapper.py
-markdown2: 2.4.1
+markdown2: 2.4.11
   /usr/lib/python3/dist-packages/markdown2.py
-numpy: 1.24.2
+numpy: 2.2.4
   /usr/lib/python3/dist-packages/numpy/__init__.py
 
 Tools:
-Bash: 5.2.15 (GNU bash, version 5.2.15(1)-release (x86_64-pc-linux-gnu))
+Bash: 5.2.37 (GNU bash, version 5.2.37(1)-release (x86_64-pc-linux-gnu))
   /usr/bin/bash
 Blender: 4.2.4 (Blender 4.2.4 LTS)
   /usr/bin/blender
-Ghostscript: 10.0.0 (10.00.0)
+Ghostscript: 10.5.1 (10.05.1)
   /usr/bin/gs
-Git: 2.39.5 (git version 2.39.5)
+Git: 2.47.3 (git version 2.47.3)
   /usr/bin/git
-ImageMagick: 6.9.11.60 (Version: ImageMagick 6.9.11-60 Q16 x86_64 2021-01-25 https://imagemagick.org)
+ImageMagick: 7.1.1.43 (Version: ImageMagick 7.1.1-43 Q16 x86_64 22550 https://imagemagick.org)
   /usr/bin/convert
-Interactive HTML BoM: 2.9.0 (v2.9.0)
+Interactive HTML BoM: 2.10.0 (v2.10.0)
   /usr/bin/python3
 KiBoM: 1.9.1 (KiBOM Version: 1.9.1)
   /usr/bin/KiBOM_CLI.py
-KiCad Automation tools (kiauto): 2.3.5 (pcbnew_do 2.3.5 - Copyright 2018-2024, INTI/Productize SPRL - License: Apache)
+KiCad Automation tools (kiauto): 2.3.6 (pcbnew_do 2.3.6 - Copyright 2018-2024, INTI/Productize SPRL - License: Apache)
   /usr/local/bin/pcbnew_do
 KiCad PCB/SCH Diff (kidiff): 2.5.8 (kicad-diff.py 2.5.8 - Copyright 2020-2025, INTI/Salvador E. Tropea - License:)
   /usr/local/bin/kicad-diff.py
@@ -60,11 +60,11 @@ KiKit: 1.7.2.1 (kikit, version 1.7.2-1)
   /usr/bin/kikit
 OpenSCAD: 2021.1.0 (OpenSCAD version 2021.01)
   /usr/bin/openscad
-Pandoc: 2.17.1.1 (pandoc 2.17.1.1)
+Pandoc: 3.1.11.1 (pandoc 3.1.11.1)
   /usr/bin/pandoc
-RAR: 6.23.0 (RAR 6.23   Copyright (c) 1993-2023 Alexander Roshal   1 Aug 2023)
+RAR: 7.11.0 (RAR 7.11   Copyright (c) 1993-2025 Alexander Roshal   20 Mar 2025)
   /usr/bin/rar
-RSVG tools: 2.54.7 (rsvg-convert version 2.54.7)
+RSVG tools: 2.60.0 (rsvg-convert version 2.60.0)
   /usr/bin/rsvg-convert
 Xvfb: Ok (xvfb-run)
   /usr/bin/rsvg-convert
@@ -146,12 +146,12 @@ RUNNER_WORKSPACE
 TZ
 
 KiAuto:
-This is KiAuto v2.3.5
+This is KiAuto v2.3.6
 Installed at: /usr/local/bin/pcbnew_do
-Using kiauto module from: /usr/local/lib/python3.11/dist-packages/kiauto
-Interpreted by Python: /usr/bin/python3 (v3.11.2 (main, Nov 30 2024, 21:22:50) [GCC 12.2.0])
+Using kiauto module from: /usr/local/lib/python3.13/dist-packages/kiauto
+Interpreted by Python: /usr/bin/python3 (v3.13.5 (main, Jun 25 2025, 18:55:22) [GCC 14.2.0])
 Tools:
-- kicad: /usr/bin/kicad (v9.0.1)
+- kicad: /usr/bin/kicad (v9.0.6+1)
 - xdotool: /usr/bin/xdotool
 - recordmydesktop: /usr/bin/recordmydesktop
 - xsltproc: /usr/bin/xsltproc
