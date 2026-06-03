@@ -3,15 +3,15 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "9.0.7+1"
+      "Version": "10.0.1-10.0.1~ubuntu25.10.1"
     },
-    "CreationDate": "2026-05-12T09:35:03+00:00"
+    "CreationDate": "2026-06-03T09:32:08+00:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "t1",
       "GUID": "74312e6b-6963-4616-945f-706362585858",
-      "Revision": "${git_hash}"
+      "Revision": "Git:d5a3028"
     },
     "Size": {
       "X": 63.05,

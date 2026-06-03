@@ -1,42 +1,52 @@
 {
     "$schema": "https://schemas.kicad.org/erc.v1.json",
     "coordinate_units": "mm",
-    "date": "2026-05-12T09:30:54+0000",
-    "kicad_version": "9.0.7",
+    "date": "2026-06-03T09:28:46",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.1",
     "sheets": [
         {
             "path": "/",
             "uuid_path": "/4f66b314-0f62-4fb6-8c3c-f9c6a75cd3ec",
             "violations": [
                 {
-                    "description": "Symbol 'Varistor' doesn't match copy in library 'Device'",
+                    "comment": "",
+                    "description": "Ground pin not connected to ground net",
+                    "excluded": true,
                     "items": [
                         {
-                            "description": "Symbol VR1 [Varistor]",
+                            "description": "Symbol U1 Pin 28 [UGND, Power input, Line]",
                             "pos": {
-                                "x": 0.9144,
-                                "y": 1.1938
+                                "x": 1.6002,
+                                "y": 1.3589
                             },
-                            "uuid": "00000000-0000-0000-0000-00005f5a461f"
+                            "uuid": "946404ba-9297-43ec-9d67-30184041145f"
                         }
                     ],
                     "severity": "warning",
-                    "type": "lib_symbol_mismatch"
-                },
-                {
-                    "description": "Symbol 'Varistor' doesn't match copy in library 'Device'",
-                    "items": [
-                        {
-                            "description": "Symbol VR2 [Varistor]",
-                            "pos": {
-                                "x": 1.0033,
-                                "y": 1.1938
-                            },
-                            "uuid": "00000000-0000-0000-0000-00005f596a91"
-                        }
-                    ],
-                    "severity": "warning",
-                    "type": "lib_symbol_mismatch"
+                    "type": "ground_pin_not_ground"
                 }
             ],
             "file_name": "t1.kicad_sch"

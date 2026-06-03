@@ -1,12 +1,8 @@
-ERC report (2026-05-12T09:30:54+0000, Encoding UTF8)
+ERC report (2026-06-03T09:28:46, Encoding UTF8)
 
 ***** Sheet /
-[lib_symbol_mismatch]: Symbol 'Varistor' doesn't match copy in library 'Device'
-    ; warning
-    @(0.9144 mm, 1.1938 mm): Symbol VR1 [Varistor]
+[ground_pin_not_ground]: Ground pin not connected to ground net
+    ; warning (excluded)
+    @(1.6002 mm, 1.3589 mm): Symbol U1 Pin 28 [UGND, Power input, Line]
 
-[lib_symbol_mismatch]: Symbol 'Varistor' doesn't match copy in library 'Device'
-    ; warning
-    @(1.0033 mm, 1.1938 mm): Symbol VR2 [Varistor]
-
- ** ERC messages: 2  Errors 0  Warnings 2
+ ** ERC messages: 0  Errors 0  Warnings 0

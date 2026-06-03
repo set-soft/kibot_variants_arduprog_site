@@ -1,4 +1,4 @@
+23e7645|2026-06-02|Salvador E. Tropea|[Fixed] E/DRC errors|True|True
+d5a3028|2026-06-02|Salvador E. Tropea|Migrated to KiCad 10|True|True
 9fea2d9|2025-03-05|Salvador E. Tropea|Migrated to KiCad 9|True|True
 4207192|2024-04-11|Salvador E. Tropea|Removed space from J2 datasheet|True|True
-3a250a0|2024-04-11|Salvador E. Tropea|Fixed ERC issues|True|True
-f2b5671|2024-04-11|Salvador E. Tropea|Synzed the PCB (DRC errors when checking parity)|False|True

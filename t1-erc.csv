@@ -1,3 +1,2 @@
 "Sheet","Severity","Excluded","Type","Description","Details"
-"/ (t1.kicad_sch)","warning","False","lib_symbol_mismatch","Symbol 'Varistor' doesn't match copy in library 'Device'","@(0.9144 mm, 1.1938 mm): Symbol VR1 [Varistor]"
-"/ (t1.kicad_sch)","warning","False","lib_symbol_mismatch","Symbol 'Varistor' doesn't match copy in library 'Device'","@(1.0033 mm, 1.1938 mm): Symbol VR2 [Varistor]"
+"/ (t1.kicad_sch)","warning","True","ground_pin_not_ground","Ground pin not connected to ground net","@(1.6002 mm, 1.3589 mm): Symbol U1 Pin 28 [UGND, Power input, Line]"
